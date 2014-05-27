@@ -1,6 +1,8 @@
 ﻿using System;
 //Write a program to read your age from the console and print how old you will be after 10 years.
 
+//https://softuni.bg/downloads/svn/csharp-basics/Feb-2014/1.%20Introduction-to-Programming-Homework.docx
+
 class AgeAfterYears
 {
     static void Main()
