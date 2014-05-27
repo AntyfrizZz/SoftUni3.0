@@ -1,6 +1,8 @@
 ﻿using System;
 //Write an expression that checks if given integer is odd or even.
 
+//https://softuni.bg/downloads/svn/csharp-basics/Feb-2014/3.%20Operators-Expressions-and-Statements-Homework.docx
+
 class OddOrEvenIntegers
 {
     static void Main()
