@@ -6,6 +6,8 @@
 //•	Exchanges the second and the third digits: acbd (in our example 2101).
 //The number has always exactly 4 digits and cannot start with 0. 
 
+//https://softuni.bg/downloads/svn/csharp-basics/Feb-2014/3.%20Operators-Expressions-and-Statements-Homework.docx
+
 class FourDigitNumber
 {
     static void Main()
