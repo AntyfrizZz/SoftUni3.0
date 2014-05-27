@@ -1,6 +1,8 @@
 ﻿using System;
 //Write a Boolean expression that checks for given integer if it can be divided (without remainder) by 7 and 5 in the same time.
 
+//https://softuni.bg/downloads/svn/csharp-basics/Feb-2014/3.%20Operators-Expressions-and-Statements-Homework.docx
+
 class DivideBy7And5
 {
     static void Main()
