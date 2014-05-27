@@ -1,6 +1,8 @@
 ﻿using System;
 //Write an expression that calculates rectangle’s perimeter and area by given width and height.
 
+//https://softuni.bg/downloads/svn/csharp-basics/Feb-2014/3.%20Operators-Expressions-and-Statements-Homework.docx
+
 class RectanglesPerimeterAndArea
 {
     static void Main()
