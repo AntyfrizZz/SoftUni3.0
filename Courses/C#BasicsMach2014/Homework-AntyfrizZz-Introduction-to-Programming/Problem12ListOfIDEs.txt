@@ -1,0 +1,23 @@
+Microsoft Visual Studio
+Microsoft Visual Studio is an integrated development environment (IDE) from Microsoft. It is used to 
+develop computer programs for Microsoft Windows superfamily of operating systems, as well as web sites, 
+web applications and web services. Visual Studio uses Microsoft software development platforms such as 
+Windows API, Windows Forms, Windows Presentation Foundation, Windows Store and Microsoft Silverlight. 
+It can produce both native code and managed code.
+
+Eclipse
+In computer programming, Eclipse is an integrated development environment (IDE). It contains a base workspace 
+and an extensible plug-in system for customizing the environment. Written mostly in Java, Eclipse can be used 
+to develop applications. 
+
+SharpDevelop
+It was designed as a free and lightweight alternative to Microsoft Visual Studio, and contains an equivalent 
+feature for almost every essential Visual Studio Express feature, including features for project management, 
+code editing, application compiling and debugging.
+
+MonoDevelop
+MonoDevelop is an open source integrated development environment for Linux, OS X, and Windows. Its primary 
+focus is development of projects that use Mono and .NET frameworks. MonoDevelop integrates features similar 
+to those of NetBeans and Microsoft Visual Studio, such as automatic code completion, source control, a 
+graphical user interface (GUI) and Web designer. MonoDevelop integrates a Gtk# GUI designer called Stetic. 
+It supports C#, F#, Java, Boo, Visual Basic.NET, Oxygene, CIL, Python, Vala, C and C++.
