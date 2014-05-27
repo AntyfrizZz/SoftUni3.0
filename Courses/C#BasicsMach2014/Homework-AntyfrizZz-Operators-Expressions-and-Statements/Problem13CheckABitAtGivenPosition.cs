@@ -1,6 +1,8 @@
 ﻿using System;
 //Write a Boolean expression that returns if the bit at position p (counting from 0, starting from the right) in given integer number n has value of 1.
 
+//https://softuni.bg/downloads/svn/csharp-basics/Feb-2014/3.%20Operators-Expressions-and-Statements-Homework.docx
+
 class CheckABitAtGivenPosition
 {
     static void Main()

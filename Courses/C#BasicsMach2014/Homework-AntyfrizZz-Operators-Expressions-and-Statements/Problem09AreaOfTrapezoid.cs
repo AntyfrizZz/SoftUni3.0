@@ -1,6 +1,8 @@
 ﻿using System;
 //Write an expression that calculates trapezoid's area by given sides a and b and height h.
 
+//https://softuni.bg/downloads/svn/csharp-basics/Feb-2014/3.%20Operators-Expressions-and-Statements-Homework.docx
+
 class AreaOfTrapezoid
 {
     static void Main()

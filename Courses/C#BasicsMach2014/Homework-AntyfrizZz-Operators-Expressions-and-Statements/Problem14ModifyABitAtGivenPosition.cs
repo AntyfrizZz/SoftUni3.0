@@ -4,6 +4,8 @@
 //the value v at the position p from the binary representation of n while preserving 
 //all other bits in n.
 
+//https://softuni.bg/downloads/svn/csharp-basics/Feb-2014/3.%20Operators-Expressions-and-Statements-Homework.docx
+
 class ModifyABitAtGivenPosition
 {
     static void Main()
