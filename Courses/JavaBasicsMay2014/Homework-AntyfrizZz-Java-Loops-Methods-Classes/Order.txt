@@ -1,0 +1,4 @@
+12 milk
+3.2 coffee
+2 coffee
+1.5 apple
