@@ -1,6 +1,8 @@
 ﻿using System;
 //Write an expression that checks for given integer if its third digit from right-to-left is 7.
 
+//https://softuni.bg/downloads/svn/csharp-basics/Feb-2014/3.%20Operators-Expressions-and-Statements-Homework.docx
+
 class ThirdDigitisSeven
 {
     static void Main()
