@@ -1,0 +1,22 @@
+﻿table, td {
+    border: 1px solid black;
+}
+
+td {
+    height: 50px;
+    width: 50px;
+}
+
+.button {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+}
+
+.text {
+    height: 100%;
+    width: 100%;
+    font-size: 25px;
+}

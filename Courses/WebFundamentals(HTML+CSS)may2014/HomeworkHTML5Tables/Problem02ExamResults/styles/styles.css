@@ -1,0 +1,27 @@
+﻿table, td, tr, th {
+    border: 1px solid black;
+}
+
+table {
+    height: 350px;
+    width: 500px;
+}
+
+.headerRow {
+    height: 60px;
+    width: 500px;
+    font-size: 35px;
+}
+
+.footerRow {
+    height: 41px;
+    width: 500px;
+    font-size: 23px;
+    text-align: right;
+}
+
+.bodyRow {
+    height: 41px;
+    width: 500px;
+    font-size: 23px;
+}
