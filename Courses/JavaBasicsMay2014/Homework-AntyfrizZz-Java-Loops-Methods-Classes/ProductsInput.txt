@@ -1,3 +1,0 @@
-milk 1.80
-apple 3.20
-coffee 8.50
