@@ -1,0 +1,4 @@
+beer 1.12
+water 1.2
+juice 2.5
+vodka 18.7

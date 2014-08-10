@@ -1,0 +1,60 @@
+﻿#container {
+    width: 1280px;
+    height: 720px;
+    background-image: url('/images/P5background.png');
+    background-size:1280px 720px;    
+}
+
+.yellow {    
+    font-family: Consolas;
+    color: #F9C363;
+}
+
+#heading {
+    width: 500px;
+    height: 40px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    font-size: 40px;
+    font-family: Calibri;
+    color: #F9C363;
+}
+
+.subheading {
+    width: 500px;
+    height: 35px;     
+    margin-top: 10px;
+    margin-left: 45px;
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-family: Calibri;
+    color: white;   
+}
+
+.subcontainer {
+    width: 1120px;           
+    border: 3px solid #595146;
+    margin-left: 80px;  
+    font-size: 25px;  
+    font-family: Consolas;    
+    background-color: #20201E;
+    color: #E6DAB9; 
+}
+
+.square {
+    padding-bottom: 5px;
+    margin-right: 15px;
+}
+
+p {    
+    margin: 5px;
+    font-size: 30px;
+}
+
+pre {
+    height: 120px;
+    font-family: Consolas;
+    font-size: 30px;
+    margin: 0px;    
+}

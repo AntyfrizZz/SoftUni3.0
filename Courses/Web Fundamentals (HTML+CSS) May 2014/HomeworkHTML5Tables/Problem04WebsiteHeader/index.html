@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Problem 4. Website Header</title>
+    <link type="text/css" rel="stylesheet" href="styles/styles.css" />
+</head>
+<body>
+    <table>
+        <tr>
+            <td rowspan="2">
+                <a href="http://softuni.bg" target="_blank"><img src="images/logo.png" alt="SoftUni logo" /></a>
+            </td>
+            <td id="topList">
+                <ul>
+                    <li>
+                        <form action="/" method="get">
+                            <input type="text" name="user">
+                            <input type="submit" value="Submit">
+                        </form>
+                    </li>
+                    <li><button type="button" onclick="window.open('https://softuni.bg/users/profile/show', '_blank')" id="user">user</button></li>
+                    <li><button type="button" id="notification"><img src="images/notif.png" alt="notifications" /></button></li>
+                </ul>                
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <ul>
+                    <li><button type="button" onclick="window.open('https://softuni.bg/contacts', '_blank')" id="contacts">contacts</button></li>
+                    <li><button type="button" onclick="window.open('https://softuni.bg/forum', '_blank')" id="forum">forum</button></li>
+                    <li><button type="button" onclick="window.open('https://softuni.bg/companies', '_blank')" id="companies">for companies</button></li>
+                    <li><button type="button" onclick="window.open('https://softuni.bg/trainings/courses/list', '_blank')" id="courses">training courses</button></li>
+                    <li><button type="button" onclick="window.open('https://softuni.bg/about', '_blank')" id="about">about the university</button></li>
+                    <li><button type="button" onclick="window.open('https://softuni.bg/news', '_blank')" id="news">news</button></li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
