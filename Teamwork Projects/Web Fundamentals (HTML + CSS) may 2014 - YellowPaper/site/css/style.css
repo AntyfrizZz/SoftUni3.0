@@ -1,0 +1,545 @@
+﻿@font-face {
+    font-family: "Ristretto";
+    src: url('webfonts/ristretto.woff');
+}
+
+body {
+    background-color: #242424;
+    font-family: "Ristretto", serif;
+    font-size: 18px;
+}
+
+.full-width {
+    width: 95.59%;
+    margin: 0 20px;
+}
+.one-third {
+    width: 29%;
+    margin: 0 20px;
+    float: left;
+}
+
+.two-thirds {
+    width: 62.36%;
+    margin: 0 20px;
+    float: left;
+}
+.clearfix::after {
+    content:"";
+    zoom:1;
+    display:block;
+    clear:both;
+}
+
+p {
+    letter-spacing: 1px;
+    line-height: 22px;
+    padding:  0 0 20px;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#header {
+    /*height: 190px;*/
+    width: 100%;
+    background-color: #F7DC15;
+    padding: 15px 0;
+}
+
+header#header h2 {
+    margin-bottom: 15px;
+    padding-left: 80px;
+    
+}
+
+#rotate {
+    height: 70px;
+    width: 100%;
+    background-color: #191919;  
+    /*transform: rotate(-2.5deg);   
+    -ms-transform: rotate(-2.5deg);
+    -webkit-transform: rotate(-2.5deg);
+    position: absolute;
+    top: 335px;
+    left: 0;*/ 
+}
+
+main {
+    margin: 0 auto;
+    background-color: #BBA175;
+    display: block;
+}
+
+.homeSection, 
+.article,
+.page {
+    padding: 15px;
+}
+
+.aboutUsSection {
+    background: url('../img/aboutUsBackground.png') bottom right;
+}
+
+.ourMissionSection {
+    background-image: url('../img/ourMissionBackground.png');
+}
+
+.submitATipSection {
+    background-color: #545654;
+}
+
+.contact-us {
+    padding: 65px;
+}
+.contact-us h4, 
+.contact-us h5 {
+    color: #FFD90E;
+}
+
+.contactsSection {
+    background-color: #545654;
+}
+
+
+.contactsArtcl {
+    padding: 65px;
+}
+
+.fieldDiv {
+    margin-top: 30px;
+    position: relative;
+}
+
+label {
+    width: 110px;
+    margin-top: 7px;
+    display: inline-block;
+    font-size: 20px;    
+    font-weight: bold;
+    color: #BEBEBE;
+    vertical-align: top;
+}
+
+.submitATipArtcl > form > .fieldDiv > input {
+    height: 35px;
+    width: 250px;
+    font-size: 20px;    
+    background-color: black;
+    color: #BEBEBE;
+    border: 1px solid #BEBEBE;
+}
+
+#contactsContainer > form > .fieldDiv > input {
+    height: 25px;
+    width: 200px;
+    font-size: 15px;    
+    background-color: black;
+    color: #BEBEBE;
+    border: 1px solid #BEBEBE;
+}
+
+.submitATipArtcl > form > .fieldDiv > textarea {
+    height: 300px;
+    width: 510px;
+    resize: none;
+    background-color: black;
+    color: #BEBEBE;
+}
+
+#contactsContainer > form > .fieldDiv > textarea {
+    height: 150px;
+    width: 280px;
+    resize: none;
+    font-size: 15px; 
+    background-color: black;
+    color: #BEBEBE;
+}
+
+#contactsContainer {
+    width: 290px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#mapContainer {
+    width: 320px;
+    padding-left: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+footer {
+    height: 260px;
+    width: 100%;
+    background-color: #0E0E0E;
+}
+
+h1 {
+    font-size: 70px;
+    line-height: 70px;
+    margin: 20px 0 0;
+    padding-left: 25px;
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 40px;
+    margin: 20px 0;
+}
+
+h3 {
+    font-size: 45px;
+    line-height: 45px;
+    font-family: "Segoe UI", Georgia, Serif;
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+}
+
+h4 {
+    font-size: 35px;
+    line-height: 35px;
+    color: #000;
+    font-weight: bold;
+    margin: 0 0 20px;
+}
+
+h5 {
+    font-size: 70px;
+    line-height: 70px;
+    font-weight: bold;
+}
+
+h6 {
+    font-size: 18px;
+    line-height: 18px;
+    padding: 20px 0 0;
+}
+
+.aboutUsInfo {
+    margin-bottom: 20px;
+}
+.aboutUsInfo figure {
+    border: 6px solid #000;
+    background-color: #855C1E;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.aboutUsInfo figure img {
+    display: inline-block;
+}
+
+#mapContainer > figure:last-child {
+    margin-top: 20px;
+}
+
+ul {
+    margin-left: 40px;
+}
+
+li {
+    height: 100%;
+    width: 175px;
+    display: inline-block;
+}
+
+#footerContainer {
+    /*height: 215px;*/
+    width: 90%;
+    margin: 0 auto;
+}
+
+#footerContainer::after{
+    content: "";
+    zoom: 1;
+    display: block;
+    clear: both;
+}
+
+dl {
+    color: #fff;
+    height: 195px;
+    width: 25%;
+    padding-top: 20px;
+    display: inline-block;
+    float: left;
+}
+
+dt {
+    font-size: 23px;
+    font-family: "Segoe UI", Georgia, Serif;
+    color: #fff;
+    font-weight: lighter;
+    padding: 10px;
+}
+
+dd {    
+    padding: 5px;
+    padding-left: 10px;
+}
+
+a {
+    color: #F5D20A;
+    text-decoration: none;
+}
+
+h1 a {
+    color: #000;
+}
+
+nav a {
+    height: 50px;
+    width: 100%;
+    display: block;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+    background-color: #191919;
+}
+
+nav li a:hover {
+    background-color: #F5D20A;
+    color: #202020;
+}
+
+main a {
+    font-weight: bold;
+}
+main a:hover {
+    text-decoration: underline;
+}
+a.more {
+    text-shadow: 1px 1px 10px #8E6623;
+}
+
+.personalInfo {
+    font-size: 20px;
+    color: #fff;
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+.personalInfo:hover {
+    background-color: #fff;
+    color: #202020;
+}
+
+/** Story form stuff **/
+form {
+    display: block;
+    padding-bottom: 65px;    
+}
+
+form small {
+    color: tomato;   
+}
+form .err { 
+    color: #fff; 
+    background: tomato; 
+    border-radius: 4px; 
+    font-size: 15px; 
+    display: none; 
+    position: absolute; 
+    top: -25px; 
+    padding: 4px 7px; 
+}
+
+form #captchaimg { 
+    display: block; 
+    border: 1px solid #a1a1a1; 
+    margin-left: 115px; 
+}
+
+form a.btn {
+    display: inline-block;
+    background-color: #eee;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eee), color-stop(100%, #ccc));
+    background-image: -webkit-linear-gradient(top, #eee, #ccc);
+    background-image: -moz-linear-gradient(top, #eee, #ccc);
+    background-image: -ms-linear-gradient(top, #eee, #ccc);
+    background-image: -o-linear-gradient(top, #eee, #ccc);
+    background-image: linear-gradient(top, #eee, #ccc);
+    border: 1px solid #ccc;
+    border-bottom: 1px solid #bbb;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #333;
+    font-size: 1.4em;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 115px;
+    padding: 12px 22px;
+    text-align: center;
+    text-shadow: 0 1px 0 #eee;
+}
+
+form a.btn:hover { 
+    background-color: #ddd;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ddd), color-stop(100%, #bbb));
+    background-image: -webkit-linear-gradient(top, #ddd, #bbb);
+    background-image: -moz-linear-gradient(top, #ddd, #bbb);
+    background-image: -ms-linear-gradient(top, #ddd, #bbb);
+    background-image: -o-linear-gradient(top, #ddd, #bbb);
+    background-image: linear-gradient(top, #ddd, #bbb);
+    border: 1px solid #bbb;
+    border-bottom: 1px solid #999;
+    cursor: pointer;
+    text-shadow: 0 1px 0 #ddd;
+}
+form a.btn:active {
+    border: 1px solid #aaa;
+    border-bottom: 1px solid #888;
+    -webkit-box-shadow: inset 0 0 5px 2px #aaa, 0 1px 0 0 #eee;
+    -moz-box-shadow: inset 0 0 5px 2px #aaa, 0 1px 0 0 #eee;
+    box-shadow: inset 0 0 5px 2px #aaa, 0 1px 0 0 #eee;
+}
+
+
+@media all and (max-width: 960px){
+    
+    .one-third {
+        width: 27.5%;
+    }
+    .two-thirds {
+        width: 61%;
+    }
+
+    body #container{
+        width:100%;
+    }
+
+    body #container > header h1{
+        font-size: 7vw;
+    }
+
+    body #container > header h2{
+        font-size: 4vw;
+    }
+
+    body #container > nav ul{
+        margin:0;
+    }
+
+    body #container > nav ul li{
+        width:19%;
+    }
+
+    body #container > nav {
+        height: 100%;
+    }
+
+    body #container main section #contactsContainer{
+        width:40%;
+    }
+    
+    body #container main section #contactsContainer textarea{
+        width:100%;
+    }
+
+    body #container main section #mapContainer{
+        width:45%;
+    }
+}
+
+@media all and (max-width:780px){
+    
+    .one-third {
+        width: 26.5%;
+    }
+    .two-thirds {
+        width: 60%;
+    }
+
+    body #container > header{
+        text-align: center;
+        height:100%;
+    }
+    body #container > header h1{
+        padding:0px;
+        font-size: 50px;
+    }
+
+    body #container > header h2{
+        padding:0px;
+        font-size: 30px;
+    }
+
+    body #container > nav ul li{
+        width:100%;
+    }
+
+    body #container textarea{
+        width:100%;
+    }
+
+    body #container main .aboutUsInfo{
+        display:block;
+        height:100%;
+    }
+
+    body #container main .aboutUsInfo div{
+        width:100%;
+    }
+
+    body #container main section article{
+        padding:10px;
+    }
+
+    body #container main section #contactsContainer{
+        width:100%;
+        text-align: center;
+    }
+
+    body #container main section #mapContainer{
+        width:100%;
+        text-align:center;
+        margin-top: 10px;
+        padding:0;
+    }
+
+    body #container main section #mapContainer img{
+        width:80%;
+        height:80%;
+    }
+}
+
+@media all and (max-width:640px){
+    .one-third, 
+    .two-thirds {
+        width: 95.59%;
+    }
+
+    body #container > footer{
+        height:100%;
+    }
+    body #container > footer dl{
+        width:48%;
+    }
+}
+
+@media all and (max-width:480px){
+
+    .one-third, 
+    .two-thirds {
+        width: 95.59%;
+    }
+
+
+   body #container > footer dl{
+        width:100%;
+        text-align:center;
+    }
+
+    body #container input{
+        width:100%;
+    }
+
+    body #container .contact-us{
+        padding: 65px 0px 0px 15px;
+    }
+}

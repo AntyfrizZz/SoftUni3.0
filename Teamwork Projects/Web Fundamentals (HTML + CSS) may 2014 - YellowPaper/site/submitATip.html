@@ -1,0 +1,58 @@
+﻿<?php include('header.php'); ?>
+            <div class="submitATipSection">
+                <section class="contact-us">
+                    <div id="contactwrapper">
+                        <header>
+                            <h4>
+                                Надушили сте нещо? Искате да разследваме?
+                            </h4>
+                            <h5>
+                                Разкажете ни!
+                            </h5>
+                        </header>
+                        <div class="submitATipArtcl">
+                            <form id="story-form" name="contact" method="post" action="" enctype="multipart/form-data">
+                                <input type="hidden" name="check" value="01">
+                                <small>*всичките полета са задължителни</small>
+                                
+                                <div class="fieldDiv">
+                                    <span class="err topp">въведи име</span>
+                                    <label for="name" id="namelabel">Име:</label>
+                                    <input type="text" name="name" id="name" class="textinput" autofocus tabindex="1" />
+                                    <br />
+                                </div>
+                                <div class="fieldDiv">
+                                    <span class="err topp">въведи валиден e-mail адрес</span>
+                                    <label for="email" id="emailabel">E-mail:</label>
+                                    <input type="email" name="email" id="email" class="textinput" tabindex="2" />
+                                    <br />
+                                </div>
+                                <div class="fieldDiv">
+                                    <span class="err txarea">сподели какво те вълнува</span>
+                                    <label for="message" id="msglabel">Съобщение:</label>
+                                    <textarea name="message" id="message" class="msgtextarea" tabindex="3"></textarea>
+                                    <br />
+                                </div> 
+                                
+                                <div class="fieldDiv">
+                                    <img src="captcha.php" id="captchaimg">
+                                    <br />
+                                </div>
+                                
+                                <div class="fieldDiv">
+                                    <span class="err capter">CAPTCHA-та изглежда грешна</span>
+                                    <label for="captcha" id="captchalabel">Не си спамър, нали? :)</label>
+                                    <input type="text" name="captchavalue" id="captchavalue" class="textcaptcha">
+                                    <br />
+                                </div>
+                                
+                                <div id="btnwrapper" class="fieldDiv">
+                                    <a href="#" name="submitlink" id="submitlink" class="btn">Изпрати Съобщението</a>
+                                </div>
+                                                       
+                            </form>
+                        </div>
+                    </div>
+                </section>
+            </div>
+<?php include('footer.php'); ?>
