@@ -1,0 +1,185 @@
+section {
+    width: 1360px;
+    padding: 20px;
+    background: #00923E;
+}
+
+header {
+    width: 100%;
+    background-color: #F8C711;
+    border: 3px solid black;
+}
+
+header div {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 5px;
+}
+
+header div:not(.righter) {
+    border-right: 3px solid black;
+}
+
+.country{
+    width: 180px;    
+    text-align: right;    
+}
+
+.result {
+    width: 90px;    
+    text-align: center;    
+}
+
+.countryG {
+    width: 200px;    
+    text-align: left;    
+}
+
+.group {
+    width: 90px;    
+    text-align: center;   
+}
+
+.placeABet {   
+    text-align: center;    
+}
+
+#placeABet {
+    width: 650px;
+    text-align: center;
+}
+
+article {
+    width: 100%;    
+}
+
+.tableRow {
+    height: 50px;
+    width: 100%;
+    border: 3px solid black;
+    border-top: none;
+}
+
+.tableRow div {
+    height: 30px;
+    display: inline-block;
+    font-size: 25px;
+}
+
+.tableRow div:not(.rightFlag):not(.leftFlag) {
+    padding: 10px 5px;
+}
+
+.rightFlag {
+    padding: 10px 40px 10px 5px;    
+}
+
+.leftFlag {
+    padding: 10px 5px 10px 40px;
+}
+
+.tableRow div:not(.righter) {
+    border-right: 3px solid black;
+}
+
+.evenRow {
+    background-color: #FFF;
+}
+
+.oddRow {
+    background-color: #C8C8C8;
+}
+
+select {
+    height: 30px;
+    width: 45px;
+}
+
+select:disabled {
+    background-color: #DCDCDC;
+}
+
+button {
+    height: 35px;
+    width: 35px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    background-color: green;
+    color: white;
+}
+
+button:disabled {
+    background-color: red;
+}
+
+
+.brasil {
+    background: url("../images/brasil.png");   
+    background-repeat: no-repeat;
+    background-position-x: 190px;
+    background-position-y: 12px;
+}
+
+.spain {
+    background: url("../images/spain.png");   
+    background-repeat: no-repeat;
+    background-position-x: 190px;
+    background-position-y: 12px;
+}
+
+.italy {
+    background: url("../images/italy.png");   
+    background-repeat: no-repeat;
+    background-position-x: 190px;
+    background-position-y: 12px;
+}
+
+.argentina {
+    background: url("../images/argentina.png");   
+    background-repeat: no-repeat;
+    background-position-x: 190px;
+    background-position-y: 12px;
+}
+
+.germany {
+    background: url("../images/germany.png");   
+    background-repeat: no-repeat;
+    background-position-x: 190px;
+    background-position-y: 12px;
+}
+
+.mexico {
+    background: url("../images/mexico.png");   
+    background-repeat: no-repeat;
+    background-position-x: 2px;
+    background-position-y: 12px;
+}
+
+.netherland {
+    background: url("../images/netherland.png");   
+    background-repeat: no-repeat;
+    background-position-x: 2px;
+    background-position-y: 12px;
+}
+
+.england {
+    background: url("../images/england.png");   
+    background-repeat: no-repeat;
+    background-position-x: 2px;
+    background-position-y: 12px;
+}
+
+.bosnaAndHerz {
+    background: url("../images/bosnaAndHerz.png");   
+    background-repeat: no-repeat;
+    background-position-x: 2px;
+    background-position-y: 12px;
+}
+
+.portugal {
+    background: url("../images/portugal.png");   
+    background-repeat: no-repeat;
+    background-position-x: 2px;
+    background-position-y: 12px;
+}

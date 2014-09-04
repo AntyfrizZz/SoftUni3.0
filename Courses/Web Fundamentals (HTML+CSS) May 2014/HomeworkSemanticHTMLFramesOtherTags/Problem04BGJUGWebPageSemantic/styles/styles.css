@@ -1,0 +1,134 @@
+header {
+    height: 65px;
+    width: 750px;
+}
+
+h1 {
+    font-size: 25px;
+    padding: 10px;
+}
+
+nav {
+    height: 25px;
+    width: 750px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #CCC;
+}
+
+.navUL {
+    display: inline-block;    
+}
+
+a {
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+.navList {
+    display: inline-block;
+    height: 25px;
+    width: 50px;
+    margin-left: 10px;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #DFDFDF; 
+}
+
+#search {
+    height: 80%;
+    width: 200px;
+    float: right;
+    margin-right: 50px;
+    background-color: #DFDFDF;
+}
+
+footer {
+    height: 140px;
+    width: 750px;
+    background-color: black;
+}
+
+.footerDiv {
+    height: 130px;
+    width: 130px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+    color: white;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.footerInnerDiv {
+    text-transform: uppercase;
+    font-size: 11px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footerUlLi {
+    margin-top: 5px;
+    font-size: 11px;
+}
+
+.greyDiv {
+    color: #4B5255;
+    font-size: 13px;
+}
+
+#leftAside {
+    width: 150px;
+    margin: 30px;
+    display: inline-block;
+}
+
+.leftAsideLi {
+    color: #80ADD1;
+    font-size: 15px;
+    margin-top: 7px;
+}
+
+section {
+    width: 350px;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 10px;
+}
+
+.articleTitle {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.articleContent {
+    margin-bottom: 40px;
+}
+
+#rightAside {
+    width: 150px;
+    margin: 30px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+label {
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+#blogroll {
+    text-transform: uppercase;
+    font-size: 12px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+footer a {
+    color: white;
+}

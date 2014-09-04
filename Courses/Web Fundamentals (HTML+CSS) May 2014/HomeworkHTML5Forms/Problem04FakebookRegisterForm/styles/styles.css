@@ -1,0 +1,123 @@
+﻿#container {
+    height: 620px;
+    width: 840px;
+    background-color: #3B5997;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 130px;
+    font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-size: 25px;
+    text-align: center;
+}
+
+p {
+    font-size: 15px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+fieldset {    
+    height: 100%;
+    width: 100%;
+    border-radius:10px;
+}
+
+legend {
+    text-align: center;
+}
+
+#leftField {
+    height: 280px;
+    width: 310px;
+    margin: 30px 10px 10px 25px;
+    float: left;
+}
+
+#rightField {
+    height: 280px;
+    width: 460px;
+    margin: 30px 25px 10px 10px;
+    float: left;
+}
+
+.nonImportant {
+    height: 30px;
+    width: 138px;    
+    border-radius: 5px;
+    margin: 5px;
+    display: inline;
+}
+
+.importantInfo {
+    height: 30px;
+    width: 138px;    
+    border-radius: 5px;
+    margin: 5px;
+    display: inline;
+}
+
+.address {
+    height: 30px;
+    width: 70px;    
+    border-radius: 5px;
+    margin: 5px;
+    display: inline;
+}
+
+.color {
+    height: 30px;
+    width: 138px;   
+    border-radius: 5px;
+    margin: 5px;
+    display: inline;
+}
+
+#textArea {
+    height: 55px;
+    width: 440px;   
+    border-radius: 5px;
+    margin: 5px;
+}
+
+#clear {
+    height: 70px;
+    width: 310px;
+    margin-left: 30px;
+    margin-right: 10px;
+    border-radius: 10px;
+    float: left;
+    font-size: 25px;
+    color: #3B5997;
+}
+
+#register {
+    height: 70px;
+    width: 460px;
+    margin-left: 10px;
+    margin-right: 5px;
+    border-radius: 10px;
+    float: left;
+    font-size: 30px;
+    color: #3B5997;
+}
+
+.label {
+ 	display: block;
+    margin-left: 10px;
+ }
+
+#birthday {
+ 	margin-top: 10px;
+    margin-left: 10px;
+ }
+
+#gender {
+    margin-left: 10px;
+}
+

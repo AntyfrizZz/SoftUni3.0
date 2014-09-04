@@ -1,0 +1,155 @@
+body {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	background-color: #6698ff;
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#wrapper header h1 a {
+	text-decoration: none;
+}
+
+#wrapper header h1 a > span {
+	color: #fff;
+}
+
+#wrapper header nav {
+	text-align: right;
+}
+
+#wrapper header nav:before {
+	height: 2px;
+	background: #000;
+	content: "";
+	display: block;
+	position: relative;
+	top: 33px;
+	z-index: -1;
+}
+
+#wrapper header nav ul {
+	padding-right: 20px;
+}
+
+#wrapper header nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 5px 8px;
+	border: 1px solid #000;
+	background-color: #fff;
+}
+
+#wrapper header nav ul li a {
+	color: #000;
+	text-decoration: none;
+}
+
+#wrapper section {
+	width: 70%;
+	float: left;
+}
+
+#wrapper section article {
+	background-color: rgba(255,255,255,0.8);
+	padding: 15px;
+	margin-bottom: 20px;
+	border: 1px solid #000;
+}
+
+#wrapper section article div p {
+	text-indent: 20px;
+}
+
+#wrapper aside {
+	float: right;
+	width: 25%;
+	background-color: rgba(255,255,255,0.8);
+	border: 1px solid #000;
+	padding: 15px;
+}
+
+#wrapper aside div ul {
+	padding-left: 0;
+}
+
+#wrapper aside div ul li {
+	list-style-type: none;
+	padding-bottom: 10px;
+}
+
+#wrapper aside div ul li a {
+	text-decoration: none;
+	color: #000;
+}
+
+#wrapper footer {
+	background-color: rgba(255,255,255,0.8);
+	border: 1px solid #000;
+	text-align: center;
+	float: left;
+	width: 100%;
+}
+
+#wrapper footer h2 {
+	margin-bottom: 0;
+}
+
+@media all and (max-width: 960px) and (min-width: 780px) {
+	#wrapper {
+		width: 100%;
+	}
+}
+
+@media all and (max-width: 780px) and (min-width: 640px) {
+	#wrapper {
+		width: 92%;
+	}
+
+	#wrapper aside {
+		float: left;
+		width: 95%;
+		margin-bottom: 20px;
+	}
+
+	#wrapper aside div ul li {
+		float: left;
+		width: 20%;
+		margin-right: 25px;
+		text-align: center;
+	}
+
+	#wrapper section {
+		width: 100%;
+	}
+}
+
+@media all and (max-width: 639px) {
+	#wrapper,
+	#wrapper section {
+		width: 100%;
+	}
+
+	#wrapper header {
+		width: 86%;
+		text-align: center;
+	}
+
+	#wrapper aside {
+		float: left;
+		width: 92%;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+
+	#wrapper header nav ul li {
+		display: block;
+		text-align: center;
+	}
+
+	#wrapper aside div ul li {
+		padding-bottom: 20px;
+	}
+}

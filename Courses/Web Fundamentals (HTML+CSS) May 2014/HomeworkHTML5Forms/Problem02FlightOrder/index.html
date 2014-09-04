@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Problem 2. Flight Order</title>
+    <link type="text/css" rel="stylesheet" href="styles/reset.css" />
+    <link type="text/css" rel="stylesheet" href="styles/styles.css" />
+</head>
+<body>
+    <form action="" method="POST">
+        <div id="container">
+            <h1>flight order</h1>
+            <div id="leftSide" class="floatLeft">
+                <div id="topLeft">
+                    <label for="from">From</label>
+                    <br />
+                    <select id="from" class="fullWidth" name="from">
+                        <option value="default" selected="selected">enter a city</option>
+                        <option value="SA">Sofia</option>
+                        <option value="PK">Pernik</option>
+                        <option value="EN">Pleven</option>
+                        <option value="KA">Kaspichan</option>
+                    </select>
+                </div>
+                <div class="divHeight">
+                    <label for="departureDate">Departure Date</label>
+                    <br />
+                    <input id="departureDate" class="fullWidth" type="date" value="2014-06-14" required />
+                </div>
+                <div class="divHeight">
+                    <label for="returnDate">Return Date</label>
+                    <br />
+                    <input id="returnDate" class="fullWidth" type="date" value="2014-06-24" required />
+                </div>
+                <div class="divHeight">
+                    <div class="floatLeft thirdWidth">
+                        <label for="12">12+</label>
+                        <br />
+                        <input id="12" type="number" value="0" min="0" max="100" />
+                    </div>
+                    <div class="floatLeft thirdWidth">
+                        <label for="212">2-12</label>
+                        <br />
+                        <input id="212" type="number" value="0" min="0" max="100" />
+                    </div>
+                    <div class="floatLeft thirdWidth">
+                        <label for="02">0-2</label>
+                        <br />
+                        <input id="02" type="number" value="0" min="0" max="100" />
+                    </div>
+                </div>
+            </div>
+            <div id="rightSide" class="floatRight">
+                <div id="topRight">
+                    <label for="to">To</label>
+                    <br />
+                    <select id="to" class="fullWidth" name="to">
+                        <option value="default" selected="selected">enter a city</option>
+                        <option value="SA">Sofia</option>
+                        <option value="PK">Pernik</option>
+                        <option value="EN">Pleven</option>
+                        <option value="KA">Kaspichan</option>
+                    </select>
+                    <br />
+                    <input id="checkbox" name="preferDirects" value="true" type="checkbox">
+                    <label for="checkbox">Prefer directs</label>
+                </div>
+                <div class="divHeight">
+                    <label for="depTimeFrom">Time interval</label>
+                    <br />
+                    <input id="depTimeFrom" class="halfWidth" type="time" value="00:20" required>
+                    <input id="depTimeTo" class="floatLeft halfWidth" type="time" value="05:00" required>
+                </div>
+                <div class="divHeight">
+                    <label for="ariveTimeFrom">Time interval</label>
+                    <br />
+                    <input id="ariveTimeFrom" class="halfWidth" type="time" value="16:00" required>
+                    <input id="ariveTimeTo" class="floatLeft halfWidth" type="time" value="22:00" required>
+                </div>
+                <div class="divHeight">
+                    <label for="class">Choose class</label>
+                    <br />
+                    <select id="class" class="fullWidth" name="class">
+                        <option value="default" selected="selected">Economy</option>
+                        <option value="BU">Business</option>
+                    </select>
+                </div>
+                <div class="divHeight">
+                    <input class="fullWidth" type="submit" name="submit" value="Search" />
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

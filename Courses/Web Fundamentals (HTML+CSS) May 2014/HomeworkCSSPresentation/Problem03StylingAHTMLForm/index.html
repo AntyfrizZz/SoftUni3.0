@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>TITLE</title>
+	<link type="text/css" rel="stylesheet" href="styles/reset.css" />
+    <link type="text/css" rel="stylesheet" href="styles/styles.css" />
+</head>
+<body>
+    <div id="container">
+        <form>
+            <section>
+                <header>
+                    <h1>
+                        Step 1: Your details
+                    </h1>
+                </header>
+                <article>
+                    <div>
+                        <label id="" class="label" for="name">Name</label>
+                        <input id="name" class="input" type="text" placeholder="First and last name" />
+                    </div>
+                    <div>
+                        <label id="" class="label" for="email">Email</label>
+                        <input id="email" class="input" type="email" placeholder="example@domain.com" />
+                    </div>
+                    <div>
+                        <label id="" class="label" for="phone">Phone</label>
+                        <input id="phone" class="input" type="text" placeholder="ed. +447500000000" />
+                    </div>
+                </article>
+            </section>
+            <section>
+                <header>
+                    <h1>
+                        Step 2: Delivery address
+                    </h1>
+                </header>
+                <article>
+                    <div>
+                        <label id="" class="label" for="address">Address</label>
+                        <textarea id="address" class="input" name="addressArea"></textarea><br />
+                    </div>
+                    <div>
+                        <label id="" class="label" for="postCode">Post code</label>
+                        <input id="postCode" class="input" type="text" />
+                    </div>
+                    <div>
+                        <label id="" class="label" for="country">Country</label>
+                        <input id="country" class="input" type="text" />
+                    </div>
+                </article>
+            </section>
+            <section>
+                <header>
+                    <h1>
+                        Step 3: Card details
+                    </h1>
+                </header>
+                <article>
+                    <div>
+                        <span>Card type</span>
+                        <input id="firstCardChoise" class="radio" type="radio" name="cardType" value="1" />
+                        <label id="firstCardChoiseLabel" class="radioLabel" for="firstCardChoise">VISA</label>
+                        <input id="secondCardChoise" class="radio" type="radio" name="cardType" value="2" />
+                        <label id="secondCardChoiseLabel" class="radioLabel" for="secondCardChoise">AmEx</label>
+                        <input id="thirdCardChoise" class="radio" type="radio" name="cardType" value="3" />
+                        <label id="thirdCardChoiseLabel" class="radioLabel" for="thirdCardChoise">Mastercard</label>
+                    </div>
+                    <div>
+                        <label id="" class="label" for="cardNumber">Card number</label>
+                        <input id="cardNumber" class="input" type="text" />
+                    </div>
+                    <div>
+                        <label id="" class="label" for="securityCOde">Security code</label>
+                        <input id="securityCOde" class="input" type="text" />
+                    </div>
+                    <div>
+                        <label id="" class="label" for="nameOnCard">Name on card</label>
+                        <input id="nameOnCard" class="input" type="text" placeholder="exact name as on the card"/>
+                    </div>
+                </article>
+            </section>
+            <input type="submit" value="BUY IT!">
+        </form>        
+    </div>    
+</body>
+</html>

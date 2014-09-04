@@ -1,0 +1,92 @@
+#container {
+    width: 390px;
+    padding: 15px;
+    background-image: url('../images/formBackground.jpg');
+}
+
+section {
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+div {
+    margin: 5px 10px;
+    border: 1px solid #BFC7D2;
+    border-radius: 2px;
+    background-color:rgba(128,162,195, 0.4);
+}
+
+.label {
+    height: 25px;
+    width: 100px;
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 5px;
+    vertical-align: top;
+}
+
+.input {
+    height: 25px;
+    width: 200px;
+    margin: 5px 0;
+    font-size: 15px;
+    border: none;
+    border-radius: 2px;
+}
+
+textarea {
+    width: 200px;
+    max-width: 200px;
+    margin: 5px 0;
+    font-size: 15px;
+    border: none;
+    border-radius: 2px;
+}
+
+span {
+    height: 25px;
+    width: 100px;
+    display: block;
+    padding-top: 5px;
+    padding-left: 5px;
+    vertical-align: top;
+}
+
+.radio {
+    
+}
+
+.radioLabel {
+    padding-left: 35px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+#firstCardChoiseLabel {
+    background: url("../images/visa.png") no-repeat;
+}
+
+#secondCardChoiseLabel {
+    background: url("../images/amex.png") no-repeat;
+}
+
+#thirdCardChoiseLabel {
+    background: url("../images/mastercard.png") no-repeat;
+}
+
+input[type="submit"] {
+	width: 120px;
+	height: 40px;
+	border-radius: 20px;
+	background-color: #04152F;
+	color: white;
+	border:none;
+	margin-top: 20px;
+	margin-left: 130px;
+}

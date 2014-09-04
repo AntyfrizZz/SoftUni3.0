@@ -1,0 +1,129 @@
+#container {
+    height: 290px;
+    width: 840px;
+    padding: 30px;
+    margin: 30px auto;
+    border-top: 7px dotted #FFFF00;
+	border-right: 13px solid #008000;
+	border-bottom: 7px double #4646FF;
+	border-left: 7px dashed #FF0000;
+	box-shadow: 15px 15px 10px #333333;
+}
+
+h1 {
+    font-size: 60px;
+	text-align: center;
+	font-weight: normal;
+	text-shadow: 7px 7px  12px #404040;
+    text-transform: uppercase;
+}
+
+#ovalContainer {
+    width: 810px;
+    height: 110px;
+    margin: 80px auto;
+    border-radius: 80px;
+    box-shadow:
+            0 0 0 5px #008000,
+            0 0 0 10px #4343ff,
+            0 0 0 15px #ffff00,
+            0 0 0 20px #4343ff;
+}
+
+h2 {
+    font-size: 30px;
+	text-align: center;
+	font-weight: normal;
+	text-shadow: 5px 5px  10px #404040;
+    margin-top: 10px;
+}
+
+form {    
+    height: 50px;
+    width: 520px;
+	margin: 20px auto 0;
+}
+
+.button {  
+    height: 25px;
+    width: 240px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    background: #D8921A;
+    border-top: 3px solid #FFA500;
+    border-right: 3px solid #AB6E00;
+    border-bottom: 3px solid #AB6E00;
+    border-left: 3px solid #FFA500;
+}
+
+#leftButton {
+    float: left;
+}
+
+#rightButton {
+    float: right;
+}
+
+.bubble {
+    position: absolute;
+}
+
+#smallBubble {
+    width: 30px;
+	height: 30px;
+    padding: 5px;
+	background: rgba(168, 168, 168, 0.7);
+	border-radius: 50%;
+    position: absolute;
+	top: 220px;
+	left: 1130px;
+}
+
+#middleBubble {
+    width: 50px;
+	height: 50px;
+    padding: 5px;
+	background: rgba(168, 168, 168, 0.7);
+	border-radius: 50%;
+    position: absolute;
+	top: 170px;
+	left: 1180px;
+}
+
+#biggestBubble {
+    width: 150px;
+	height: 70px;
+    padding: 5px;
+	background: rgba(168, 168, 168, 0.7);
+	border-radius: 40px;
+    position: absolute;
+	top: 100px;
+	left: 1280px;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+#innerSmallBubble {
+    width: 22px;
+	height: 22px;
+    border: 4px dashed white;
+	border-radius: 50%;
+}
+
+#innerMiddleBubble {
+    width: 42px;
+	height: 42px;
+    border: 4px dashed white;
+	border-radius: 50%;
+}
+
+#innerBiggestBubble {
+    width: 142px;
+	height: 62px;
+    border: 4px dashed white;
+	border-radius: 40px;
+    font-size: 30px;
+}

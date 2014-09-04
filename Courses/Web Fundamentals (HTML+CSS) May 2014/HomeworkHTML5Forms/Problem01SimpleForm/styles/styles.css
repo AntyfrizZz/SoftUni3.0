@@ -1,0 +1,133 @@
+﻿body {
+    font-family: "PT Sans",Tahoma,sans-serif;
+}
+
+#container {
+    height: 330px;
+    width: 600px;
+    background-color: #EEEEEE;
+    margin: 0 auto;
+}
+
+#registerDetails {
+    height: 210px;
+    width: 250px;
+    background-color: #EEEEEE;
+    padding-left: 20px;
+    display: inline-block;
+    float: left;
+}
+
+#loginDetails {
+    height: 210px;
+    width: 270px;
+    background-color: #234465;
+    margin-left: 20px;
+    padding: 10px;
+    display: inline-block;
+    float: left;
+}
+
+h2 {
+    color: #234465;    
+    font-size: 20px;
+    margin: 15px;
+}
+
+p {
+    margin-left: 15px;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+h5 {
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    color: #234465;
+}
+
+.grey {
+    color: #656565;
+}
+
+.white {
+    color: #FFFFFF;
+}
+
+.inputFields {
+    height: 30px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 7px;
+    border: 1px solid #66AFE9;
+    box-sizing: border-box;
+    border-radius: 0;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: "Arial",Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#registerBtn {
+    float: right;
+    height: 35px;
+    font-size: 16px;
+    font-weight: normal;
+    padding: 0 30px;
+    background: none repeat scroll 0 0 transparent;
+    color: #234465;
+    border: 2px solid #234465;
+}
+
+#login-checkbox {
+    width: 17px;
+    height: 17px;
+}
+
+#checkbox-login {
+    float: left;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+
+#enter {
+    float: right;
+    width: 120px;
+}
+
+.loginBtn {
+    float: right;
+    height: 35px;
+    font-size: 16px;
+    font-weight: normal;
+    padding: 0 30px;
+    background: none repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    border: 2px solid #FF9C00;
+    display: block;
+}
+
+.forgotPwrd {
+    float: right;
+    color: #FFFFFF;
+    font-family: "Arial",Helvetica,sans-serif;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.loginBtn:hover
+{ 
+    background-color: #FF9C00;
+    cursor: pointer;
+
+}
+
+#registerBtn:hover
+{ 
+    background-color: #234465;
+    color: #FFFFFF;
+    cursor: pointer;
+}

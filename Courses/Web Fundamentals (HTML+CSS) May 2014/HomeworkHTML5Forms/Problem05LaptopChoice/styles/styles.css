@@ -1,0 +1,145 @@
+﻿html {
+    font-family: Tahoma, Geneva, sans-serif;       
+    font-size: 100%;
+    line-height: 100%;  
+    color: #243558; 
+    text-align: center;  
+}
+
+section#frame {
+    margin: 1rem auto;
+    width: 960px;
+    display: inline-block; 
+    padding: 0;
+}
+
+#productsList {       
+    width: 70%;
+    padding: 0.5rem 0 0.5rem 0.5rem;
+    float: left;     
+    display: inline-block;  
+    border: 1px solid #E3F3FB;
+    border-top-left-radius: 0.5rem;     
+    border-bottom-left-radius: 0.5rem;
+    height: 430px;   
+}
+
+aside {
+     background-color: #F7FCFF;
+     border: 1px solid #E3F3FB;
+     border-top-right-radius: 0.5rem;
+     border-bottom-right-radius: 0.5rem;
+     width: auto;
+     float: left; 
+     padding: 0.5rem;
+     text-align: center;     
+     line-height: 2rem;
+     margin: 0;
+     height: 430px;
+ }
+
+p {
+    width: 200px;
+    padding: 0;
+    border-top: 1px solid #E3F3FB;
+    position: relative;
+}
+
+p:first-of-type {
+    border: none;
+}
+
+label {       
+    font-size: 1rem;
+    padding: 0 0 1rem 0;    
+}
+
+span.min-value {    
+    position: absolute;
+    font-size: 0.7rem;
+    left: 0;
+    top: 0.5rem;
+}
+
+span.max-value {
+    float: right;
+    font-size: 0.7rem;
+    position: absolute;
+    right: 0;
+    top: 0.5rem;
+}
+
+#productsList ul {
+    float: left;
+    margin: 0;    
+    padding: 0;
+    display: block;
+}
+
+#productsList ul li {    
+    border: 1px solid #E3F3FB;  
+    border-radius: 0.5rem;  
+    width: 31%;       
+    float: left;
+    margin: 0.5rem 0 0 0.5rem;    
+    padding-top: 0.4rem;
+    border-bottom-right-radius: 0;    
+}
+
+figure {    
+    width: 100%;   
+    float: left;
+}
+
+h1 {   
+    font-size: 1.6rem;
+    line-height: 2rem;
+    padding-left: 0.5rem;
+    text-align: left;         
+    font-weight: bold;
+}
+
+input[type=range] {
+    width: 200px;
+}
+ 
+h2, h3 {
+    text-align: center;     
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    padding: 0 0.5rem;        
+}
+
+h2 {
+    font-weight:bold;
+
+}
+
+.price {
+    margin-top: 0.5rem;
+    background-color: #E21617;
+    font-size: 0.9rem;
+    font-weight: bold;
+    display: block;
+    color: #fff;
+    padding: 0.7rem;
+    float: right;
+    border-top-left-radius: 0.5rem;   
+}
+
+a {
+    color: #243558; 
+    text-decoration: none;
+}
+
+figure:hover {
+    opacity: 0.8;
+}
+
+.price:hover {  
+    opacity: 0.8;
+}
+
+.li:hover {
+    cursor: pointer;
+}

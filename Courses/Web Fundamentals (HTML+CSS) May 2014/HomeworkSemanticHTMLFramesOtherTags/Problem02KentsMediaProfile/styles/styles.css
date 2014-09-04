@@ -1,0 +1,50 @@
+section {
+    height: 380px;
+    width: 1120px;
+    background-color: #FFC0CB;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+article {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+}
+
+.block {
+    display: block;
+}
+
+#username {
+    display: inline-block;
+}
+
+span {
+    font-size: 20px;
+}
+
+#profileCompl {
+    display: block;
+    font-size: 20px;
+}
+
+#meter {
+    width: 100%;
+    height: 20px;
+}
+
+audio {
+    margin-top: 10px;
+}

@@ -1,0 +1,192 @@
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+html {
+    height: 100%;
+    font-size: 62.5%;
+    font-family: "Arial", San-serif;
+}
+
+body {
+    height: 100%;
+    background-color: #000;
+}
+
+header, main, footer {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+header img {
+    max-width: 100%;
+}
+
+.img-container {
+    position: relative;
+}
+
+header .img-container div {
+    color: #fff;
+    font-size: 300%;
+    font-weight: bold;
+    position: absolute;
+    bottom: 14%;
+    right: 4.5%;
+}
+
+header nav {
+    background: rgb(239, 239, 239); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(239, 239, 239, 1) 0%, rgba(221, 221, 221, 1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(239, 239, 239, 1)), color-stop(100%, rgba(221, 221, 221, 1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(239, 239, 239, 1) 0%, rgba(221, 221, 221, 1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(239, 239, 239, 1) 0%, rgba(221, 221, 221, 1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(239, 239, 239, 1) 0%, rgba(221, 221, 221, 1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(239, 239, 239, 1) 0%, rgba(221, 221, 221, 1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#efefef', endColorstr='#dddddd', GradientType=0); /* IE6-9 */
+    padding-bottom: 0.3rem;
+}
+
+header .menu {
+    border-bottom: solid 1px #fff;
+}
+
+header .menu li {
+    display: inline-block;
+}
+
+header .menu li a, header .btn-menu {
+    color: #626161;
+    display: block;
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
+    border-right: solid 1px #fff;
+}
+
+header .menu li a:hover, header .btn-menu:hover {
+    color: #fff;
+    background: rgb(190, 190, 190); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(190, 190, 190, 1) 0%, rgba(180, 180, 180, 1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(190, 190, 190, 1)), color-stop(100%, rgba(180, 180, 180, 1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(190, 190, 190, 1) 0%, rgba(180, 180, 180, 1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(190, 190, 190, 1) 0%, rgba(180, 180, 180, 1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(190, 190, 190, 1) 0%, rgba(180, 180, 180, 1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(190, 190, 190, 1) 0%, rgba(180, 180, 180, 1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#bebebe', endColorstr='#b4b4b4', GradientType=0); /* IE6-9 */
+}
+
+header nav .btn-menu{
+    display: none;
+    text-align: center;
+    border-bottom: solid 1px #fff;
+}
+
+main {
+    background-color: #fff;
+    display: block;
+    padding-top: 20px;
+    font-size: 1.2rem;
+}
+
+main div section {
+    width: 535px;
+    margin-left: 40px;
+}
+
+main section {
+    padding: 0px 20px 10px;
+    border: solid 1px #DBDBDB;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.section-title{
+    color: #84BE19
+}
+
+h1.section-title{
+    margin-bottom: 17px;
+    margin-top: 15px;
+    font-size: 2.4rem;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+main article img{
+    width: 154px;
+    height: 125px;
+    float: left;
+    margin-right: 20px;
+}
+
+h3.article-title{
+    font-size: 1.2rem;
+    margin-bottom: 17px;
+}
+
+main article{
+    margin-bottom: 20px;
+}
+
+main > div{
+    display: inline-block;
+    vertical-align: top;
+}
+
+aside{
+    display: inline-block;
+    vertical-align: top;
+}
+
+aside section{
+    width: 160px;
+    margin-left: 40px;
+}
+
+aside section:first-child{
+    background-color: #EEEEEE;
+}
+
+aside section > div{
+    margin-bottom: 15px;
+}
+
+.see{
+    color: #84BE19;
+    text-decoration: underline;
+}
+
+footer{
+    background: rgb(164,217,65); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(164,217,65,1) 0%, rgba(132,191,25,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(164,217,65,1)), color-stop(100%,rgba(132,191,25,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(164,217,65,1) 0%,rgba(132,191,25,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(164,217,65,1) 0%,rgba(132,191,25,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(164,217,65,1) 0%,rgba(132,191,25,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(164,217,65,1) 0%,rgba(132,191,25,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a4d941', endColorstr='#84bf19',GradientType=0 ); /* IE6-9 */
+    height: 92px;
+}
+
+footer div{
+    padding-top: 30px;
+    padding-left: 150px;
+    font-size: 1.2rem;
+}
+
+header nav, main, footer{
+    position: relative;
+    bottom: 3px;
+}
+
+footer div a{
+    color: #000;
+    text-decoration: underline;
+}

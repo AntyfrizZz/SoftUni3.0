@@ -1,0 +1,71 @@
+﻿body {
+    font-size: 15px;
+}
+
+#container {
+    width: 500px;
+    height: 400px;
+    background-color: #FFC6D3;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 40px;
+    padding-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: arial;
+}
+
+div {
+    padding: 5px;
+}
+#leftSide {
+    width: 230px;
+    padding: 10px;
+}
+
+#rightSide {
+    width: 230px;
+    padding: 10px;
+}
+
+#topLeft {
+    height: 70px;
+}
+
+#topRight {
+    height: 70px;
+}
+
+.divHeight {
+    height: 55px;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.floatRight {
+    float: right;
+}
+
+label {
+    font-style: italic;
+}
+
+.fullWidth {
+    width: 100%;
+    height: 30px;
+}
+
+.halfWidth {
+    width: 46%;
+    height: 30px;
+}
+
+.thirdWidth {
+    width: 28%;
+    height: 30px;
+}

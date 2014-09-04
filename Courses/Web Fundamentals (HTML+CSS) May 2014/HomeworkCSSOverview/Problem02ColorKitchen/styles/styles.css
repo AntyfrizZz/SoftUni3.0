@@ -1,0 +1,175 @@
+html {
+    font-family: "Segoe UI", "Helvetica", "Tahoma", San-serif;
+    font-size: 10px;
+}
+
+body {
+    background-image: url("../images/colorful_dots_on_black.jpg");
+    font-size: 1.6rem;
+}
+
+body > header {
+    width: 100%;
+    font-size: 6rem;
+    background: -webkit-linear-gradient(left, #FF0000 33%, #008000 33%, #008000 67%, #0000FF 67%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #FF0000 33%, #008000 33%, #008000 67%, #0000FF 67%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #FF0000 33%, #008000 33%, #008000 67%, #0000FF 67%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #FF0000 33%, #008000 33%, #008000 67%, #0000FF 67%); /* Standard syntax (must be last) */
+    color: #FFFF00;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+aside, article {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 2rem;
+    padding: 2rem;
+}
+
+section {
+    width: 75%;
+}
+
+aside, section {
+    display: inline-block;
+    vertical-align: top;
+}
+
+aside {
+    width: 18%;
+    margin-left: 10px;
+}
+
+aside header {
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+aside ul {
+    font-size: 1.6rem;
+    list-style-type: none;
+    margin: 1rem;
+}
+
+aside ul li {
+    position: relative;
+    padding: 0.8rem;
+    padding-left: 35px;
+    border-radius: 1rem;
+}
+
+aside ul li:before {
+    background-image: url("../images/mark.png");
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    content: "";
+}
+
+aside ul li a {
+    color: #000000;
+    text-decoration: none;
+    display: block;
+}
+
+aside ul li a:visited {
+    color: #808080;
+}
+
+aside ul li:hover a {
+    color: #000000;
+}
+
+aside ul li:nth-child(1):hover {
+    background: #FF0000;
+}
+
+aside ul li:nth-child(2):hover {
+    background: #FFA500;
+}
+
+aside ul li:nth-child(3):hover {
+    background: #FFFF00;
+}
+
+aside ul li:nth-child(4):hover {
+    background: #008000;
+}
+
+aside ul li:nth-child(5):hover {
+    background: #0000FF;
+}
+
+aside ul li:nth-child(6):hover {
+    background: #800080;
+}
+
+/*article styles*/
+article{
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+article>header{
+    color: #ffffff;
+    border-radius: 1rem;
+    font-size: 3rem;
+    padding: 1rem;
+ }
+
+article #webColors{
+    background: #FF0000;
+}
+
+article #webSafeColors{
+    background: #FFA500;
+    color: #000000;
+}
+
+article #RGB{
+    background: #FFFF00;
+    color: #000000;
+}
+
+article #RGBA{
+     background: #008000;
+ }
+
+article #HSLHSV{
+    background: #0000FF;
+}
+
+article #lorem{
+    background: #800080;
+    margin-bottom: 15px;
+}
+
+article div:first-letter {
+    font-size: 6rem;
+}
+
+article div:first-line {
+    font-style: italic;
+}
+
+article span[lang]{
+    color: #1F2DA2;
+    font-style: italic;
+}
+
+article span[lang]:before, article span[lang]:after{
+    /*color: #1F2DA2;*/
+    content: '"';
+}
+
+article footer a{
+    font-style: italic;
+    color: #808080;
+}
+
+article footer{
+    margin-top: 5px;
+}

@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Problem 4. Fakebook Register Form</title>
+    <link type="text/css" rel="stylesheet" href="styles/reset.css" />
+    <link type="text/css" rel="stylesheet" href="styles/styles.css" />
+</head>
+<body>
+    <form>
+        <div id="container">
+            <h1>fakebook</h1>
+            <h2>Registration</h2>
+            <p>It is safe and it will always be!</p>
+            <div id ="leftField">
+                <fieldset>
+                    <legend>None-Important Information</legend>
+                    <input type="text" name="first-name" placeholder="First Name" class="nonImportant">
+                    <input type="text" name="last-name" placeholder="Last Name" class="nonImportant">
+                    <input type="email" name="email" placeholder="Your Email" class="nonImportant" pattern="[a-zA-Z0-9_]{3,}@[a-zA-Z0-9_]{3,}.[a-zA-Z0-9_]{2,4}">
+                    <input type="tel" name="phone-number" placeholder="Phone Number" class="nonImportant" pattern="\+[0-9]{3}\-[0-9]{3}\-[0-9]{2}\-[0-9]{2}\-[0-9]{2}">
+                    <input type="password" name="password" placeholder="Password" class="nonImportant">
+                    <input type="text" name="website" placeholder="Website" class="nonImportant">
+                    <label for="birthday" class="label">Birthday</label>
+                    <input type="datetime-local" id="birthday" name="birthday">
+                    <div id="gender">
+                        <input type="radio" name="sex" value="female" id="female"><label for="female">Female</label>
+                        <input type="radio" name="sex" value="male" id="male"><label for="male">Male</label>
+                        <input type="radio" name="sex" value="other" id="other"><label for="other">Other</label>
+                    </div>
+                </fieldset>
+            </div>
+            <div id="rightField">
+                <fieldset>
+                    <legend>Important Information *required</legend>
+                    <select name="Country" id="country" class="importantInfo" required>
+                        <option selected="selected" value="">Country</option>
+                        <option value="Sofia">Sofia</option>
+                        <option value="Athens">Athens</option>
+                        <option value="Bucharest">Bucharest</option>
+                        <option value="Belgrad">Belgrad</option>
+                        <option value="Skopje">Skopje</option>
+                        <option value="Istanbul">Istanbul</option>
+                    </select>
+                    <input type="text" name="Village" placeholder="Village" class="importantInfo" required>
+                    <input type="text" name="district" placeholder="District" class="importantInfo" required>
+                    <input type="text" name="street" placeholder="Street" class="importantInfo" required>
+                    <input type="text" name="number" placeholder="Number" class="address" required>
+                    <input type="text" name="floor" placeholder="Floor" class="address" required>
+                    <input type="text" name="apt-numbr" placeholder="Ap Nr" class="address" required><br>
+                    <label for="color" class="label">Door Color</label>
+                    <input type="color" name="color" id="color" value="#ff00ff" class="color">
+                    <input type="text" name="water-meeter" placeholder="Water Meter Nr" class="importantInfo" required>
+                    <select name="panties-size" id="panties" class="importantInfo" required>
+                        <option selected="selected" value="">Aunt Pannies' Size</option>
+                        <option value="Sofia">L</option>
+                        <option value="Athens">XL</option>
+                        <option value="Bucharest">XXL</option>
+                        <option value="Belgrad">XXXL</option>
+                        <option value="Skopje">Too big to fit in an integer</option>
+                    </select>
+                    <label for="textArea" class="label">More Personal Information</label>
+                    <textarea name="personal-info" placeholder="Give us more infomration!!!" id="textArea"></textarea>
+                </fieldset>
+            </div>
+            <input id="clear" type="reset" value="Clear Form" />
+            <input id="register" type="submit" value="Register" />
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Problem 1. Simple Form</title>
+    <link type="text/css" rel="stylesheet" href="styles/reset.css" />
+    <link type="text/css" rel="stylesheet" href="styles/styles.css" />    
+</head>
+<body>
+    <div id="container">
+        <h2>Enter the system</h2>
+        <p>It is necessary to login in Your account in order to sign in for a course.</p>
+        <div id="registerDetails">
+            <form action ="" method="POST">
+                <h5>
+                    <span class="grey">
+                        are you new?
+                    </span>
+                    <span>
+                        register
+                    </span>
+                </h5>
+                <input class="inputFields" required pattern="^[a-zA-Z]([/._]?[a-zA-Z0-9]+)+$" name="RegisterUserName" placeholder="Username" value="" type="text">
+                <input class="inputFields" required pattern="^[A-Za-z0-9]+[\._A-Za-z0-9-]+@([A-Za-z0-9]+[-\.]?[A-Za-z0-9]+)+(\.[A-Za-z0-9]+[-\.]?[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$" name="RegisterEmail" placeholder="Email" value="" type="text">
+                <input class="inputFields" required pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" name="RegisterPassword" placeholder="Password" type="password">
+                <input class="inputFields" required pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" name="RegisterConfirmPassword" placeholder="Confirm the password" type="password">
+                <input id="registerBtn" value="Register" type="submit">
+            </form>
+        </div>
+        <div id="loginDetails">
+            <form>
+                <h5>
+                    <span class="white">
+                        already a student? login
+                    </span>
+                </h5>                
+                <input class="inputFields" required pattern="^[a-zA-Z]([/._]?[a-zA-Z0-9]+)+$" name="LoginUserName" placeholder="Username" value="" type="text">
+                <input class="inputFields" required pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" name="LoginPassword" placeholder="Password" type="password">
+                <div id="checkbox-login">
+                    <input id="login-checkbox" name="LoginRememberMe" value="true" type="checkbox">
+                    <label for="login-checkbox">Remember me?</label>
+                </div>
+                <div id="enter">
+                    <input value="Login" type="submit" class="loginBtn">
+                    <a href="/account/forgottenpassword" class="forgotPwrd">Forgot Password</a>
+                </div>                
+            </form>
+        </div>
+    </div>
+</body>
+</html>
