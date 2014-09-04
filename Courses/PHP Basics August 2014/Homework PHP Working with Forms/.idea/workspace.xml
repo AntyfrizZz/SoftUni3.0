@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c52f7d7a-1fd9-4117-aadb-0f9cebfd4151" name="Default" comment="" />
+    <ignored path="Homework PHP Working with Forms.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Homework PHP Working with Forms" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/PrintTags.php" />
+        <option value="$PROJECT_DIR$/MostFrequentTag.php" />
+        <option value="$PROJECT_DIR$/CalculateInterest.php" />
+        <option value="$PROJECT_DIR$/HTMLTagsCounter.php" />
+        <option value="$PROJECT_DIR$/CVGenerator.php" />
+        <option value="$PROJECT_DIR$/CV Generator/CVGenerator.php" />
+        <option value="$PROJECT_DIR$/CV Generator/CVGeneratorForm.html" />
+        <option value="$PROJECT_DIR$/CV Generator/newFields.js" />
+        <option value="$PROJECT_DIR$/CV Generator/styles.css" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpServers">
+    <option name="servers">
+      <server host="localhost" name="Unnamed" port="8080" />
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP from XAMPP" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="66" />
+    <option name="y" value="-8" />
+    <option name="width" value="1308" />
+    <option name="height" value="784" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Homework PHP Working with Forms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Homework PHP Working with Forms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Homework PHP Working with Forms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.lastSelected" value="com.jetbrains.php.gae.AppEnginePhpModulesConfigurable" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AreaStringsLecture" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="FullScreen" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpHttpRequestRunConfigurationType" factoryName="PHP HTTP Request">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="AppEnginePhpConfigurationType" factoryName="App Engine for PHP">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c52f7d7a-1fd9-4117-aadb-0f9cebfd4151" name="Default" comment="" />
+      <created>1408481071908</created>
+      <updated>1408481071908</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="66" y="-8" width="1308" height="784" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1576" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4936306" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/PrintTags.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="7" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MostFrequentTag.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="18" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="663" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CalculateInterest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="13" selection-start="742" selection-end="742" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="1309" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLTagsCounter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="9" selection-start="1473" selection-end="1473" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="986" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PrintTags.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="39" selection-start="405" selection-end="405" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="510" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MostFrequentTag.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="18" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="663" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PrintTags.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="7" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="510" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLTagsCounter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="9" selection-start="1473" selection-end="1473" vertical-scroll-proportion="0.15044248" vertical-offset="391" max-vertical-offset="986" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CV Generator/CVGeneratorForm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="126" column="13" selection-start="5236" selection-end="5236" vertical-scroll-proportion="0.39823008" vertical-offset="1917" max-vertical-offset="2482" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CV Generator/CVGenerator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="0" selection-start="1527" selection-end="1527" vertical-scroll-proportion="0.2647059" vertical-offset="867" max-vertical-offset="1445" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CV Generator/newFields.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="33" selection-start="2419" selection-end="2419" vertical-scroll-proportion="0.634106" vertical-offset="535" max-vertical-offset="1139" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CV Generator/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="1" selection-start="215" selection-end="215" vertical-scroll-proportion="0.64735097" vertical-offset="0" max-vertical-offset="604" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CalculateInterest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="0" selection-start="1054" selection-end="1054" vertical-scroll-proportion="0.4473684" vertical-offset="425" max-vertical-offset="1309" />
+      </provider>
+    </entry>
+  </component>
+</project>
+

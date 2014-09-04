@@ -1,0 +1,24 @@
+p {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+form{
+    width: 50%;
+}
+
+fieldset{
+    width: 100%;
+}
+
+input, select {
+    margin: 2px;
+}
+
+table, td, th{
+    border: solid 1px #000;
+}
+
+td, th{
+    padding: 5px;
+}
