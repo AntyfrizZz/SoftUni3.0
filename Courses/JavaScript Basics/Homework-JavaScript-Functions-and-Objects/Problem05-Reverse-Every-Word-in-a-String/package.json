@@ -1,0 +1,10 @@
+{
+  "name": "Problem05_Reverse_Every_Word_in_a_String",
+  "version": "0.0.0",
+  "description": "Problem05-Reverse-Every-Word-in-a-String",
+  "main": "app.js",
+  "author": {
+    "name": "Yavor",
+    "email": ""
+  }
+}

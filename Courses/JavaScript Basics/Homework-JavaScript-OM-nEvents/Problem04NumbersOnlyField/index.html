@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Problem 4. Numbers Only Field</title>
+</head>
+<body>
+    <input type="text" id="numberField" name="numberField" oninput="numbersOnly()">
+    <label for="numberField">Enter a number</label>
+    <script>
+        function numbersOnly() {
+            var field = document.getElementById('numberField');
+            var inputValue = field.value;
+
+            if (isNaN(inputValue)) {
+                var field = document.getElementById('numberField');
+                field.style.backgroundColor = 'red';
+                field.disabled = true;
+                var correctValue = field.value;
+                correctValue = correctValue.slice(0, (correctValue.length - 1));
+                field.value = correctValue;
+            }
+
+            setTimeout(function () {
+                field.style.backgroundColor = 'transparent';
+                field.disabled = false; field.focus()
+            }, 3000);
+        }
+    </script>
+</body>
+</html>

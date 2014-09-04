@@ -1,0 +1,10 @@
+{
+  "name": "Problem06_Maximal_Sequence",
+  "version": "0.0.0",
+  "description": "Problem06-Maximal-Sequence",
+  "main": "app.js",
+  "author": {
+    "name": "Yavor",
+    "email": ""
+  }
+}

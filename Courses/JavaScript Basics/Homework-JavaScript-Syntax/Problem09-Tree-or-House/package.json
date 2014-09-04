@@ -1,0 +1,10 @@
+{
+  "name": "Problem09_Tree_or_House",
+  "version": "0.0.0",
+  "description": "Problem09-Tree-or-House",
+  "main": "app.js",
+  "author": {
+    "name": "Yavor",
+    "email": ""
+  }
+}

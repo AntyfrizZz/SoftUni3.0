@@ -1,0 +1,10 @@
+{
+  "name": "Problem05_Compare_Chars",
+  "version": "0.0.0",
+  "description": "Problem05-Compare-Chars",
+  "main": "app.js",
+  "author": {
+    "name": "Yavor",
+    "email": ""
+  }
+}

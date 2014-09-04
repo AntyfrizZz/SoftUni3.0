@@ -1,0 +1,10 @@
+{
+  "name": "Problem02_Find_Min_and_Max_Number",
+  "version": "0.0.0",
+  "description": "Problem02-Find-Min-and-Max-Number",
+  "main": "app.js",
+  "author": {
+    "name": "Yavor",
+    "email": ""
+  }
+}

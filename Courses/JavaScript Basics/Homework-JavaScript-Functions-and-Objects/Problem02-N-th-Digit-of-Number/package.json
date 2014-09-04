@@ -1,0 +1,10 @@
+{
+  "name": "Problem02_N_th_Digit_of_Number",
+  "version": "0.0.0",
+  "description": "Problem02-N-th-Digit-of-Number",
+  "main": "app.js",
+  "author": {
+    "name": "Yavor",
+    "email": ""
+  }
+}

@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Problem 2. Display DIVs Content</title>
+    <link type="text/css" rel="stylesheet" href="styles/styles.css" />
+    <script type="text/javascript" src="scripts/JavaScript.js"></script>
+</head>
+<body>
+    <div>first div</div>
+    <div>second div</div>
+    <div class="empty"></div>
+    <div>third div<div>inner div</div></div>
+    <ul id="result"></ul>
+    <script>
+        var text = document.getElementsByTagName("div");
+        console.log(text.length);
+        for (var i = 0; i < text.length; i++) {
+            if (text[i].innerText == "") {
+                continue;
+            }
+
+            var li = document.createElement('li');
+            li.innerText = text[i].innerText;
+            document.getElementById('result').appendChild(li);
+        }
+    </script>  
+</body>
+</html>

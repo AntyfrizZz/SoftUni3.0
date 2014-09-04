@@ -1,0 +1,10 @@
+{
+  "name": "Problem01_Last_Digit_of_Number",
+  "version": "0.0.0",
+  "description": "Problem01-Last-Digit-of-Number",
+  "main": "app.js",
+  "author": {
+    "name": "Yavor",
+    "email": ""
+  }
+}

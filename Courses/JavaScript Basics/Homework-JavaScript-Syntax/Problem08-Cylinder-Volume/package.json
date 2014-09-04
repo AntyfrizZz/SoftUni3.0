@@ -1,0 +1,10 @@
+{
+  "name": "Problem08_Cylinder_Volume",
+  "version": "0.0.0",
+  "description": "Problem08-Cylinder-Volume",
+  "main": "app.js",
+  "author": {
+    "name": "Yavor",
+    "email": ""
+  }
+}

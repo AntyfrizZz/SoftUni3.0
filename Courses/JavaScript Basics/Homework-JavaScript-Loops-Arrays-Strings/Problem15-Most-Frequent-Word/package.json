@@ -1,0 +1,10 @@
+{
+  "name": "Problem15_Most_Frequent_Word",
+  "version": "0.0.0",
+  "description": "Problem15-Most-Frequent-Word",
+  "main": "app.js",
+  "author": {
+    "name": "Yavor",
+    "email": ""
+  }
+}

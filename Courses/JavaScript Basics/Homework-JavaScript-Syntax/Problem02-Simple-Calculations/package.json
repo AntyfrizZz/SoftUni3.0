@@ -1,0 +1,10 @@
+{
+  "name": "Problem02_Simple_Calculations",
+  "version": "0.0.0",
+  "description": "Problem02-Simple-Calculations",
+  "main": "app.js",
+  "author": {
+    "name": "Yavor",
+    "email": ""
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Problem16_Cards_Frequencies",
+  "version": "0.0.0",
+  "description": "Problem16-Cards-Frequencies",
+  "main": "app.js",
+  "author": {
+    "name": "Yavor",
+    "email": ""
+  }
+}

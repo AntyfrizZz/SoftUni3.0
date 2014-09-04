@@ -1,0 +1,10 @@
+{
+  "name": "Problem01_Powerful_Cars",
+  "version": "0.0.0",
+  "description": "Problem01-Powerful-Cars",
+  "main": "app.js",
+  "author": {
+    "name": "Yavor",
+    "email": ""
+  }
+}

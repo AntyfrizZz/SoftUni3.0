@@ -1,0 +1,10 @@
+{
+  "name": "Problem03_Number_with_Largest_Sum_of_Digits",
+  "version": "0.0.0",
+  "description": "Problem03-Number-with-Largest-Sum-of-Digits",
+  "main": "app.js",
+  "author": {
+    "name": "Yavor",
+    "email": ""
+  }
+}

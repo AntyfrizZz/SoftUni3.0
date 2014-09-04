@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem01-Like-Unlike-Button", "Problem01-Like-Unlike-Button\Problem01-Like-Unlike-Button.csproj", "{9CF98F78-07F9-4517-BDE6-FA90C23FB69E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem02-Display-DIVs-Content", "Problem02-Display-DIVs-Content\Problem02-Display-DIVs-Content.csproj", "{8C8E8343-7AF1-4468-9BBC-41411C4AFEE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem03-Hide-Odd-Rows", "Problem03-Hide-Odd-Rows\Problem03-Hide-Odd-Rows.csproj", "{7D42EC91-D2F1-4829-9362-0D93581F2A9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem04NumbersOnlyField", "Problem04NumbersOnlyField\Problem04NumbersOnlyField.csproj", "{9ACF288D-6BFF-45C8-A0AA-7DCB53E0B66E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem05-Print-Mouse-Coordinates", "Problem05-Print-Mouse-Coordinates\Problem05-Print-Mouse-Coordinates.csproj", "{23A044C6-E891-48C8-BBC9-6CF00C7124EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9CF98F78-07F9-4517-BDE6-FA90C23FB69E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CF98F78-07F9-4517-BDE6-FA90C23FB69E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CF98F78-07F9-4517-BDE6-FA90C23FB69E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CF98F78-07F9-4517-BDE6-FA90C23FB69E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C8E8343-7AF1-4468-9BBC-41411C4AFEE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C8E8343-7AF1-4468-9BBC-41411C4AFEE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C8E8343-7AF1-4468-9BBC-41411C4AFEE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C8E8343-7AF1-4468-9BBC-41411C4AFEE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D42EC91-D2F1-4829-9362-0D93581F2A9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D42EC91-D2F1-4829-9362-0D93581F2A9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D42EC91-D2F1-4829-9362-0D93581F2A9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D42EC91-D2F1-4829-9362-0D93581F2A9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ACF288D-6BFF-45C8-A0AA-7DCB53E0B66E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ACF288D-6BFF-45C8-A0AA-7DCB53E0B66E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ACF288D-6BFF-45C8-A0AA-7DCB53E0B66E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ACF288D-6BFF-45C8-A0AA-7DCB53E0B66E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23A044C6-E891-48C8-BBC9-6CF00C7124EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23A044C6-E891-48C8-BBC9-6CF00C7124EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23A044C6-E891-48C8-BBC9-6CF00C7124EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23A044C6-E891-48C8-BBC9-6CF00C7124EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

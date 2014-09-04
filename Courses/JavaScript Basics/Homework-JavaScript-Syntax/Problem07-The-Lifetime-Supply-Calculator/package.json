@@ -1,0 +1,10 @@
+{
+  "name": "Problem07_The_Lifetime_Supply_Calculator",
+  "version": "0.0.0",
+  "description": "Problem07-The-Lifetime-Supply-Calculator",
+  "main": "app.js",
+  "author": {
+    "name": "Yavor",
+    "email": ""
+  }
+}

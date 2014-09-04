@@ -1,0 +1,10 @@
+{
+  "name": "Problem08_Sort_Array",
+  "version": "0.0.0",
+  "description": "Problem08-Sort-Array",
+  "main": "app.js",
+  "author": {
+    "name": "Yavor",
+    "email": ""
+  }
+}

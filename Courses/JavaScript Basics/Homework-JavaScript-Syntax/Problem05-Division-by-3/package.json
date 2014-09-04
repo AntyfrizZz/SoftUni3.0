@@ -1,0 +1,10 @@
+{
+  "name": "Problem05_Division_by_3",
+  "version": "0.0.0",
+  "description": "Problem05-Division-by-3",
+  "main": "app.js",
+  "author": {
+    "name": "Yavor",
+    "email": ""
+  }
+}

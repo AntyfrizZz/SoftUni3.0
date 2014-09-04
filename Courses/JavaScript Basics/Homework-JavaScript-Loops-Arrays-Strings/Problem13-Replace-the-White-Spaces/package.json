@@ -1,0 +1,10 @@
+{
+  "name": "Problem13_Replace_the_White_Spaces",
+  "version": "0.0.0",
+  "description": "Problem13-Replace-the-White-Spaces",
+  "main": "app.js",
+  "author": {
+    "name": "Yavor",
+    "email": ""
+  }
+}

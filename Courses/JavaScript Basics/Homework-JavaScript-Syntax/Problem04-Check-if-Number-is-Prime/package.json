@@ -1,0 +1,10 @@
+{
+  "name": "Problem04_Check_if_Number_is_Prime",
+  "version": "0.0.0",
+  "description": "Problem04-Check-if-Number-is-Prime",
+  "main": "app.js",
+  "author": {
+    "name": "Yavor",
+    "email": ""
+  }
+}

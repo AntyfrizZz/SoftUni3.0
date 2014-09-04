@@ -1,0 +1,10 @@
+{
+  "name": "Problem07_Find_Youngest_Person",
+  "version": "0.0.0",
+  "description": "Problem07-Find-Youngest-Person",
+  "main": "app.js",
+  "author": {
+    "name": "Yavor",
+    "email": ""
+  }
+}

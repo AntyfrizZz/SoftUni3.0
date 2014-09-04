@@ -1,0 +1,10 @@
+{
+  "name": "Problem01_Number_Checker",
+  "version": "0.0.0",
+  "description": "Problem01-Number-Checker",
+  "main": "app.js",
+  "author": {
+    "name": "Yavor",
+    "email": ""
+  }
+}

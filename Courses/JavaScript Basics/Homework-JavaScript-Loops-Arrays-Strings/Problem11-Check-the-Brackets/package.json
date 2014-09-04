@@ -1,0 +1,10 @@
+{
+  "name": "Problem11_Check_the_Brackets",
+  "version": "0.0.0",
+  "description": "Problem11-Check-the-Brackets",
+  "main": "app.js",
+  "author": {
+    "name": "Yavor",
+    "email": ""
+  }
+}

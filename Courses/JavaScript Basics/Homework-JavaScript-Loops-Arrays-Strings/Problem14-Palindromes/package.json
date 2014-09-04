@@ -1,0 +1,10 @@
+{
+  "name": "Problem14_Palindromes",
+  "version": "0.0.0",
+  "description": "Problem14-Palindromes",
+  "main": "app.js",
+  "author": {
+    "name": "Yavor",
+    "email": ""
+  }
+}

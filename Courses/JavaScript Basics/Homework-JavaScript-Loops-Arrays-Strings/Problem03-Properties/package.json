@@ -1,0 +1,10 @@
+{
+  "name": "Problem03_Properties",
+  "version": "0.0.0",
+  "description": "Problem03-Properties",
+  "main": "app.js",
+  "author": {
+    "name": "Yavor",
+    "email": ""
+  }
+}

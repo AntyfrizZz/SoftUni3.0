@@ -1,0 +1,10 @@
+{
+  "name": "Problem06_Count_Number_of_DIVs",
+  "version": "0.0.0",
+  "description": "Problem06-Count-Number-of-DIVs",
+  "main": "app.js",
+  "author": {
+    "name": "Yavor",
+    "email": ""
+  }
+}

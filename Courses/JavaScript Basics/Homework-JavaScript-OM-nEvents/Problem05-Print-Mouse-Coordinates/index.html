@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Problem 5. Print Mouse Coordinates </title>
+</head>
+<body>
+    <div id="result"></div>
+    <script>
+        window.addEventListener('click', function (e) {
+            var x = e.clientX;
+            var y = e.clientY;
+
+            var time = new Date();
+
+            document.getElementById('result').innerText += "X:" + x + "; Y:" + y + " Time: " + time;
+            document.getElementById('result').innerHTML += '</br>';
+        }, false);
+    </script>    
+</body>
+</html>

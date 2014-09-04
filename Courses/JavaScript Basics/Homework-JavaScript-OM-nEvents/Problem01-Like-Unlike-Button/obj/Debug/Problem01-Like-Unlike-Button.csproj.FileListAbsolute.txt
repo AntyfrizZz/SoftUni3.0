@@ -1,0 +1,6 @@
+D:\SoftUni\Courses\JavaScript Basics\Homework\Homework-JavaScript-OM-nEvents\Problem01-Like-Unlike-Button\bin\Problem01-Like-Unlike-Button.dll.config
+D:\SoftUni\Courses\JavaScript Basics\Homework\Homework-JavaScript-OM-nEvents\Problem01-Like-Unlike-Button\bin\Problem01-Like-Unlike-Button.dll
+D:\SoftUni\Courses\JavaScript Basics\Homework\Homework-JavaScript-OM-nEvents\Problem01-Like-Unlike-Button\bin\Problem01-Like-Unlike-Button.pdb
+D:\SoftUni\Courses\JavaScript Basics\Homework\Homework-JavaScript-OM-nEvents\Problem01-Like-Unlike-Button\obj\Debug\Problem01-Like-Unlike-Button.csprojResolveAssemblyReference.cache
+D:\SoftUni\Courses\JavaScript Basics\Homework\Homework-JavaScript-OM-nEvents\Problem01-Like-Unlike-Button\obj\Debug\Problem01-Like-Unlike-Button.dll
+D:\SoftUni\Courses\JavaScript Basics\Homework\Homework-JavaScript-OM-nEvents\Problem01-Like-Unlike-Button\obj\Debug\Problem01-Like-Unlike-Button.pdb

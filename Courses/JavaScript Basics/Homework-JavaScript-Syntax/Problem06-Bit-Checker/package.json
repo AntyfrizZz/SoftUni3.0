@@ -1,0 +1,10 @@
+{
+  "name": "Problem06_Bit_Checker",
+  "version": "0.0.0",
+  "description": "Problem06-Bit-Checker",
+  "main": "app.js",
+  "author": {
+    "name": "Yavor",
+    "email": ""
+  }
+}
