@@ -1,0 +1,85 @@
+
+<?php $__env->startSection('content'); ?>
+
+<style type="text/css">
+    label{
+        padding: 5px;
+        margin: 5px 5px 5px 0px;
+    }
+
+    input{
+        width: 300px;
+        padding: 5px;
+    }
+
+    input[type="submit"]{
+        width: 150px;
+        margin-top: 10px;
+    }
+
+    form{
+        margin-bottom: 25px;
+    }
+
+    form p{
+        color: #ff0000;
+        margin: 0px;
+        margin-bottom: -33px;
+    }
+</style>
+<section>
+
+    <h1> Sign Up!</h1>
+    <h2>New User Registration</h2>
+    <?php echo Form::open(array('url' => 'register')); ?>
+
+        <?php echo Form::label('username', 'Username'); ?>
+
+        <br />
+        <?php echo Form::text('username'); ?>
+
+        <?php if($errors->has('username')): ?> <p><?php echo $errors->first('username'); ?></p> <?php endif; ?>
+        <br />
+        <?php echo Form::label('password', 'Password'); ?>
+
+        <br />
+        <?php echo Form::password('password'); ?>
+
+        <?php if($errors->has('password')): ?> <p><?php echo $errors->first('password'); ?></p> <?php endif; ?>
+        <br />
+        <?php echo Form::label('password_confirm', 'Confirm Password'); ?>
+
+        <br />
+        <?php echo Form::password('password_confirm'); ?>
+
+        <?php if($errors->has('password_confirm')): ?> <p><?php echo $errors->first('password_confirm'); ?></p> <?php endif; ?>
+        <br />
+        <?php echo Form::label('name', 'Name'); ?>
+
+        <br />
+        <?php echo Form::text('name'); ?>
+
+        <?php if($errors->has('name')): ?> <p><?php echo $errors->first('name'); ?></p> <?php endif; ?>
+        <br />
+        <?php echo Form::label('last_name', 'Last Name'); ?>
+
+        <br />
+        <?php echo Form::text('last_name'); ?>
+
+        <?php if($errors->has('last_name')): ?> <p><?php echo $errors->first('last_name'); ?></p> <?php endif; ?>
+        <br />
+        <?php echo Form::label('email', 'Email Address'); ?>
+
+        <br />
+        <?php echo Form::text('email'); ?>
+
+        <?php if($errors->has('email')): ?> <p><?php echo $errors->first('email'); ?></p> <?php endif; ?>
+        <br />
+        <?php echo Form::submit('Sign Up'); ?>
+
+
+    <?php echo Form::close(); ?>
+
+</section> 
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('layouts/default', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

@@ -1,0 +1,50 @@
+@extends('layouts/default')
+@section('content')
+<article id="spotlight" class="cf">
+ <img src="{{ asset('_images/chow.jpg') }}" width="255" height="400" alt="Gerald Chow" class="student">
+ <div class="student">
+  <h1>Student Spotlight</h1>
+  <p>Gerald Chow</p>
+  </div>
+  <div class="artwork">
+  <img src="{{ asset('_images/feature1.jpg') }}" width="168" height="163" alt="thataway">
+  <p><em>Thataway</em> - acrylic</p>
+  </div>
+  <p class="statement">
+Gerald Chow will graduate from Roux Academy this spring with a BFA and a painting concentration. He took his longtime interest in graffiti and street art and has translated it to the canvas in cartoonish, graphical pictures. Chow’s work is becoming increasingly more recognized, winning Excellence Awards in both the 2010 and 2011 Fine Arts Shows at RAA. After receiving his degree, Chow is moving to San Francisco to join the graphic design team PURCHASE as a junior art designer.
+  </p>
+    <div class="artwork cb">
+  <img src="{{ asset('_images/feature2.jpg') }}" width="296" height="381" alt="that tower eats people">
+  <p><em>That Tower Eats People</em> - mixed media</p>
+  </div>
+    <div class="artwork">
+  <img src="{{ asset('_images/feature3.jpg') }}" width="165" height="167" alt="the wall don't lie">
+  <p><em>Don't Lie</em> - photo</p>
+  </div>
+   <div class="artwork">
+  <img src="{{ asset('_images/feature4.jpg') }}" width="229" height="167" alt="running gag">
+  <p><em>Running Gag</em> - acrylic</p>
+  </div>
+     <div class="artwork nrm">
+  <img src="{{ asset('_images/feature5.jpg') }}" width="165" height="167" alt="silly rabbit">
+  <p><em>Silly Rabbit</em> - acrylic</p>
+  </div>
+  <div class="artwork">
+  <img src="{{ asset('_images/feature6.jpg') }}" width="165" height="167" alt="makes you stronger">
+  <p><em>Makes You Stronger</em> - acrylic</p>
+  </div>
+    <div class="artwork nrm">
+  <img src="{{ asset('_images/feature7.jpg') }}" width="421" height="167" alt="having all the facts">
+  <p><em>Having All The Facts</em> (detail) - acrylic</p>
+  </div>
+   <div class="artwork">
+  <img src="{{ asset('_images/feature8.jpg') }}" width="360" height="356" alt="in the details">
+  <p><em>In the Details</em> - silkscreen</p>
+  </div>
+  <div class="artwork">
+  <img src="{{ asset('_images/feature9.jpg') }}" width="229" height="356" alt="out with it">
+  <p><em>Out With It</em> - mixed media</p>
+  </div>
+  <p class="quote">“I’m fascinated with <span class="lavender">urban artwork</span>. Unlike pieces you find in a museum, they become a <span class="orange">living part</span> of the environment they inhabit and create a running <span class="blue">dialog</span> with the viewer.”</p>
+  </article>
+ @stop

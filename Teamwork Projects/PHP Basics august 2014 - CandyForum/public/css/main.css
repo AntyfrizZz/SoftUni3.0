@@ -1,0 +1,36 @@
+*{
+    color: rgb(255, 156, 0);
+    font-weight: bold;
+}
+.main-content{
+    margin-top: 75px;
+}
+header div.navbar-collapse ul.navbar-right{
+    margin-right: 5px !important;
+}
+#categories{
+    height: 500px;
+    box-shadow: 1px 2px 0 1px #eee;
+    margin-right: 5px;
+}
+#categories-list{
+    list-style: none;
+}
+#categories-list li {
+    font-size: 1.15em;
+    background-color: rgb(35, 68, 101);
+    height: 50px;
+    margin-bottom: 10px;
+}
+#categories-list li a{
+    display: block;
+    width: 90%;
+    margin: auto;
+    color: rgb(255, 156, 0);
+}
+#comment-form input[type=text] {
+    font-size: 25px;
+}
+#comment-form input, select{
+    margin: 15px 0;
+}
