@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Group-Permutations", "01.Group-Permutations\01.Group-Permutations.csproj", "{BEA5F091-B78A-47BA-B110-7CF6E0E68910}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Bridges(SubSeq)", "02.Bridges\02.Bridges(SubSeq).csproj", "{DEE52058-7E16-414C-A8DA-E9D9B03984A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Graph-Cycles", "03.Graph-Cycles\03.Graph-Cycles.csproj", "{66552275-890F-49CC-972A-5EF7EBE683C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.Line-Inverter", "04.Line-Inverter\04.Line-Inverter.csproj", "{2CF307CC-DF9F-4596-AE42-3AF16DA69161}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEA5F091-B78A-47BA-B110-7CF6E0E68910}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEA5F091-B78A-47BA-B110-7CF6E0E68910}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEA5F091-B78A-47BA-B110-7CF6E0E68910}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEA5F091-B78A-47BA-B110-7CF6E0E68910}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEE52058-7E16-414C-A8DA-E9D9B03984A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEE52058-7E16-414C-A8DA-E9D9B03984A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEE52058-7E16-414C-A8DA-E9D9B03984A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEE52058-7E16-414C-A8DA-E9D9B03984A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66552275-890F-49CC-972A-5EF7EBE683C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66552275-890F-49CC-972A-5EF7EBE683C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66552275-890F-49CC-972A-5EF7EBE683C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66552275-890F-49CC-972A-5EF7EBE683C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CF307CC-DF9F-4596-AE42-3AF16DA69161}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CF307CC-DF9F-4596-AE42-3AF16DA69161}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CF307CC-DF9F-4596-AE42-3AF16DA69161}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CF307CC-DF9F-4596-AE42-3AF16DA69161}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
