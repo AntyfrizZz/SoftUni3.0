@@ -13,10 +13,10 @@ namespace BashSoft
             //Tester.CompareContent(@"D:\SoftUni\Courses\AdvancedCSharp\May 2016\BashSoft\BashSoft\Resourses\test2.txt", @"D:\SoftUni\Courses\AdvancedCSharp\May 2016\BashSoft\BashSoft\Resourses\test3.txt");
             //IOManager.CreateDirectoryInCurrentFolder("pesho");
 
-            IOManager.ChangeCurrentDirectoryAbsolute(@"D:\MoviezZz");
-            IOManager.TraverseDirectory(2);
+            //IOManager.ChangeCurrentDirectoryAbsolute(@"D:\MoviezZz");
+            //IOManager.TraverseDirectory(2);
 
-
+            InputReader.StartReadingCommands();
         }        
     }
 }

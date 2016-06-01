@@ -43,8 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CommandInterpreter.cs" />
     <Compile Include="Data.cs" />
     <Compile Include="ExceptionMessages.cs" />
+    <Compile Include="InputReader.cs" />
     <Compile Include="IOManager .cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="OutputWriter.cs" />

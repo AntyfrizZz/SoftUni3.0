@@ -14,5 +14,6 @@ namespace BashSoft
         public const string ComparisonOfFilesWithDifferentSizes = "Files not of equal size, certain mismatch!";
         public static string ForbiddenSymbolContainedInName = "Forbiden symbol contained in name!";
         public static string UnableToGoHigherInPartitionHierarchy = "Unable to go higher in partition hierarchy!";
+        public static string UnableToParseNumber = "The sequence you've written is not a valid number!";
     }
 }
