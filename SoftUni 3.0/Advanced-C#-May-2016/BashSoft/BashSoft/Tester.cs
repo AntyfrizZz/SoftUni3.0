@@ -7,22 +7,41 @@ using System.Threading.Tasks;
 
 namespace BashSoft
 {
-    class Tester
+    public class Tester
     {
         public static void CompareContent(string userOutputPath, string expectedOutputPath)
         {
             OutputWriter.WriteMessageOnNewLine("Reading files...");
 
-            string mismatchPath = GetMismatchPath(expectedOutputPath);
+            try
+            {
+                string mismatchPath = GetMismatchPath(expectedOutputPath);
 
-            string[] actualOutputLines = File.ReadAllLines(userOutputPath);
-            string[] expectedOutputLines = File.ReadAllLines(expectedOutputPath);
+                string[] actualOutputLines = File.ReadAllLines(userOutputPath);
+                string[] expectedOutputLines = File.ReadAllLines(expectedOutputPath);
+                bool hasMismatch;
 
-            bool hasMismatch;
-            string[] mismatches = GetLinesWithPossibleMismatches(actualOutputLines, expectedOutputLines, out hasMismatch);
+                int minOutputLines = actualOutputLines.Length;
 
-            PrintOutput(mismatches, hasMismatch, mismatchPath);
-            OutputWriter.WriteMessageOnNewLine("Files read!");
+                if (actualOutputLines.Length != expectedOutputLines.Length)
+                {
+                    hasMismatch = true;
+                    minOutputLines = Math.Min(actualOutputLines.Length, expectedOutputLines.Length);
+
+                    OutputWriter.DisplayException(ExceptionMessages.ComparisonOfFilesWithDifferentSizes);
+
+                }
+
+                string[] mismatches = GetLinesWithPossibleMismatches(actualOutputLines, expectedOutputLines, out hasMismatch);
+
+                PrintOutput(mismatches, hasMismatch, mismatchPath);
+                OutputWriter.WriteMessageOnNewLine("Files read!");
+            }
+            catch (FileNotFoundException)
+            {
+                OutputWriter.DisplayException(ExceptionMessages.InvalidPath);
+            }
+
 
         }
 
@@ -35,8 +54,20 @@ namespace BashSoft
                     OutputWriter.WriteMessageOnNewLine(line);
                 }
 
-                File.WriteAllLines(mismatchPath, mismatches);
+                try
+                {
+                    File.WriteAllLines(mismatchPath, mismatches);
+                }
+                catch (DirectoryNotFoundException)
+                {
+                    OutputWriter.DisplayException(ExceptionMessages.InvalidPath);
+                }
+                
                 return;
+            }
+            else
+            {
+                OutputWriter.WriteMessageOnNewLine("Files are indentical! There are no mismatches.");
             }
         }
 

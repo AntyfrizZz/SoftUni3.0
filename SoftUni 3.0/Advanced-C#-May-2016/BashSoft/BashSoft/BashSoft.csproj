@@ -46,7 +46,7 @@
     <Compile Include="Data.cs" />
     <Compile Include="ExceptionMessages.cs" />
     <Compile Include="IOManager .cs" />
-    <Compile Include="Launcher.cs" />
+    <Compile Include="Startup.cs" />
     <Compile Include="OutputWriter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SessionData.cs" />
@@ -54,9 +54,48 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resourses\data.txt" />
+    <Content Include="Resourses\ExceptionHandlingTests\actual.txt" />
+    <Content Include="Resourses\ExceptionHandlingTests\expected.txt" />
+    <Content Include="Resourses\FilesAndDirectoriesTests\02_OddLines\01_OddLinesIn.txt" />
+    <Content Include="Resourses\FilesAndDirectoriesTests\02_OddLines\01_OddLinesOut.txt" />
+    <Content Include="Resourses\FilesAndDirectoriesTests\02_OddLines\02_OddLinesIn.txt" />
+    <Content Include="Resourses\FilesAndDirectoriesTests\02_OddLines\02_OddLinesOut.txt" />
+    <Content Include="Resourses\FilesAndDirectoriesTests\02_OddLines\03_OddLinesIn.txt" />
+    <Content Include="Resourses\FilesAndDirectoriesTests\02_OddLines\03_OddLinesOut.txt" />
+    <Content Include="Resourses\FilesAndDirectoriesTests\02_OddLines\Mismatches.txt" />
+    <Content Include="Resourses\FilesAndDirectoriesTests\03_LineNumbers\01_LinesIn.txt" />
+    <Content Include="Resourses\FilesAndDirectoriesTests\03_LineNumbers\01_LinesOut.txt" />
+    <Content Include="Resourses\FilesAndDirectoriesTests\03_LineNumbers\02_LinesIn.txt" />
+    <Content Include="Resourses\FilesAndDirectoriesTests\03_LineNumbers\02_LinesOut.txt" />
+    <Content Include="Resourses\FilesAndDirectoriesTests\03_LineNumbers\03_LinesIn.txt" />
+    <Content Include="Resourses\FilesAndDirectoriesTests\03_LineNumbers\03_LinesOut.txt" />
+    <Content Include="Resourses\FilesAndDirectoriesTests\03_LineNumbers\Mismatches.txt" />
+    <Content Include="Resourses\FilesAndDirectoriesTests\04_WordCount\01_WordCountOut.txt" />
+    <Content Include="Resourses\FilesAndDirectoriesTests\04_WordCount\02_WordCountOut.txt" />
+    <Content Include="Resourses\FilesAndDirectoriesTests\04_WordCount\03_WordCountOut.txt" />
+    <Content Include="Resourses\FilesAndDirectoriesTests\04_WordCount\Mismatches.txt" />
+    <Content Include="Resourses\FilesAndDirectoriesTests\04_WordCount\text1.txt" />
+    <Content Include="Resourses\FilesAndDirectoriesTests\04_WordCount\text2.txt" />
+    <Content Include="Resourses\FilesAndDirectoriesTests\04_WordCount\text3.txt" />
+    <Content Include="Resourses\FilesAndDirectoriesTests\04_WordCount\words1.txt" />
+    <Content Include="Resourses\FilesAndDirectoriesTests\04_WordCount\words2.txt" />
+    <Content Include="Resourses\FilesAndDirectoriesTests\04_WordCount\words3.txt" />
+    <Content Include="Resourses\FilesAndDirectoriesTests\05_MergingFiles\01_FileOne.txt" />
+    <Content Include="Resourses\FilesAndDirectoriesTests\05_MergingFiles\01_FileTwo.txt" />
+    <Content Include="Resourses\FilesAndDirectoriesTests\05_MergingFiles\01_Merged.txt" />
+    <Content Include="Resourses\FilesAndDirectoriesTests\05_MergingFiles\02_FileOne.txt" />
+    <Content Include="Resourses\FilesAndDirectoriesTests\05_MergingFiles\02_FileTwo.txt" />
+    <Content Include="Resourses\FilesAndDirectoriesTests\05_MergingFiles\02_Merged.txt" />
+    <Content Include="Resourses\Mismatches.txt" />
     <Content Include="Resourses\test1.txt" />
     <Content Include="Resourses\test2.txt" />
     <Content Include="Resourses\test3.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resourses\LinesNumbersOutput\" />
+    <Folder Include="Resourses\MergeOutput\" />
+    <Folder Include="Resourses\OddLinesOutput\" />
+    <Folder Include="Resourses\WordCountOutput\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
