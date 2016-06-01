@@ -1,0 +1,6 @@
+he - 12
+she - 9
+said - 5
+her - 5
+his - 5
+with - 3
