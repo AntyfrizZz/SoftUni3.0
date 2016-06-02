@@ -56,6 +56,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resourses\data.txt" />
+    <Content Include="Resourses\dataNew.txt" />
     <Content Include="Resourses\ExceptionHandlingTests\actual.txt" />
     <Content Include="Resourses\ExceptionHandlingTests\expected.txt" />
     <Content Include="Resourses\FilesAndDirectoriesTests\02_OddLines\01_OddLinesIn.txt" />
