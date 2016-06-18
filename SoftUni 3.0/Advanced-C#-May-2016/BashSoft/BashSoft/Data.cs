@@ -127,5 +127,123 @@ namespace BashSoft
                 }
             }
         }
+
+        public static void FilterAndTake(string courseName, string givenFilter, int? studentsToTake = null)
+        {
+            if (IsQueryForCoursePossible(courseName))
+            {
+                if (studentsToTake == null)
+                {
+                    studentsToTake = studentsByCourse[courseName].Count;
+                }
+
+                RepositoryFilters.FilterAndTake(studentsByCourse[courseName], givenFilter, studentsToTake.Value);
+            }
+        }
+
+        public static void OrderAndTake(string courseName, string comparison, int? studentsToTake = null)
+        {
+            if (IsQueryForCoursePossible(courseName))
+            {
+                if (studentsToTake == null)
+                {
+                    studentsToTake = studentsByCourse[courseName].Count;
+                }
+
+                RepositorySorters.OrderAndTake(studentsByCourse[courseName], comparison, studentsToTake.Value);
+            }
+        }
+
+        public static void TryFilterAndTake(string input, string[] data)
+        {
+            if (data.Length == 5)
+            {
+                string courseName = data[1];
+                string filter = data[2].ToLower();
+                string takeCommand = data[3].ToLower();
+                string takeQuantity = data[4].ToLower();
+
+                TryParseParametersForFilterAndTake(takeCommand, takeQuantity, courseName, filter);
+            }
+            else
+            {
+                OutputWriter.DisplayException(ExceptionMessages.InvalidCommandMessage);
+            }
+        }
+
+        private static void TryParseParametersForFilterAndTake(string takeCommand, string takeQuantity, string courseName, string filter)
+        {
+            if (takeCommand == "take")
+            {
+                if (takeCommand == "all")
+                {
+                    Data.FilterAndTake(courseName, filter);
+                }
+                else
+                {
+                    int studentsToTake;
+                    bool hasParsed = int.TryParse(takeQuantity, out studentsToTake);
+
+                    if (hasParsed)
+                    {
+                        Data.FilterAndTake(courseName, filter, studentsToTake);
+                    }
+                    else
+                    {
+                        OutputWriter.DisplayException(ExceptionMessages.InvalidTakeQuantityParameter);
+                    }
+                }
+            }
+            else
+            {
+                OutputWriter.DisplayException(ExceptionMessages.InvalidTakeCommand);
+            }
+        }
+
+        public static void TryOrderAndTake(string input, string[] data)
+        {
+            if (data.Length == 5)
+            {
+                string courseName = data[1];
+                string filter = data[2].ToLower();
+                string takeCommand = data[3].ToLower();
+                string takeQuantity = data[4].ToLower();
+
+                TryParseParametersForOrderAndTake(takeCommand, takeQuantity, courseName, filter);
+            }
+            else
+            {
+                OutputWriter.DisplayException(ExceptionMessages.InvalidCommandMessage);
+            }
+        }
+
+        private static void TryParseParametersForOrderAndTake(string takeCommand, string takeQuantity, string courseName, string filter)
+        {
+            if (takeCommand == "take")
+            {
+                if (takeCommand == "all")
+                {
+                    Data.OrderAndTake(courseName, filter);
+                }
+                else
+                {
+                    int studentsToTake;
+                    bool hasParsed = int.TryParse(takeQuantity, out studentsToTake);
+
+                    if (hasParsed)
+                    {
+                        Data.OrderAndTake(courseName, filter, studentsToTake);
+                    }
+                    else
+                    {
+                        OutputWriter.DisplayException(ExceptionMessages.InvalidTakeQuantityParameter);
+                    }
+                }
+            }
+            else
+            {
+                OutputWriter.DisplayException(ExceptionMessages.InvalidTakeCommand);
+            }
+        }
     }
 }

@@ -15,5 +15,15 @@ namespace BashSoft
         public static string ForbiddenSymbolContainedInName = "Forbiden symbol contained in name!";
         public static string UnableToGoHigherInPartitionHierarchy = "Unable to go higher in partition hierarchy!";
         public static string UnableToParseNumber = "The sequence you've written is not a valid number!";
+
+        public static string InvalidStudentsFilter =
+            "The given filter is not one of the following: excellent/average/poor";
+
+        public static string InvalidComparisonQuery =
+            "The comparison query you want, does not exist in the context of the current program!";
+
+        public static string InvalidTakeCommand = "The take command expected does not match the format wanted!";
+        public static string InvalidTakeQuantityParameter = "The take command expected does not match the format wanted!";
+        public static string InvalidCommandMessage = "Invalid command message";
     }
 }

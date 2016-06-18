@@ -40,10 +40,10 @@ namespace BashSoft
                     TryGetHelp(input, data);
                     break;
                 case "filter":
-                    //TODO
+                    Data.TryFilterAndTake(input, data);
                     break;
                 case "order":
-                    //TODO
+                    Data.TryOrderAndTake(input, data);
                     break;
                 case "decOrder":
                     //TODO
