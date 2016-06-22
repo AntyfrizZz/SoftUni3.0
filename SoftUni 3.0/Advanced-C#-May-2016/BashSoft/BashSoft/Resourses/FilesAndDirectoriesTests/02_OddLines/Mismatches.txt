@@ -1,8 +1,0 @@
-In fair Verona, where we lay our scene
-
-Mismatch at line 1 -- expected: "Where civil blood makes civil hands unclean.", actual: "Where civil blood makes civil hands unclean. "
-
-Mismatch at line 2 -- expected: "A pair of star-cross'd lovers take their life", actual: "A pair of star-cross'd lovers take their life "
-
-Mismatch at line 3 -- expected: "Do with their death bury their parents' strife.�", actual: "Do with their death bury their parents' strife.� "
-
