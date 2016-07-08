@@ -1,0 +1,5 @@
+C:\Users\Yavor\Documents\GitHub\SoftUniProjects\SoftUni 3.0\C#-Basics-OOP-June-2016\Methods\01.Method-Says-Hell\bin\Debug\01.Method-Says-Hell.exe
+C:\Users\Yavor\Documents\GitHub\SoftUniProjects\SoftUni 3.0\C#-Basics-OOP-June-2016\Methods\01.Method-Says-Hell\bin\Debug\01.Method-Says-Hell.pdb
+C:\Users\Yavor\Documents\GitHub\SoftUniProjects\SoftUni 3.0\C#-Basics-OOP-June-2016\Methods\01.Method-Says-Hell\obj\Debug\01.Method-Says-Hell.csprojResolveAssemblyReference.cache
+C:\Users\Yavor\Documents\GitHub\SoftUniProjects\SoftUni 3.0\C#-Basics-OOP-June-2016\Methods\01.Method-Says-Hell\obj\Debug\01.Method-Says-Hell.exe
+C:\Users\Yavor\Documents\GitHub\SoftUniProjects\SoftUni 3.0\C#-Basics-OOP-June-2016\Methods\01.Method-Says-Hell\obj\Debug\01.Method-Says-Hell.pdb

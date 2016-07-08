@@ -1,0 +1,4 @@
+D:\SoftUni\Courses\CSharp-Basics-OOP\June-2016\Polymorphism\02.Vehicles-Extension\bin\Debug\02.Vehicles-Extension.exe
+D:\SoftUni\Courses\CSharp-Basics-OOP\June-2016\Polymorphism\02.Vehicles-Extension\bin\Debug\02.Vehicles-Extension.pdb
+D:\SoftUni\Courses\CSharp-Basics-OOP\June-2016\Polymorphism\02.Vehicles-Extension\obj\Debug\02.Vehicles-Extension.exe
+D:\SoftUni\Courses\CSharp-Basics-OOP\June-2016\Polymorphism\02.Vehicles-Extension\obj\Debug\02.Vehicles-Extension.pdb

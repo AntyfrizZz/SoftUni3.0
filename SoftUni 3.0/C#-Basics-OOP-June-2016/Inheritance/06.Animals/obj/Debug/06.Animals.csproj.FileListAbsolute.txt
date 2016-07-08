@@ -1,0 +1,5 @@
+C:\Users\Yavor\Documents\GitHub\SoftUniProjects\SoftUni 3.0\C#-Basics-OOP-June-2016\Inheritance\06.Animals\bin\Debug\05.Animals.exe
+C:\Users\Yavor\Documents\GitHub\SoftUniProjects\SoftUni 3.0\C#-Basics-OOP-June-2016\Inheritance\06.Animals\bin\Debug\05.Animals.pdb
+C:\Users\Yavor\Documents\GitHub\SoftUniProjects\SoftUni 3.0\C#-Basics-OOP-June-2016\Inheritance\06.Animals\obj\Debug\06.Animals.csprojResolveAssemblyReference.cache
+C:\Users\Yavor\Documents\GitHub\SoftUniProjects\SoftUni 3.0\C#-Basics-OOP-June-2016\Inheritance\06.Animals\obj\Debug\05.Animals.exe
+C:\Users\Yavor\Documents\GitHub\SoftUniProjects\SoftUni 3.0\C#-Basics-OOP-June-2016\Inheritance\06.Animals\obj\Debug\05.Animals.pdb
