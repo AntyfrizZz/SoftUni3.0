@@ -26,15 +26,15 @@ namespace SystemSplit
 
         public int MaximumCapacity { get; protected set; }
 
-        public int CapacityInUse { get; set; }
+        public int CapacityInUse { get; protected set; }
 
         public int MaximumMemory { get; protected set; }
 
-        public int MemoryInUse { get; set; }
+        public int MemoryInUse { get; protected set; }
 
-        public int ExpressSoftwareCount { get; set; }
+        public int ExpressSoftwareCount { get; protected set; }
 
-        public int LightSoftwareCount { get; set; }
+        public int LightSoftwareCount { get; protected set; }
 
 
         public Dictionary<string, Software> Software { get; set; }
