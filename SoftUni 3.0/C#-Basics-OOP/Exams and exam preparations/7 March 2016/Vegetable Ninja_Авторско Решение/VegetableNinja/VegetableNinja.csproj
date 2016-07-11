@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{75D5CAE0-DDFE-4480-A6C7-AEEC322CBF13}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>VegetableNinja</RootNamespace>
+    <AssemblyName>VegetableNinja</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Core\Engine.cs" />
+    <Compile Include="Core\GameController.cs" />
+    <Compile Include="Data\Database.cs" />
+    <Compile Include="Enumerations\VegetableType.cs" />
+    <Compile Include="Exceptions\PotatoException.cs" />
+    <Compile Include="Interfaces\IBlankSpace.cs" />
+    <Compile Include="Interfaces\IDatabase.cs" />
+    <Compile Include="Interfaces\IEngine.cs" />
+    <Compile Include="Interfaces\IFactory.cs" />
+    <Compile Include="Interfaces\IGameController.cs" />
+    <Compile Include="Interfaces\IInputReader.cs" />
+    <Compile Include="Interfaces\IGameObject.cs" />
+    <Compile Include="Interfaces\IMatrixPosition.cs" />
+    <Compile Include="Interfaces\INinja.cs" />
+    <Compile Include="Interfaces\IOutputWriter.cs" />
+    <Compile Include="Interfaces\IVegetable.cs" />
+    <Compile Include="IO\ConsoleReader.cs" />
+    <Compile Include="IO\ConsoleWriter.cs" />
+    <Compile Include="Launcher.cs" />
+    <Compile Include="Models\BlankSpace.cs" />
+    <Compile Include="Models\GameObject.cs" />
+    <Compile Include="Models\Ninja.cs" />
+    <Compile Include="Models\MatrixPosition.cs" />
+    <Compile Include="Models\Vegetables\Asparagus.cs" />
+    <Compile Include="Models\Vegetables\Broccoli.cs" />
+    <Compile Include="Models\Vegetables\CherryBerry.cs" />
+    <Compile Include="Models\Vegetables\MeloLemonMelon.cs" />
+    <Compile Include="Models\Vegetables\Mushroom.cs" />
+    <Compile Include="Models\Vegetables\Royal.cs" />
+    <Compile Include="Models\Vegetables\Vegetable.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
