@@ -43,11 +43,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Factory\SoldierFactory.cs" />
+    <Compile Include="Interfaces\IMission.cs" />
+    <Compile Include="Interfaces\IPrivate.cs" />
+    <Compile Include="Interfaces\IRepair.cs" />
+    <Compile Include="Interfaces\ISoldier.cs" />
+    <Compile Include="Interfaces\ISpy.cs" />
+    <Compile Include="Models\Commando.cs" />
+    <Compile Include="Models\Engineer.cs" />
+    <Compile Include="Models\LeutenantGeneral.cs" />
+    <Compile Include="Models\Mission.cs" />
+    <Compile Include="Models\Private.cs" />
+    <Compile Include="Models\Repair.cs" />
+    <Compile Include="Models\SpecialisedSoldier.cs" />
+    <Compile Include="Models\Spy.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
+    <Compile Include="Startup.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
