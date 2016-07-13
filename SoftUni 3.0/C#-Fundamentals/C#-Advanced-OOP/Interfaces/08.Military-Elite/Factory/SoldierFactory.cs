@@ -87,7 +87,7 @@
                     {
                         var soldeirCodeNumber = soldierInfo[4];
 
-                        return new Spy(soldierId, soldierFirstName, soldierSecondName, soldeirCodeNumber);
+                        return new Spy(soldierId, soldierFirstName, soldierSecondName, int.Parse(soldeirCodeNumber));
                     }
             }
 

@@ -2,6 +2,6 @@
 {
     public interface ISpy : ISoldier
     {
-        string CodeNumber { get; }
+        int CodeNumber { get; }
     }
 }

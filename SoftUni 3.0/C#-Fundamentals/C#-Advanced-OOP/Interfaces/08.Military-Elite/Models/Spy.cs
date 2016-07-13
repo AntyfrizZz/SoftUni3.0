@@ -6,7 +6,7 @@
 
     class Spy : ISpy
     {
-        public Spy(string id, string firstName, string lastname, string codeNumber)
+        public Spy(string id, string firstName, string lastname, int codeNumber)
         {
             Id = id;
             FirstName = firstName;
@@ -20,7 +20,7 @@
 
         public string Lastname { get; }
 
-        public string CodeNumber { get; }
+        public int CodeNumber { get; }
 
         public override string ToString()
         {
