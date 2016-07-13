@@ -16,7 +16,14 @@
 
             while (!input.Equals("End"))
             {
-                soldiers.Add(SoldierFactory.Soldier(input));
+                try
+                {
+                    soldiers.Add(SoldierFactory.Soldier(input));
+                }
+                catch (Exception)
+                {
+
+                }
 
                 input = Console.ReadLine();
             }

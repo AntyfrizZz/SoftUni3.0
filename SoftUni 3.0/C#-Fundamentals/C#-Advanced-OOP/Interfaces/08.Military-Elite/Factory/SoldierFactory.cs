@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using _08.Military_Elite.Interfaces;
-using _08.Military_Elite.Models;
-
-namespace _08.Military_Elite.Factory
+﻿namespace _08.Military_Elite.Factory
 {
+    using System;
+    using Interfaces;
+    using Models;
+
     public class SoldierFactory
     {
         public static ISoldier Soldier(string input)
@@ -86,7 +85,6 @@ namespace _08.Military_Elite.Factory
 
                 case "Spy":
                     {
-
                         var soldeirCodeNumber = soldierInfo[4];
 
                         return new Spy(soldierId, soldierFirstName, soldierSecondName, soldeirCodeNumber);
