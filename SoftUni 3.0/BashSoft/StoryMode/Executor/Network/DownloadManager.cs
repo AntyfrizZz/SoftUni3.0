@@ -1,43 +1,53 @@
 ﻿using System;
+using System.CodeDom;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Net;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using Executor.Exceptions;
+using Executor.IO;
 
 namespace Executor.Network
 {
-    public static class DownloadManager
+    public class DownloadManager
     {
-        public static void Download(string fileURL)
-        {
-            WebClient webClient = new WebClient();
+        private WebClient webClient;
 
+        public DownloadManager()
+        {
+            this.webClient = new WebClient();
+        }
+
+        public void Download(string fileURL)
+        {
             try
             {
                 OutputWriter.WriteMessageOnNewLine("Started downloading: ");
 
-                string nameOfFile = ExtractNameOfFile(fileURL);
+                string nameOfFile = this.ExtractNameOfFile(fileURL);
                 string pathToDownload = SessionData.currentPath + "/" + nameOfFile;
 
-                webClient.DownloadFile(fileURL, pathToDownload);
+                this.webClient.DownloadFile(fileURL, pathToDownload);
 
                 OutputWriter.WriteMessageOnNewLine("Download complete");
             }
-            catch (WebException ex)
+            catch (WebException)
             {
-                OutputWriter.DisplayException(ex.Message);
+                throw new InvalidPathException();
             }
+
         }
 
-        public static void DownloadAsync(string fileURL)
+        public void DownloadAsync(string fileURL)
         {
-            Task currentTask = Task.Run(() => Download(fileURL));
+            Task currentTask = Task.Run(() => this.Download(fileURL));
             SessionData.taskPool.Add(currentTask);
         }
 
-        private static string ExtractNameOfFile(string fileURL)
+        private string ExtractNameOfFile(string fileURL)
         {
             int indexOfLastBackSlash = fileURL.LastIndexOf("/");
 
@@ -47,7 +57,7 @@ namespace Executor.Network
             }
             else
             {
-                throw new WebException(ExceptionMessages.InvalidPath);
+                throw new InvalidPathException();
             }
         }
     }

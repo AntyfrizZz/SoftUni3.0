@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.3.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.3.0\build\Microsoft.Net.Compilers.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -9,9 +10,11 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Executor</RootNamespace>
     <AssemblyName>Executor</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>5c719eb6</NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -43,13 +46,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Exceptions\DuplicateEntryInStructureException.cs" />
+    <Compile Include="Exceptions\InvalidCommandException.cs" />
+    <Compile Include="Exceptions\InvalidFileNameException.cs" />
+    <Compile Include="Exceptions\InvalidPathException.cs" />
+    <Compile Include="Exceptions\InvalidStringException.cs" />
+    <Compile Include="IO\Commands\ChangeAbsolutePathCommand.cs" />
+    <Compile Include="IO\Commands\ChangeRelativePathCommand.cs" />
+    <Compile Include="IO\Commands\Command.cs" />
+    <Compile Include="IO\Commands\CompareFilesCommand.cs" />
+    <Compile Include="IO\Commands\DownloadAsynchCommand.cs" />
+    <Compile Include="IO\Commands\DownloadFileCommand.cs" />
+    <Compile Include="IO\Commands\DropDatabaseCommand.cs" />
+    <Compile Include="IO\Commands\GetHelpCommand.cs" />
+    <Compile Include="IO\Commands\MakeDirectoryCommand.cs" />
+    <Compile Include="IO\Commands\OpenFileCommand.cs" />
+    <Compile Include="IO\Commands\PrintFilteredStudentsCommand.cs" />
+    <Compile Include="IO\Commands\PrintOrderedStudentsCommand.cs" />
+    <Compile Include="IO\Commands\ReadDatabaseCommand.cs" />
+    <Compile Include="IO\Commands\ShowCourseCommand.cs" />
+    <Compile Include="IO\Commands\TraverseFoldersCommand.cs" />
+    <Compile Include="Models\Course.cs" />
+    <Compile Include="Models\Student.cs" />
     <Compile Include="IO\CommandInterpreter.cs" />
     <Compile Include="Network\DownloadManager.cs" />
     <Compile Include="Static data\ExceptionMessages.cs" />
     <Compile Include="IO\InputReader.cs" />
     <Compile Include="IO\OutputWriter.cs" />
-    <Compile Include="Repository\RepositioryFilters.cs" />
-    <Compile Include="Repository\RepositorySorters.cs" />
+    <Compile Include="Repository\RepositioryFilter.cs" />
+    <Compile Include="Repository\RepositorySorter.cs" />
     <Compile Include="Static data\SessionData.cs" />
     <Compile Include="Repository\StudentsRepository.cs" />
     <Compile Include="IO\IOManager.cs" />
@@ -61,6 +86,12 @@
     <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.3.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.3.0\build\Microsoft.Net.Compilers.props'))" />
+  </Target>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

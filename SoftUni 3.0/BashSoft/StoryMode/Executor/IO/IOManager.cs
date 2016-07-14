@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using Executor.Exceptions;
 
-namespace Executor
+namespace Executor.IO
 {
-    public static class IOManager
+    public class IOManager
     {
-        public static void TraverseDirectory(int depth)
+        public void TraverseDirectory(int depth)
         {
             OutputWriter.WriteEmptyLine();
             int initialIdentation = SessionData.currentPath.Split('\\').Length;
@@ -36,14 +37,13 @@ namespace Executor
                             OutputWriter.WriteMessage("-");
                         }
 
-                        OutputWriter.WriteMessageOnNewLine(file.ToString());
+                        OutputWriter.WriteMessageOnNewLine(file.Substring(indexOfLastSlash));
                     }
 
                     foreach (string directoryPath in Directory.GetDirectories(currentPath))
                     {
                         subFolders.Enqueue(directoryPath);
                     }
-
                 }
                 catch (UnauthorizedAccessException)
                 {
@@ -52,7 +52,7 @@ namespace Executor
             }
         }
 
-        public static void CreateDirectoryInCurrentFolder(string name)
+        public void CreateDirectoryInCurrentFolder(string name)
         {
             string path = SessionData.currentPath + "\\" + name;
             try
@@ -60,12 +60,12 @@ namespace Executor
                 Directory.CreateDirectory(path);
             }
             catch (ArgumentException)
-            {
-                OutputWriter.DisplayException(ExceptionMessages.ForbiddenSymbolsContainedInName);
+            {                                                                       
+                throw new InvalidFileNameException();
             }
         }
 
-        public static void ChangeCurrentDirectoryRelative(string relativePath)
+        public void ChangeCurrentDirectoryRelative(string relativePath)
         {
             if (relativePath == "..")
             {
@@ -78,24 +78,22 @@ namespace Executor
                 }
                 catch (ArgumentOutOfRangeException)
                 {
-                    OutputWriter.DisplayException(ExceptionMessages.InvalidDestination);
+                    throw new InvalidPathException();
                 }
-
             }
             else
             {
                 string currentPath = SessionData.currentPath;
                 currentPath += "\\" + relativePath;
-                ChangeCurrentDirectoryAbsolute(currentPath);
+                this.ChangeCurrentDirectoryAbsolute(currentPath);
             }
         }
 
-        public static void ChangeCurrentDirectoryAbsolute(string absolutePath)
+        public void ChangeCurrentDirectoryAbsolute(string absolutePath)
         {
             if (!Directory.Exists(absolutePath))
             {
-                OutputWriter.DisplayException(ExceptionMessages.InvalidPath);
-                return;
+                throw new InvalidPathException();
             }
 
             SessionData.currentPath = absolutePath;

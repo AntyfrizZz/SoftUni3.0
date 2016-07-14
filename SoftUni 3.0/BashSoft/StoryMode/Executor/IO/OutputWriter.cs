@@ -1,4 +1,4 @@
-﻿namespace Executor
+﻿namespace Executor.IO
 {
     using System;
     using System.Collections.Generic;
@@ -28,9 +28,12 @@
             Console.ForegroundColor = currentColor;
         }
 
-        public static void PrintStudent(KeyValuePair<string, List<int>> student)
+        [Obsolete(@"This method doesn't belong in the OutputWriter."+
+                            "Use WriteMessageOnNewLine(String message) " +
+                            "with String.Format() and methods from the Student class instead.")]
+        public static void PrintStudent(KeyValuePair<string, double> student)
         {
-            OutputWriter.WriteMessageOnNewLine(string.Format($"{student.Key} - {string.Join(", ", student.Value)}"));
+            WriteMessageOnNewLine($"{student.Key} - {student.Value}");
         }
     }
 }
