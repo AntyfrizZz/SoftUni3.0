@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Executor.Exceptions;
 using Executor.Network;
 using Executor.Repository;
@@ -10,7 +6,8 @@ using Executor.Judge;
 
 namespace Executor.IO.Commands
 {
-    public abstract class Command
+    using Contracts;
+    public abstract class Command : IExecutable
     {
         private string input;
         private string[] data;

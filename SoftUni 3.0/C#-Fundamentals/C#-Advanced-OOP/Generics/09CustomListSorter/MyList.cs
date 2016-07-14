@@ -1,4 +1,4 @@
-﻿namespace _08CustomList
+﻿namespace _09CustomListSorter
 {
     using System;
 
@@ -145,6 +145,28 @@
             }
 
             return minValue;
+        }
+
+        public void Sort()
+        {
+            Array.Sort(this.Collection);
+
+            int currentLentgth = this.Collection.Length;
+            T[] newCollection = new T[currentLentgth];
+
+            for (int i = 0; i < this.Collection.Length; i++)
+            {
+                if (this.Collection[i] != null)
+                {
+                    for (int j = 0; j < this.Count; j++)
+                    {
+                        newCollection[j] = this.Collection[i + j];
+                    }
+
+                    this.Collection = newCollection;
+                    break;
+                }
+            }
         }
 
         public void Print()
