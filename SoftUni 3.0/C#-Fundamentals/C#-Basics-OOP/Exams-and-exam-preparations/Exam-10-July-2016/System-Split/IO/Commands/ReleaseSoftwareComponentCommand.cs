@@ -2,7 +2,7 @@
 {
     using System;
 
-    class ReleaseSoftwareComponentCommand : Command
+    public class ReleaseSoftwareComponentCommand : Command
     {
         private string hardwareComponentName;
         private string softwarename;
@@ -20,8 +20,7 @@
                 throw new InvalidOperationException();
             }
 
-            SystemInfo.HardwareComponets[hardwareComponentName].RemoveSoftware(this.softwarename);
-
+            SystemInfo.HardwareComponets[this.hardwareComponentName].RemoveSoftware(this.softwarename);
         }
     }
 }

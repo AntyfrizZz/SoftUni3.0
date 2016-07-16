@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Runtime.CompilerServices;
-using System.Text;
-
-namespace SystemSplit
+﻿namespace SystemSplit
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Text;
+
     public static class SystemInfo
     {
         public static Dictionary<string, Hardware> HardwareComponets = new Dictionary<string, Hardware>();
@@ -69,7 +68,8 @@ namespace SystemSplit
                 {
                     dumpedHeavyHardwareComponents++;
                 }
-                else //Equals Power
+                //Equals Power
+                else
                 {
                     dumpedPowerHardwareComponents++;
                 }
@@ -83,7 +83,8 @@ namespace SystemSplit
                     {
                         dumpedExpressSoftwareComponents++;
                     }
-                    else//Equals Light
+                    //Equals Light
+                    else
                     {
                         dumpedLightSoftwareComponents++;
                     }

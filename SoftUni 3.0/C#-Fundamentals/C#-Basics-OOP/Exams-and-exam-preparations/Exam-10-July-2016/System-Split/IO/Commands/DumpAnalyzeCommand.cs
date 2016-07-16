@@ -1,6 +1,6 @@
 ﻿namespace SystemSplit.IO.Commands
 {
-    class DumpAnalyzeCommand : Command
+    public class DumpAnalyzeCommand : Command
     {
         public override void Execute()
         {

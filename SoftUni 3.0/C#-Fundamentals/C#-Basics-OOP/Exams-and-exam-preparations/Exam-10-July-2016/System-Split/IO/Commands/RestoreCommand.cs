@@ -2,7 +2,7 @@
 {
     using System;
 
-    class RestoreCommand : Command
+    public class RestoreCommand : Command
     {
         private string hardwareComponentName;
 
@@ -13,15 +13,15 @@
 
         public override void Execute()
         {
-            if (!SystemInfo.DumpedHardwareComponets.ContainsKey(hardwareComponentName))
+            if (!SystemInfo.DumpedHardwareComponets.ContainsKey(this.hardwareComponentName))
             {
                 throw new InvalidOperationException();
             }
 
-            var hardwareComponent = SystemInfo.DumpedHardwareComponets[hardwareComponentName];
+            var hardwareComponent = SystemInfo.DumpedHardwareComponets[this.hardwareComponentName];
 
-            SystemInfo.HardwareComponets.Add(hardwareComponentName, hardwareComponent);
-            SystemInfo.DumpedHardwareComponets.Remove(hardwareComponentName);
+            SystemInfo.HardwareComponets.Add(this.hardwareComponentName, hardwareComponent);
+            SystemInfo.DumpedHardwareComponets.Remove(this.hardwareComponentName);
         }
     }
 }

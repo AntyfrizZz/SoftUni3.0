@@ -1,10 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace SystemSplit
+﻿namespace SystemSplit
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+
     public abstract class Hardware : Component
     {
         #region Constructors
@@ -20,8 +20,6 @@ namespace SystemSplit
 
         #endregion Constructors
 
-        //===================================================================
-
         #region Properties
 
         public int MaximumCapacity { get; protected set; }
@@ -36,12 +34,9 @@ namespace SystemSplit
 
         public int LightSoftwareCount { get; protected set; }
 
-
         public Dictionary<string, Software> Software { get; set; }
 
         #endregion Properties
-
-        //===================================================================
 
         #region Methods
 
@@ -62,7 +57,8 @@ namespace SystemSplit
             {
                 this.ExpressSoftwareCount++;
             }
-            else //Equals Light
+            //Equals Light
+            else
             {
                 this.LightSoftwareCount++;
             }
@@ -87,7 +83,8 @@ namespace SystemSplit
             {
                 this.ExpressSoftwareCount--;
             }
-            else //Equals Light
+            //Equals Light
+            else
             {
                 this.LightSoftwareCount--;
             }

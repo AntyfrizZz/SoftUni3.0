@@ -1,6 +1,6 @@
 ﻿namespace SystemSplit.IO.Commands
 {
-    class RegisterExpressSoftwareCommand : Command
+    public class RegisterExpressSoftwareCommand : Command
     {
         private string hardwareComponentName;
         private string name;

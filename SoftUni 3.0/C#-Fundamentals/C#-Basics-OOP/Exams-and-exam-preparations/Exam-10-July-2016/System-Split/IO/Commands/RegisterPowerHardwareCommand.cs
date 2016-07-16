@@ -1,6 +1,6 @@
 ﻿namespace SystemSplit.IO.Commands
 {
-    class RegisterPowerHardwareCommand : Command
+    public class RegisterPowerHardwareCommand : Command
     {
         private string name;
         private int capacity;

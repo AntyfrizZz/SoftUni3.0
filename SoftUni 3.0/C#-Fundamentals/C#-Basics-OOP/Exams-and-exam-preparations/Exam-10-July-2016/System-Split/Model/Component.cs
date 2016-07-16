@@ -11,8 +11,6 @@
 
         #endregion Constructors
 
-        //===================================================================
-
         #region Properties
 
         public string Type { get; protected set; }

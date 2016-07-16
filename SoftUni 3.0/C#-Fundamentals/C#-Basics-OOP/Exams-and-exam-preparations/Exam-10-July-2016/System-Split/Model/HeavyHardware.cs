@@ -1,25 +1,21 @@
-﻿using System;
-
-namespace SystemSplit
+﻿namespace SystemSplit
 {
     public class HeavyHardware : Hardware
     {
         #region Fields
 
-        private const int capacityRatio = 2;
-        private const double memoriRatio = 0.25;
+        private const int CapacityRatio = 2;
+        private const double MemoriRatio = 0.25;
 
         #endregion Fields
-
-        //===================================================================
 
         #region Constructors
 
         public HeavyHardware(string name, int maximumCapacity, int maximumMemory) 
             : base(
                   name, 
-                  capacityRatio * maximumCapacity, 
-                  maximumMemory - (int)(maximumMemory * memoriRatio))
+                  CapacityRatio * maximumCapacity, 
+                  maximumMemory - (int)(maximumMemory * MemoriRatio))
         {
             base.Type = "Heavy";
         }

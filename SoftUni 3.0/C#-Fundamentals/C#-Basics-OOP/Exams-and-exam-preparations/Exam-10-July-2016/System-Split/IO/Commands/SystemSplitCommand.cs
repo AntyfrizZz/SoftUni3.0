@@ -4,7 +4,7 @@
     using System.Linq;
     using System.Text;
 
-    class SystemSplitCommand : Command
+    public class SystemSplitCommand : Command
     {
         public override void Execute()
         {

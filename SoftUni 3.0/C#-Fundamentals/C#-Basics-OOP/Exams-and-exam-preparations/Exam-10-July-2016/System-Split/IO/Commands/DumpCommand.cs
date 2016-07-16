@@ -2,7 +2,7 @@
 {
     using System;
 
-    class DumpCommand : Command
+    public class DumpCommand : Command
     {
         private string hardwareComponentName;
 
@@ -13,15 +13,15 @@
 
         public override void Execute()
         {
-            if (!SystemInfo.HardwareComponets.ContainsKey(hardwareComponentName))
+            if (!SystemInfo.HardwareComponets.ContainsKey(this.hardwareComponentName))
             {
                 throw new InvalidOperationException();
             }
 
-            var hardwareComponent = SystemInfo.HardwareComponets[hardwareComponentName];
+            var hardwareComponent = SystemInfo.HardwareComponets[this.hardwareComponentName];
 
-            SystemInfo.DumpedHardwareComponets.Add(hardwareComponentName, hardwareComponent);
-            SystemInfo.HardwareComponets.Remove(hardwareComponentName);
+            SystemInfo.DumpedHardwareComponets.Add(this.hardwareComponentName, hardwareComponent);
+            SystemInfo.HardwareComponets.Remove(this.hardwareComponentName);
         }
     }
 }

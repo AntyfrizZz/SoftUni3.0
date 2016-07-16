@@ -14,12 +14,12 @@
 
         #endregion Constructors
 
-        //===================================================================
-
         #region Properties
 
         public string HardwareComponentName { get; }
+
         public int CapacityConsumption { get; }
+
         public int MemoryConsumption { get; }
 
         #endregion Properties

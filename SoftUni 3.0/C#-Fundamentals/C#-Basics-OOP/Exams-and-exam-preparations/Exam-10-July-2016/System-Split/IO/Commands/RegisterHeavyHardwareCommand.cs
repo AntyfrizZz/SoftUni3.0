@@ -1,6 +1,6 @@
 ﻿namespace SystemSplit.IO.Commands
 {
-    class RegisterHeavyHardwareCommand : Command
+    public class RegisterHeavyHardwareCommand : Command
     {
         private string name;
         private int capacity;

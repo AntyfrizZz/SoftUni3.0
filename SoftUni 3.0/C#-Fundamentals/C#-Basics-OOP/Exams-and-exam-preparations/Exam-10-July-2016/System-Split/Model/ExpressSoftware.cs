@@ -4,11 +4,9 @@
     {
         #region Fields
 
-        private const int memoriRatio = 2;
+        private const int MemoriRatio = 2;
 
         #endregion Fields
-
-        //===================================================================
 
         #region Constructors
 
@@ -17,7 +15,7 @@
                   hardwareComponentName, 
                   name, 
                   capacityConsumption, 
-                  memoriRatio * memoryConsumption)
+                  MemoriRatio * memoryConsumption)
         {
             base.Type = "Express";
         }

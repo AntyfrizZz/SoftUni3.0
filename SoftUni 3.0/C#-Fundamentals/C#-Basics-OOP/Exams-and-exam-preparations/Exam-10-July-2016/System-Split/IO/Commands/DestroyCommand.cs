@@ -2,7 +2,7 @@
 {
     using System;
 
-    class DestroyCommand : Command
+    public class DestroyCommand : Command
     {
         private string hardwareComponentName;
 
@@ -13,14 +13,14 @@
 
         public override void Execute()
         {
-            if (!SystemInfo.HardwareComponets.ContainsKey(hardwareComponentName))
+            if (!SystemInfo.HardwareComponets.ContainsKey(this.hardwareComponentName))
             {
                 throw new InvalidOperationException();
             }
 
-            var hardwareComponent = SystemInfo.HardwareComponets[hardwareComponentName];
+            var hardwareComponent = SystemInfo.HardwareComponets[this.hardwareComponentName];
 
-            SystemInfo.DumpedHardwareComponets.Remove(hardwareComponentName);
+            SystemInfo.DumpedHardwareComponets.Remove(this.hardwareComponentName);
         }
     }
 }

@@ -1,17 +1,13 @@
-﻿using System;
-
-namespace SystemSplit
+﻿namespace SystemSplit
 {
     public class LightSoftware : Software
     {
         #region Fields
 
-        private const double capacityRatio = 0.5;
-        private const double memoriRatio = 0.5;
+        private const double CapacityRatio = 0.5;
+        private const double MemoriRatio = 0.5;
 
         #endregion Fields
-
-        //===================================================================
 
         #region Constructors
 
@@ -19,8 +15,8 @@ namespace SystemSplit
             : base(
                   hardwareComponentName, 
                   name, 
-                  capacityConsumption + (int)(capacityConsumption * capacityRatio), 
-                  memoryConsumption - (int)(memoryConsumption * memoriRatio))
+                  capacityConsumption + (int)(capacityConsumption * CapacityRatio), 
+                  memoryConsumption - (int)(memoryConsumption * MemoriRatio))
         {
             base.Type = "Light";
         }

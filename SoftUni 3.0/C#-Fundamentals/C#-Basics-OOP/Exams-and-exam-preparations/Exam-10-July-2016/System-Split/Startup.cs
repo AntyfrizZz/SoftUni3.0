@@ -3,9 +3,9 @@
     using System;
     using IO;
 
-    class Startup
+    public class Startup
     {
-        static void Main()
+        public static void Main()
         {
             var inputLine = Console.ReadLine();
 

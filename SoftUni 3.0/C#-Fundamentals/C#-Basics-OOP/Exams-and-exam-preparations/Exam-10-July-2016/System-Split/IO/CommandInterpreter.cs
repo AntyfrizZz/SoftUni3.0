@@ -59,7 +59,6 @@
                         return new RegisterHeavyHardwareCommand(heavyHardwareName, heavyHardwareCapacity, heavyHardwareMemory);
                     }
 
-
                 case "RegisterExpressSoftware":
                     {
                         var hardwareName = args[0];
