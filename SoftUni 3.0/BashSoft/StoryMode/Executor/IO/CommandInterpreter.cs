@@ -12,8 +12,7 @@ using Executor.Repository;
 
 namespace Executor.IO
 {
-    using Contracts;
-    public class CommandInterpreter : IInterpreter
+    public class CommandInterpreter
     {
         private Tester judge;
         private StudentsRepository repository;
@@ -95,9 +94,5 @@ namespace Executor.IO
             }
         }
 
-        public void InterpretCommand(string command)
-        {
-            throw new NotImplementedException();
-        }
     }
 }
