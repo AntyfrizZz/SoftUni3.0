@@ -72,6 +72,7 @@
     <Compile Include="Interfaces\Models\IStudent.cs" />
     <Compile Include="Interfaces\Judge\IContentComparer.cs" />
     <Compile Include="Interfaces\DataStructures\ISimpleOrderedBag.cs" />
+    <Compile Include="IO\Commands\DisplayCommand.cs" />
     <Compile Include="IO\Commands\ChangeAbsolutePathCommand.cs" />
     <Compile Include="IO\Commands\ChangeRelativePathCommand.cs" />
     <Compile Include="IO\Commands\Command.cs" />
