@@ -73,6 +73,8 @@
                     return new DownloadAsynchCommand(input, data, this.judge, this.repository, this.downloadManager, this.inputOutputManager);
                 case "dropdb":
                     return new DropDatabaseCommand(input, data, this.judge, this.repository, this.downloadManager, this.inputOutputManager);
+                case "display":
+                    return new DisplayCommand(input, data, this.judge, this.repository, this.downloadManager, this.inputOutputManager);
                 default:
                     throw new InvalidCommandException(input);
             }

@@ -72,6 +72,10 @@
             return string.Format($"{this.userName} - {this.MarksByCourseName[courseName]}");
         }
 
+        public int CompareTo(IStudent other) => string.Compare(this.UserName, other.UserName, StringComparison.Ordinal);
+
+        public override string ToString() => this.UserName;
+
         private double CalculateMark(int[] scores)
         {
             double percentageOfSolvedExam = scores.Sum() / (double)(SoftUniCourse.NumberOfTasksOnExam * SoftUniCourse.MaxScoreOnExamTask);

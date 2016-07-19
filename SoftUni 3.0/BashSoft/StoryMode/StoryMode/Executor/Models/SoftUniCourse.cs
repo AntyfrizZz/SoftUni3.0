@@ -1,5 +1,6 @@
 ﻿namespace Executor.Models
 {
+    using System;
     using System.Collections.Generic;
 
     using Exceptions;
@@ -49,5 +50,10 @@
 
             this.studentsByName.Add(student.UserName, student);
         }
+
+
+        public int CompareTo(ICourse other) => string.Compare(this.Name, other.Name, StringComparison.Ordinal);
+
+        public override string ToString() => this.Name;
     }
 }

@@ -1,8 +1,9 @@
 ﻿namespace Executor.Interfaces
 {
+    using System;
     using System.Collections.Generic;
 
-    public interface IStudent
+    public interface IStudent : IComparable<IStudent>
     {
         string UserName { get; }
 

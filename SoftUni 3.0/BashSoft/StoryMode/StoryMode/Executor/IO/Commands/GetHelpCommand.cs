@@ -46,6 +46,7 @@
             stringBuilder.AppendLine(
                 $"|{"download file asinchronously - downloadAsynch URL (saved in the current directory)",-98}|");
             stringBuilder.AppendLine($"|{"get help – help",-98}|");
+            stringBuilder.AppendLine($"|{"display data entities - display students/courses ascending/descending",-98}");
             stringBuilder.AppendLine($"{new string('_', 100)}");
             stringBuilder.AppendLine();
             OutputWriter.WriteMessageOnNewLine(stringBuilder.ToString());

@@ -46,30 +46,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataStructures\SimpleSortedList.cs" />
     <Compile Include="Exceptions\DuplicateEntryInStructureException.cs" />
     <Compile Include="Exceptions\InvalidCommandException.cs" />
     <Compile Include="Exceptions\InvalidFileNameException.cs" />
     <Compile Include="Exceptions\InvalidPathException.cs" />
     <Compile Include="Exceptions\InvalidStringException.cs" />
-    <Compile Include="Interfaces\IAsynchDownloader.cs" />
-    <Compile Include="Interfaces\ICourse.cs" />
-    <Compile Include="Interfaces\IDatabase.cs" />
-    <Compile Include="Interfaces\IDataFilter.cs" />
-    <Compile Include="Interfaces\IDataSorter.cs" />
-    <Compile Include="Interfaces\IDirectoryChanger.cs" />
-    <Compile Include="Interfaces\IDirectoryCreator.cs" />
-    <Compile Include="Interfaces\IDirectoryManager.cs" />
-    <Compile Include="Interfaces\IDirectoryTraverser.cs" />
-    <Compile Include="Interfaces\IDownloader.cs" />
-    <Compile Include="Interfaces\IDownloadManager.cs" />
-    <Compile Include="Interfaces\IExecutable.cs" />
-    <Compile Include="Interfaces\IFilteredTaker.cs" />
-    <Compile Include="Interfaces\IInterpreter.cs" />
-    <Compile Include="Interfaces\IOrderedTaker.cs" />
-    <Compile Include="Interfaces\IReader.cs" />
-    <Compile Include="Interfaces\IRequester.cs" />
-    <Compile Include="Interfaces\IStudent.cs" />
-    <Compile Include="Interfaces\IContentComparer.cs" />
+    <Compile Include="Interfaces\Network\IAsynchDownloader.cs" />
+    <Compile Include="Interfaces\Models\ICourse.cs" />
+    <Compile Include="Interfaces\Repository\IDatabase.cs" />
+    <Compile Include="Interfaces\Repository\IDataFilter.cs" />
+    <Compile Include="Interfaces\Repository\IDataSorter.cs" />
+    <Compile Include="Interfaces\IO\IDirectoryChanger.cs" />
+    <Compile Include="Interfaces\IO\IDirectoryCreator.cs" />
+    <Compile Include="Interfaces\IO\IDirectoryManager.cs" />
+    <Compile Include="Interfaces\IO\IDirectoryTraverser.cs" />
+    <Compile Include="Interfaces\Network\IDownloader.cs" />
+    <Compile Include="Interfaces\Network\IDownloadManager.cs" />
+    <Compile Include="Interfaces\IO\IExecutable.cs" />
+    <Compile Include="Interfaces\Repository\IFilteredTaker.cs" />
+    <Compile Include="Interfaces\IO\IInterpreter.cs" />
+    <Compile Include="Interfaces\Repository\IOrderedTaker.cs" />
+    <Compile Include="Interfaces\IO\IReader.cs" />
+    <Compile Include="Interfaces\Repository\IRequester.cs" />
+    <Compile Include="Interfaces\Models\IStudent.cs" />
+    <Compile Include="Interfaces\Judge\IContentComparer.cs" />
+    <Compile Include="Interfaces\DataStructures\ISimpleOrderedBag.cs" />
     <Compile Include="IO\Commands\ChangeAbsolutePathCommand.cs" />
     <Compile Include="IO\Commands\ChangeRelativePathCommand.cs" />
     <Compile Include="IO\Commands\Command.cs" />
@@ -104,6 +106,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
