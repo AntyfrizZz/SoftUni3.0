@@ -1,4 +1,4 @@
-﻿namespace _01ListyIterator
+﻿namespace _02Collection
 {
     using System;
     using System.Linq;
@@ -32,6 +32,9 @@
                             break;
                         case "HasNext":
                             Console.WriteLine(listy.HasNext() ? "True" : "False");
+                            break;
+                        case "PrintAll":
+                            Console.WriteLine(listy.PrintAll());
                             break;
                     }
                 }
