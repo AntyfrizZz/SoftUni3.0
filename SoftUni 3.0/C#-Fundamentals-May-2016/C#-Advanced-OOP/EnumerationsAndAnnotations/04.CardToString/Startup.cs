@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _04.CardToString
+﻿namespace _04.CardToString
 {
-    class Program
+    public class Startup
     {
-        static void Main(string[] args)
+        public static void Main()
         {
+            //Same as 03
         }
     }
 }

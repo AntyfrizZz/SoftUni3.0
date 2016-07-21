@@ -1,15 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _02CardRank
+﻿namespace _02CardRank
 {
-    class Program
+    using System;
+
+    public class Startup
     {
-        static void Main(string[] args)
+        public static void Main()
         {
+            Console.WriteLine("Card Ranks:");
+
+            var ranks = Enum.GetValues(typeof(CardRanks));
+
+            foreach (var rank in ranks)
+            {
+                Console.WriteLine($"Ordinal value: {(int)rank}; Name value: {rank}");
+            }
         }
     }
 }
