@@ -1,6 +1,6 @@
-﻿namespace _10InfernoInfinity
+﻿namespace _12Refactoring.Enumerations
 {
-    public enum WeaponRarity
+    public enum WeaponRarities
     {
         Common = 1,
         Uncommon = 2,

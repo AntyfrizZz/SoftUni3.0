@@ -1,5 +1,7 @@
-﻿namespace _10InfernoInfinity.Weapons
+﻿namespace _12Refactoring.Factories.WeaponFactory.Weapons
 {
+    using Enumerations;
+
     public class KnifeWeapon : Weapon
     {
         private const int PureMinDamage = 3;
@@ -7,7 +9,7 @@
         private const int NumberOfSockets = 2;
 
         public KnifeWeapon(
-            WeaponRarity rarity, 
+            WeaponRarities rarity, 
             WeaponTypes type, 
             string name) 
             : base(

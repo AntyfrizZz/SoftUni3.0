@@ -1,5 +1,7 @@
-﻿namespace _10InfernoInfinity.Gems
+﻿namespace _12Refactoring.Factories.GemFactory.Gems
 {
+    using Enumerations;
+
     public class RubyGem : Gem
     {
         private const int Strength = 7;

@@ -1,17 +1,18 @@
-﻿namespace _10InfernoInfinity.Weapons
+﻿namespace _12Refactoring.Factories.WeaponFactory.Weapons
 {
-    using Gems;
+    using Attributes;
+    using Enumerations;
+    using GemFactory.Gems;
 
+    [ClassInfo("Pesho", 3, "Used for C# OOP Advanced Course - Enumerations and Attributes.", new string[] { "Pesho", "Svetlio" })]
     public abstract class Weapon
     {
         private WeaponTypes type;
-        private WeaponRarity rarity;
-        private string name;
+        private WeaponRarities rarity;
 
         private int minDamage;
         private int maxDamage;
 
-        private int numberOfSockets;
         private Gem[] sockets;
 
         private int strengthBonus;
@@ -19,7 +20,7 @@
         private int vitalityBonus;
 
         protected Weapon(
-            WeaponRarity rarity,
+            WeaponRarities rarity,
             WeaponTypes type,
             string name,
             int minDamage,
@@ -28,14 +29,15 @@
         {
             this.rarity = rarity;
             this.type = type;
-            this.name = name;
+            this.Name = name;
 
             this.minDamage = minDamage * (int)rarity;
             this.maxDamage = maxDamage * (int)rarity;
 
-            this.numberOfSockets = numberOfSockets;
             this.sockets = new Gem[numberOfSockets];
         }
+
+        public string Name { get; }
 
         public virtual void AddGem(int index, Gem gem)
         {
@@ -83,7 +85,7 @@
 
         public override string ToString()
         {
-            return $"{this.name}: {this.minDamage}-{this.maxDamage} Damage, +{this.strengthBonus} Strength, +{this.agilityBonus} Agility, +{this.vitalityBonus} Vitality";
+            return $"{this.Name}: {this.minDamage}-{this.maxDamage} Damage, +{this.strengthBonus} Strength, +{this.agilityBonus} Agility, +{this.vitalityBonus} Vitality";
         }
     }
 }

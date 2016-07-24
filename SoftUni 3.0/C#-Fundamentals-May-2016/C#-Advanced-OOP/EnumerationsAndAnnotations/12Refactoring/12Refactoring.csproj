@@ -43,6 +43,40 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Attributes\ClassInfoAttribute.cs" />
+    <Compile Include="Enumerations\GemClarities.cs" />
+    <Compile Include="Enumerations\GemTypes.cs" />
+    <Compile Include="Enumerations\Stats.cs" />
+    <Compile Include="Enumerations\WeaponRarities.cs" />
+    <Compile Include="Enumerations\WeaponTypes.cs" />
+    <Compile Include="Factories\GemFactory\GemFactory.cs" />
+    <Compile Include="Factories\GemFactory\Gems\AmethystGem.cs" />
+    <Compile Include="Factories\GemFactory\Gems\EmeraldGem.cs" />
+    <Compile Include="Factories\GemFactory\Gems\Gem.cs" />
+    <Compile Include="Factories\GemFactory\Gems\RubyGem.cs" />
+    <Compile Include="Factories\WeaponFactory\WeaponFactory.cs" />
+    <Compile Include="Factories\WeaponFactory\Weapons\AxeWeapon.cs" />
+    <Compile Include="Factories\WeaponFactory\Weapons\KnifeWeapon.cs" />
+    <Compile Include="Factories\WeaponFactory\Weapons\SwordWeapon.cs" />
+    <Compile Include="Factories\WeaponFactory\Weapons\Weapon.cs" />
+    <Compile Include="Interfaces\IO\IDatabase.cs" />
+    <Compile Include="Interfaces\IO\IExecutable.cs" />
+    <Compile Include="Interfaces\IO\IInterpreter.cs" />
+    <Compile Include="Interfaces\IO\IReader.cs" />
+    <Compile Include="IO\CommandInterpreter.cs" />
+    <Compile Include="IO\Commands\AttributeCommands\ReviewersCommand.cs" />
+    <Compile Include="IO\Commands\AttributeCommands\DescriptionCommand.cs" />
+    <Compile Include="IO\Commands\AttributeCommands\RevisionCommand.cs" />
+    <Compile Include="IO\Commands\AttributeCommands\AuthorCommand.cs" />
+    <Compile Include="IO\Commands\WeaponsAndGemsCommands\AddGemToSocketCommand.cs" />
+    <Compile Include="IO\Commands\AttributeCommands\Command.cs" />
+    <Compile Include="IO\Commands\WeaponsAndGemsCommands\Command.cs" />
+    <Compile Include="IO\Commands\WeaponsAndGemsCommands\CreateWeaponCommand.cs" />
+    <Compile Include="IO\Commands\WeaponsAndGemsCommands\PrintCommand.cs" />
+    <Compile Include="IO\Commands\WeaponsAndGemsCommands\RemoveGemFromWeaponCommand.cs" />
+    <Compile Include="IO\InputReader.cs" />
+    <Compile Include="IO\OutputWriter.cs" />
+    <Compile Include="Repository\WeaponRepository.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

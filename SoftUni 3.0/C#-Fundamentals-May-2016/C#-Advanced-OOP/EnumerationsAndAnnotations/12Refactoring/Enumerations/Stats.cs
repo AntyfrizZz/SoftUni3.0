@@ -1,4 +1,4 @@
-﻿namespace _10InfernoInfinity
+﻿namespace _12Refactoring.Enumerations
 {
     public enum Stats
     {

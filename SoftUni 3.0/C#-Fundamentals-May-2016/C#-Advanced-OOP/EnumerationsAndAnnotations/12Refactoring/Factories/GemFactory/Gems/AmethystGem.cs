@@ -1,5 +1,7 @@
-﻿namespace _10InfernoInfinity.Gems
+﻿namespace _12Refactoring.Factories.GemFactory.Gems
 {
+    using Enumerations;
+
     public class AmethystGem : Gem
     {
         private const int Strength = 2;

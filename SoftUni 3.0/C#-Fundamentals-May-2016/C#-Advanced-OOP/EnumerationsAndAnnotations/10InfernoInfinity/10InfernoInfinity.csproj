@@ -43,25 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Gems\AmethystGem.cs" />
-    <Compile Include="Gems\EmeraldGem.cs" />
-    <Compile Include="Gems\RubyGem.cs" />
-    <Compile Include="Weapons\AxeWeapon.cs" />
-    <Compile Include="Enumerations\WeaponTypes.cs" />
-    <Compile Include="Enumerations\GemTypes.cs" />
-    <Compile Include="Enumerations\GemClarities.cs" />
-    <Compile Include="Enumerations\WeaponRarity.cs" />
-    <Compile Include="Gems\Gem.cs" />
-    <Compile Include="Weapons\KnifeWeapon.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Enumerations\Stats.cs" />
-    <Compile Include="Weapons\SwordWeapon.cs" />
-    <Compile Include="Weapons\Weapon.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="ClassDiagram1.cd" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
