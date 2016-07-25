@@ -11,9 +11,9 @@
         public const int NumberOfTasksOnExam = 5;
         public const int MaxScoreOnExamTask = 100;
 
-        private string name;
+        private readonly Dictionary<string, IStudent> studentsByName;
 
-        private Dictionary<string, IStudent> studentsByName;
+        private string name;
 
         public SoftUniCourse(string name)
         {
@@ -50,7 +50,6 @@
 
             this.studentsByName.Add(student.UserName, student);
         }
-
 
         public int CompareTo(ICourse other) => string.Compare(this.Name, other.Name, StringComparison.Ordinal);
 

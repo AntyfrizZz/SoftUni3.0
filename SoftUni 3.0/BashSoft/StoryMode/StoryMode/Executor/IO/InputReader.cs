@@ -10,7 +10,7 @@
     {
         private const string EndCommand = "quit";
 
-        private IInterpreter interpreter;
+        private readonly IInterpreter interpreter;
 
         public InputReader(IInterpreter interpreter)
         {

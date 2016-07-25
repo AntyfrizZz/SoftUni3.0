@@ -11,10 +11,10 @@
     public class DisplayCommand : Command, IExecutable
     {
         public DisplayCommand(
-            string input, 
-            string[] data, 
+            string input,
+            string[] data,
             IContentComparer tester,
-            IDatabase repository, 
+            IDatabase repository,
             IDownloadManager downloadManager,
             IDirectoryManager ioManager)
             : base(input, data, tester, repository, downloadManager, ioManager)
@@ -27,7 +27,7 @@
 
             if (data.Length != 3)
             {
-                throw  new InvalidCommandException(this.Input);
+                throw new InvalidCommandException(this.Input);
             }
 
             string entityToDisplay = data[1];

@@ -11,26 +11,26 @@
         private const int DefaultSize = 16;
 
         private T[] innerCollection;
-        private Comparison<T> comparison;
+        private IComparer<T> comparison;
 
-        public SimpleSortedList(Comparison<T> comparison, int capacity)
+        public SimpleSortedList(IComparer<T> comparison, int capacity)
         {
             this.comparison = comparison;
             this.InitializeInnerCollection(capacity);
         }
 
         public SimpleSortedList(int capacity)
-            : this((x, y) => x.CompareTo(y), capacity)
+            : this(Comparer<T>.Create((x, y) => x.CompareTo(y)), capacity)
         {
         }
 
-        public SimpleSortedList(Comparison<T> comparison)
+        public SimpleSortedList(IComparer<T> comparison)
             : this(comparison, DefaultSize)
         {
         }
 
         public SimpleSortedList()
-            : this((x, y) => x.CompareTo(y), DefaultSize)
+            : this(Comparer<T>.Create((x, y) => x.CompareTo(y)), DefaultSize)
         {
         }
 
@@ -46,8 +46,9 @@
             this.innerCollection[this.Size] = element;
             this.Size++;
 
-            ArrayBubbleSort();
-            //Array.Sort(this.innerCollection, 0, this.Size, this.comparison); ???????????????????????????????????????????????????????????????????????
+            this.ArrayBubbleSort();
+
+            // Array.Sort(this.innerCollection, 0, this.Size, this.comparison);
         }
 
         public void AddAll(ICollection<T> elements)
@@ -63,8 +64,9 @@
                 this.Size++;
             }
 
-            ArrayBubbleSort();
-            //Array.Sort(this.innerCollection, 0, this.Size, this.comparison);
+            this.ArrayBubbleSort();
+
+            // Array.Sort(this.innerCollection, 0, this.Size, this.comparison);
         }
 
         public string JoinWith(string joiner)
