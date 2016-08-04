@@ -1,10 +1,11 @@
 ﻿namespace _03BarracksFactory.Data
 {
     using System;
-    using Contracts;
     using System.Collections.Generic;
     using System.Text;
-    class UnitRepository : IRepository
+    using Contracts;
+
+    public class UnitRepository : IRepository
     {
         private IDictionary<string, int> amountOfUnits;
 
@@ -18,10 +19,10 @@
             get
             {
                 StringBuilder statBuilder = new StringBuilder();
-                foreach (var entry in amountOfUnits)
+
+                foreach (var entry in this.amountOfUnits)
                 {
-                    string formatedEntry =
-                            string.Format("{0} -> {1}", entry.Key, entry.Value);
+                    string formatedEntry = $"{entry.Key} -> {entry.Value}";
                     statBuilder.AppendLine(formatedEntry);
                 }
 
@@ -42,8 +43,12 @@
 
         public void RemoveUnit(string unitType)
         {
-            //TODO: implement for Problem 4
-            throw new NotImplementedException();
+            if (!this.amountOfUnits.ContainsKey(unitType) || this.amountOfUnits[unitType] == 0)
+            {
+                throw new InvalidOperationException("No such units in repository.");
+            }
+
+            this.amountOfUnits[unitType]--;
         }
     }
 }

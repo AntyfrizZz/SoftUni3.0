@@ -41,14 +41,7 @@
 
             set
             {
-                if (value < 0)
-                {
-                    this.health = 0;
-                }
-                else
-                {
-                    this.health = value;
-                }
+                this.health = value < 0 ? 0 : value;
             }
         }
 

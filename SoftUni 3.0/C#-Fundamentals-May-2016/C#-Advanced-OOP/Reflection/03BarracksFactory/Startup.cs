@@ -5,13 +5,14 @@
     using Core.Factories;
     using Data;
 
-    class AppEntryPoint
+    public class Startup
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             IRepository repository = new UnitRepository();
             IUnitFactory unitFactory = new UnitFactory();
-            IRunnable engine = new Engine(repository, unitFactory);
+            ICommandInterpreter commandInterpreter = new CommandInterpreter(unitFactory, repository);
+            IRunnable engine = new Engine(commandInterpreter);
             engine.Run();
         }
     }

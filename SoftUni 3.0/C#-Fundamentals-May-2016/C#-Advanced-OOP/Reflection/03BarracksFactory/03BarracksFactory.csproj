@@ -43,7 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AppEntryPoint.cs" />
+    <Compile Include="Startup.cs" />
+    <Compile Include="Attributes\InjectAttribute.cs" />
     <Compile Include="Contracts\IAttacker.cs" />
     <Compile Include="Contracts\ICommandInterpreter.cs" />
     <Compile Include="Contracts\IDestroyable.cs" />
@@ -52,9 +53,17 @@
     <Compile Include="Contracts\IRunnable.cs" />
     <Compile Include="Contracts\IUnit.cs" />
     <Compile Include="Contracts\IUnitFactory.cs" />
+    <Compile Include="Core\CommandInterpreter.cs" />
+    <Compile Include="Core\Commands\AddCommand.cs" />
+    <Compile Include="Core\Commands\Command.cs" />
+    <Compile Include="Core\Commands\FightCommand.cs" />
+    <Compile Include="Core\Commands\ReportCommand.cs" />
+    <Compile Include="Core\Commands\RetireCommand.cs" />
     <Compile Include="Core\Engine.cs" />
     <Compile Include="Core\Factories\UnitFactory.cs" />
     <Compile Include="Data\UnitRepository.cs" />
+    <Compile Include="Models\Units\Gunner.cs" />
+    <Compile Include="Models\Units\Horseman.cs" />
     <Compile Include="Models\Units\Pikeman.cs" />
     <Compile Include="Models\Units\Swordsman.cs" />
     <Compile Include="Models\Units\Unit.cs" />
@@ -64,9 +73,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Core\Commands\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

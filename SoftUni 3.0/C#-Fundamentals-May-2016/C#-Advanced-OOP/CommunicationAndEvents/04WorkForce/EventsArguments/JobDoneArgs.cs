@@ -1,14 +1,15 @@
 ﻿namespace _04WorkForce.EventsArguments
 {
     using System;
+    using Models;
 
     public class JobDoneArgs : EventArgs
     {
-        public JobDoneArgs(string name)
+        public JobDoneArgs(Job job)
         {
-            this.Name = name;
+            this.Job = job;
         }
 
-        public string Name { get; }
+        public Job Job { get; }
     }
 }

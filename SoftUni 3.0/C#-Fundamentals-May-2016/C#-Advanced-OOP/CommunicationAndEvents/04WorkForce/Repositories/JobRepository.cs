@@ -2,7 +2,6 @@
 {
     using System;
     using System.Collections.Generic;
-    using System.Linq;
     using EventsArguments;
     using Models;
 
@@ -22,11 +21,8 @@
 
         public void FinishedJob(object sender, JobDoneArgs args)
         {
-            Console.WriteLine($"Job {args.Name} done!");
-            var job = this.jobs
-                .FirstOrDefault(j => j.Name.Equals(args.Name));
-
-            this.jobs.Remove(job);
+            Console.WriteLine($"Job {args.Job.Name} done!");
+            this.jobs.Remove(args.Job);
         }
 
         public void Update()
@@ -43,7 +39,7 @@
         {
             foreach (var job in this.jobs)
             {
-                Console.WriteLine($"Job: {job.Name} Hours Remaining: {job.HoursOfWorkRequired}");
+                Console.WriteLine(job);
             }
         }
     }

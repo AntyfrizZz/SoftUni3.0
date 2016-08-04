@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01HarestingFields", "01HarestingFields\01HarestingFields.csproj", "{7F012308-C208-4E3D-97AA-1AB63A28AEE6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02BlackBoxInteger", "02BlackBoxInteger\02BlackBoxInteger.csproj", "{56403F2F-210D-4F01-AC6C-A31B8CBB305B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03BarracksFactory", "03BarracksFactory\03BarracksFactory.csproj", "{6B9565B7-DD7A-43D0-9F1F-F5DFB1EC09F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04MirrorImage", "04MirrorImage\04MirrorImage.csproj", "{0D7A6BB4-1060-4BE5-A775-A4A9CD46D553}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{6B9565B7-DD7A-43D0-9F1F-F5DFB1EC09F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B9565B7-DD7A-43D0-9F1F-F5DFB1EC09F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B9565B7-DD7A-43D0-9F1F-F5DFB1EC09F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D7A6BB4-1060-4BE5-A775-A4A9CD46D553}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D7A6BB4-1060-4BE5-A775-A4A9CD46D553}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D7A6BB4-1060-4BE5-A775-A4A9CD46D553}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D7A6BB4-1060-4BE5-A775-A4A9CD46D553}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

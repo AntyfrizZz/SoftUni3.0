@@ -10,9 +10,9 @@
 
     public class CommandInterpreter : IInterpreter
     {
-        private IDatabase<Weapon> repository;
-        private WeaponFactory weaponFactory;
-        private GemFactory gemFactory;
+        private readonly IDatabase<Weapon> repository;
+        private readonly WeaponFactory weaponFactory;
+        private readonly GemFactory gemFactory;
 
         public CommandInterpreter(
             IDatabase<Weapon> repository,

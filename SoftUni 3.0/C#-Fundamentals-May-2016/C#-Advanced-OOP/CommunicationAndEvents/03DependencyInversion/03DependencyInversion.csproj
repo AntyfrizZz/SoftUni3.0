@@ -43,11 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AdditionStrategy.cs" />
-    <Compile Include="PrimitiveCalculator.cs" />
+    <Compile Include="Strategies\AdditionStrategy.cs" />
+    <Compile Include="Contracts\IStrategy.cs" />
+    <Compile Include="Models\PrimitiveCalculator.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SubtractionStrategy.cs" />
+    <Compile Include="Strategies\DivisionStrategy.cs" />
+    <Compile Include="Strategies\MultiplicationStrategy.cs" />
+    <Compile Include="Strategies\SubtractionStrategy.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
