@@ -60,6 +60,11 @@
 
         public bool Remove(T element)
         {
+            if (element == null)
+            {
+                throw new NullReferenceException();
+            }
+
             bool hasBeenRemoved = false;
             int indexOfRemovedElement = 0;
 
@@ -83,11 +88,17 @@
                 this.innerCollection[this.Size - 1] = default(T);
             }
 
+            this.Size--;
             return hasBeenRemoved;
         }
 
         public void AddAll(ICollection<T> elements)
         {
+            if (elements == null)
+            {
+                throw new NullReferenceException();
+            }
+
             if (this.Size + elements.Count >= this.innerCollection.Length)
             {
                 this.MultyResize(elements);
@@ -106,6 +117,11 @@
 
         public string JoinWith(string joiner)
         {
+            if (joiner == null)
+            {
+                throw new NullReferenceException();
+            }
+
             var builder = new StringBuilder();
 
             foreach (var element in this)
@@ -114,7 +130,7 @@
                 builder.Append(joiner);
             }
 
-            builder.Remove(builder.Length - 1, 1);
+            builder.Remove(builder.Length - joiner.Length, joiner.Length);
             return builder.ToString();
         }
 
