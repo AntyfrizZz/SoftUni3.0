@@ -1,18 +1,17 @@
 ﻿namespace Executor.IO.Commands
 {
+    using Attributes;
+    using Contracts.Repository;
     using Exceptions;
-    using Interfaces;
 
-    public class ReadDatabaseCommand : Command, IExecutable
+    [Alias("readdb")]
+    public class ReadDatabaseCommand : Command
     {
-        public ReadDatabaseCommand(
-            string input, 
-            string[] data, 
-            IContentComparer tester,
-            IDatabase repository, 
-            IDownloadManager downloadManager,
-            IDirectoryManager ioManager)
-            : base(input, data, tester, repository, downloadManager, ioManager)
+        [Inject]
+        private IDatabase repository;
+
+        public ReadDatabaseCommand(string input, string[] data)
+            : base(input, data)
         {
         }
 
@@ -25,7 +24,7 @@
 
             string fileName = this.Data[1];
 
-            this.Repository.LoadData(fileName);
+            this.repository.LoadData(fileName);
         }
     }
 }

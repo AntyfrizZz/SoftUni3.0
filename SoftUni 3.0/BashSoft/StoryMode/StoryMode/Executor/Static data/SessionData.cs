@@ -1,4 +1,4 @@
-﻿namespace Executor
+﻿namespace Executor.Static_data
 {
     using System.Collections.Generic;
     using System.IO;

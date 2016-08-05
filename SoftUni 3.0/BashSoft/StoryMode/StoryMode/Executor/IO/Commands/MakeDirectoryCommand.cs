@@ -1,18 +1,17 @@
 ﻿namespace Executor.IO.Commands
 {
+    using Attributes;
+    using Contracts.IO;
     using Exceptions;
-    using Interfaces;
 
-    public class MakeDirectoryCommand : Command, IExecutable
+    [Alias("mkdir")]
+    public class MakeDirectoryCommand : Command
     {
-        public MakeDirectoryCommand(
-            string input, 
-            string[] data, 
-            IContentComparer tester,
-            IDatabase repository, 
-            IDownloadManager downloadManager,
-            IDirectoryManager ioManager)
-            : base(input, data, tester, repository, downloadManager, ioManager)
+        [Inject]
+        private IDirectoryManager inputOutputManager;
+
+        public MakeDirectoryCommand(string input, string[] data)
+            : base(input, data)
         {
         }
 
@@ -25,7 +24,7 @@
 
             string folderName = this.Data[1];
 
-            this.InputOutputManager.CreateDirectoryInCurrentFolder(folderName);
+            this.inputOutputManager.CreateDirectoryInCurrentFolder(folderName);
         }
     }
 }

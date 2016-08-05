@@ -1,4 +1,4 @@
-﻿namespace Executor
+﻿namespace Executor.Static_data
 {
     public static class ExceptionMessages
     {

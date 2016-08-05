@@ -2,10 +2,10 @@
 {
     using System;
     using System.IO;
-
+    using Contracts.Judge;
     using Exceptions;
-    using Interfaces;
     using IO;
+    using Static_data;
 
     public class Tester : IContentComparer
     {

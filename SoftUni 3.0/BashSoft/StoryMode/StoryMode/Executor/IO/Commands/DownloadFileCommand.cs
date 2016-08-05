@@ -1,18 +1,18 @@
 ﻿namespace Executor.IO.Commands
 {
+    using Attributes;
+    using Contracts.IO;
+    using Contracts.Network;
     using Exceptions;
-    using Interfaces;
 
+    [Alias("download")]
     public class DownloadFileCommand : Command, IExecutable
     {
-        public DownloadFileCommand(
-            string input, 
-            string[] data, 
-            IContentComparer tester,
-            IDatabase repository, 
-            IDownloadManager downloadManager,
-            IDirectoryManager ioManager)
-            : base(input, data, tester, repository, downloadManager, ioManager)
+        [Inject]
+        private IDownloadManager downloadManager;
+
+        public DownloadFileCommand(string input, string[] data)
+            : base(input, data)
         {
         }
 
@@ -25,7 +25,7 @@
 
             string url = this.Data[1];
 
-            this.DownloadManager.Download(url);
+            this.downloadManager.Download(url);
         }
     }
 }

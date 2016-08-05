@@ -1,6 +1,9 @@
 ﻿namespace Executor
 {
-    using Interfaces;
+    using Contracts.IO;
+    using Contracts.Judge;
+    using Contracts.Network;
+    using Contracts.Repository;
     using IO;
     using Judge;
     using Network;

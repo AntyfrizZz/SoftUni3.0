@@ -1,20 +1,15 @@
 ﻿namespace Executor.IO.Commands
 {
     using System.Diagnostics;
-
+    using Attributes;
     using Exceptions;
-    using Interfaces;
+    using Static_data;
 
-    public class OpenFileCommand : Command, IExecutable
+    [Alias("open")]
+    public class OpenFileCommand : Command
     {
-        public OpenFileCommand(
-            string input, 
-            string[] data, 
-            IContentComparer tester, 
-            IDatabase repository,
-            IDownloadManager downloadManager,
-            IDirectoryManager ioManager)
-            : base(input, data, tester, repository, downloadManager, ioManager)
+        public OpenFileCommand(string input, string[] data)
+            : base(input, data)
         {
         }
 

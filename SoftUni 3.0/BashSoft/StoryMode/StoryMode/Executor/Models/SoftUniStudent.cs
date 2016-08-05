@@ -3,9 +3,9 @@
     using System;
     using System.Collections.Generic;
     using System.Linq;
-
+    using Contracts.Models;
     using Exceptions;
-    using Interfaces;
+    using Static_data;
 
     public class SoftUniStudent : IStudent
     {

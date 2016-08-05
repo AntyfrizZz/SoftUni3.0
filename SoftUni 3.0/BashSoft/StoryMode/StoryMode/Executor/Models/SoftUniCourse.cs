@@ -2,9 +2,8 @@
 {
     using System;
     using System.Collections.Generic;
-
+    using Contracts.Models;
     using Exceptions;
-    using Interfaces;
 
     public class SoftUniCourse : ICourse
     {

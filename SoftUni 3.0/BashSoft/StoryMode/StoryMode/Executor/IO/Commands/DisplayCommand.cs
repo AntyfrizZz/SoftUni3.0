@@ -1,48 +1,46 @@
 ﻿namespace Executor.IO.Commands
 {
     using System;
-    using System.Collections;
     using System.Collections.Generic;
+    using Attributes;
+    using Contracts.DataStructures;
+    using Contracts.Models;
+    using Contracts.Repository;
     using Exceptions;
-    using Interfaces;
-    using Interfaces.DataStructures;
-    using Microsoft.SqlServer.Server;
 
-    public class DisplayCommand : Command, IExecutable
+    [Alias("display")]
+    public class DisplayCommand : Command
     {
-        public DisplayCommand(
-            string input,
-            string[] data,
-            IContentComparer tester,
-            IDatabase repository,
-            IDownloadManager downloadManager,
-            IDirectoryManager ioManager)
-            : base(input, data, tester, repository, downloadManager, ioManager)
+        [Inject]
+        private IDatabase repository;
+
+        public DisplayCommand(string input, string[] data)
+            : base(input, data)
         {
         }
 
         public override void Execute()
         {
-            string[] data = this.Data;
+            var data = this.Data;
 
             if (data.Length != 3)
             {
                 throw new InvalidCommandException(this.Input);
             }
 
-            string entityToDisplay = data[1];
-            string sortType = data[2];
+            var entityToDisplay = data[1];
+            var sortType = data[2];
 
             if (entityToDisplay.Equals("students", StringComparison.OrdinalIgnoreCase))
             {
-                IComparer<IStudent> studentComparator = this.CreateStudentComparator(sortType);
-                ISimpleOrderedBag<IStudent> list = this.Repository.GetAllStudentsSorted(studentComparator);
+                var studentComparator = this.CreateStudentComparator(sortType);
+                ISimpleOrderedBag<IStudent> list = this.repository.GetAllStudentsSorted(studentComparator);
                 OutputWriter.WriteMessageOnNewLine(list.JoinWith(Environment.NewLine));
             }
             else if (entityToDisplay.Equals("courses", StringComparison.OrdinalIgnoreCase))
             {
-                IComparer<ICourse> courseComparator = this.CreateCourseComparator(sortType);
-                ISimpleOrderedBag<ICourse> list = this.Repository.GetAllCoursesSorted(courseComparator);
+                var courseComparator = this.CreateCourseComparator(sortType);
+                ISimpleOrderedBag<ICourse> list = this.repository.GetAllCoursesSorted(courseComparator);
                 OutputWriter.WriteMessageOnNewLine(list.JoinWith(Environment.NewLine));
             }
         }
@@ -53,14 +51,11 @@
             {
                 return Comparer<IStudent>.Create((student, student1) => student.CompareTo(student1));
             }
-            else if (sortType.Equals("descending", StringComparison.OrdinalIgnoreCase))
+            if (sortType.Equals("descending", StringComparison.OrdinalIgnoreCase))
             {
                 return Comparer<IStudent>.Create((student, student1) => student1.CompareTo(student));
             }
-            else
-            {
-                throw new InvalidCommandException(this.Input);
-            }
+            throw new InvalidCommandException(this.Input);
         }
 
         private IComparer<ICourse> CreateCourseComparator(string sortType)
@@ -69,14 +64,11 @@
             {
                 return Comparer<ICourse>.Create((course, course1) => course.CompareTo(course1));
             }
-            else if (sortType.Equals("descending", StringComparison.OrdinalIgnoreCase))
+            if (sortType.Equals("descending", StringComparison.OrdinalIgnoreCase))
             {
                 return Comparer<ICourse>.Create((course, course1) => course1.CompareTo(course));
             }
-            else
-            {
-                throw new InvalidCommandException(this.Input);
-            }
+            throw new InvalidCommandException(this.Input);
         }
     }
 }

@@ -1,20 +1,14 @@
 ﻿namespace Executor.IO.Commands
 {
     using System.Text;
-
+    using Attributes;
     using Exceptions;
-    using Interfaces;
 
-    public class GetHelpCommand : Command, IExecutable
+    [Alias("help")]
+    public class GetHelpCommand : Command
     {
-        public GetHelpCommand(
-            string input, 
-            string[] data, 
-            IContentComparer tester,
-            IDatabase repository, 
-            IDownloadManager downloadManager,
-            IDirectoryManager ioManager)
-            : base(input, data, tester, repository, downloadManager, ioManager)
+        public GetHelpCommand(string input, string[] data)
+            : base(input, data)
         {
         }
 
@@ -30,7 +24,7 @@
 
         private void DisplayHelp()
         {
-            StringBuilder stringBuilder = new StringBuilder();
+            var stringBuilder = new StringBuilder();
             stringBuilder.AppendLine($"{new string('_', 100)}");
             stringBuilder.AppendLine($"|{"make directory - mkdir nameOfFolder",-98}|");
             stringBuilder.AppendLine($"|{"traverse directory - ls depth",-98}|");

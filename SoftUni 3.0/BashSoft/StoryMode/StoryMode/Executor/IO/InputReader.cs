@@ -3,8 +3,8 @@
     using System;
     using System.Linq;
     using System.Threading.Tasks;
-
-    using Interfaces;
+    using Contracts.IO;
+    using Static_data;
 
     public class InputReader : IReader
     {

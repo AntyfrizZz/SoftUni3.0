@@ -1,18 +1,17 @@
 ﻿namespace Executor.IO.Commands
 {
+    using Attributes;
+    using Contracts.Judge;
     using Exceptions;
-    using Interfaces;
 
-    public class CompareFilesCommand : Command, IExecutable
+    [Alias("cmp")]
+    public class CompareFilesCommand : Command
     {
-        public CompareFilesCommand(
-            string input, 
-            string[] data, 
-            IContentComparer tester,
-            IDatabase repository, 
-            IDownloadManager downloadManager,
-            IDirectoryManager ioManager)
-            : base(input, data, tester, repository, downloadManager, ioManager)
+        [Inject]
+        private IContentComparer tester;
+
+        public CompareFilesCommand(string input, string[] data)
+            : base(input, data)
         {
         }
 
@@ -26,7 +25,7 @@
             string firstPath = this.Data[1];
             string secondPath = this.Data[2];
 
-            this.Tester.CompareContent(firstPath, secondPath);
+            this.tester.CompareContent(firstPath, secondPath);
         }
     }
 }

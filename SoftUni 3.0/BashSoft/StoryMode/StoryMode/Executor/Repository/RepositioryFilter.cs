@@ -2,9 +2,9 @@
 {
     using System;
     using System.Collections.Generic;
-
-    using Interfaces;
+    using Contracts.Repository;
     using IO;
+    using Static_data;
 
     public class RepositioryFilter : IDataFilter
     {

@@ -1,18 +1,17 @@
 ﻿namespace Executor.IO.Commands
 {
+    using Attributes;
+    using Contracts.Repository;
     using Exceptions;
-    using Interfaces;
 
-    public class DropDatabaseCommand : Command, IExecutable
+    [Alias("dropdb")]
+    public class DropDatabaseCommand : Command
     {
-        public DropDatabaseCommand(
-            string input, 
-            string[] data, 
-            IContentComparer tester, 
-            IDatabase repository, 
-            IDownloadManager downloadManager,
-            IDirectoryManager ioManager) 
-            : base(input, data, tester, repository, downloadManager, ioManager)
+        [Inject]
+        private IDatabase repository;
+
+        public DropDatabaseCommand(string input, string[] data) 
+            : base(input, data)
         {
         }
 
@@ -23,7 +22,7 @@
                 throw new InvalidCommandException(this.Input);
             }
 
-            this.Repository.UnloadData();
+            this.repository.UnloadData();
 
             OutputWriter.WriteMessageOnNewLine("Database dropped!");
         }

@@ -3,9 +3,9 @@
     using System;
     using System.Collections.Generic;
     using System.Linq;
-
-    using Interfaces;
+    using Contracts.Repository;
     using IO;
+    using Static_data;
 
     public class RepositorySorter : IDataSorter
     {

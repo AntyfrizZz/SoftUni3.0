@@ -1,18 +1,17 @@
 ﻿namespace Executor.IO.Commands
 {
+    using Attributes;
+    using Contracts.IO;
     using Exceptions;
-    using Interfaces;
 
-    public class ChangeRelativePathCommand : Command, IExecutable
+    [Alias("cdrel")]
+    public class ChangeRelativePathCommand : Command
     {
-        public ChangeRelativePathCommand(
-            string input, 
-            string[] data, 
-            IContentComparer tester,
-            IDatabase repository, 
-            IDownloadManager downloadManager,
-            IDirectoryManager ioManager)
-            : base(input, data, tester, repository, downloadManager, ioManager)
+        [Inject]
+        private IDirectoryManager inputOutputManager;
+
+        public ChangeRelativePathCommand(string input, string[] data)
+            : base(input, data)
         {
         }
 
@@ -25,7 +24,7 @@
 
             string relPath = this.Data[1];
 
-            this.InputOutputManager.ChangeCurrentDirectoryRelative(relPath);
+            this.inputOutputManager.ChangeCurrentDirectoryRelative(relPath);
         }
     }
 }

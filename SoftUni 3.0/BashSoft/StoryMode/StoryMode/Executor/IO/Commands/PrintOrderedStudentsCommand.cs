@@ -1,18 +1,18 @@
 ﻿namespace Executor.IO.Commands
 {
+    using Attributes;
+    using Contracts.Repository;
     using Exceptions;
-    using Interfaces;
+    using Static_data;
 
-    public class PrintOrderedStudentsCommand : Command, IExecutable
+    [Alias("order")]
+    public class PrintOrderedStudentsCommand : Command
     {
-        public PrintOrderedStudentsCommand(
-            string input, 
-            string[] data, 
-            IContentComparer tester,
-            IDatabase repository,
-            IDownloadManager downloadManager, 
-            IDirectoryManager ioManager)
-            : base(input, data, tester, repository, downloadManager, ioManager)
+        [Inject]
+        private IDatabase repository;
+
+        public PrintOrderedStudentsCommand(string input, string[] data)
+            : base(input, data)
         {
         }
 
@@ -37,7 +37,7 @@
             {
                 if (takeQuantity == "all")
                 {
-                    this.Repository.OrderAndTake(courseName, orderType);
+                    this.repository.OrderAndTake(courseName, orderType);
                 }
                 else
                 {
@@ -46,7 +46,7 @@
 
                     if (hasParsed)
                     {
-                        this.Repository.OrderAndTake(courseName, orderType, studentsToTake);
+                        this.repository.OrderAndTake(courseName, orderType, studentsToTake);
                     }
                     else
                     {

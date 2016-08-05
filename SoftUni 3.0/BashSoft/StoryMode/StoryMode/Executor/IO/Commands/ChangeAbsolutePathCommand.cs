@@ -1,18 +1,17 @@
 ﻿namespace Executor.IO.Commands
 {
+    using Attributes;
+    using Contracts.IO;
     using Exceptions;
-    using Interfaces;
 
-    public class ChangeAbsolutePathCommand : Command, IExecutable
+    [Alias("cdabs")]
+    public class ChangeAbsolutePathCommand : Command
     {
-        public ChangeAbsolutePathCommand(
-            string input, 
-            string[] data, 
-            IContentComparer tester,
-            IDatabase repository, 
-            IDownloadManager downloadManager,
-            IDirectoryManager ioManager)
-            : base(input, data, tester, repository, downloadManager, ioManager)
+        [Inject]
+        private IDirectoryManager inputOutputManager;
+
+        public ChangeAbsolutePathCommand(string input, string[] data)
+            : base(input, data)
         {
         }
 
@@ -25,7 +24,7 @@
 
             string absolutePath = this.Data[1];
 
-            this.InputOutputManager.ChangeCurrentDirectoryAbsolute(absolutePath);
+            this.inputOutputManager.ChangeCurrentDirectoryAbsolute(absolutePath);
         }
     }
 }

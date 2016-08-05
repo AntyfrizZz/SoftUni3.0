@@ -4,7 +4,7 @@
     using System.Collections;
     using System.Collections.Generic;
     using System.Text;
-    using Interfaces.DataStructures;
+    using Contracts.DataStructures;
 
     public class SimpleSortedList<T> : ISimpleOrderedBag<T> where T : IComparable<T>
     {
@@ -34,10 +34,17 @@
         {
         }
 
+        public int Capacity => this.innerCollection.Length;
+
         public int Size { get; private set; }
 
         public void Add(T element)
         {
+            if (element == null)
+            {
+                throw new ArgumentNullException();    
+            }
+
             if (this.innerCollection.Length == this.Size)
             {
                 this.Resize();
@@ -46,9 +53,37 @@
             this.innerCollection[this.Size] = element;
             this.Size++;
 
-            this.ArrayBubbleSort();
+            //this.ArrayBubbleSort();
 
-            // Array.Sort(this.innerCollection, 0, this.Size, this.comparison);
+            Array.Sort(this.innerCollection, 0, this.Size, this.comparison);
+        }
+
+        public bool Remove(T element)
+        {
+            bool hasBeenRemoved = false;
+            int indexOfRemovedElement = 0;
+
+            for (int i = 0; i < this.Size; i++)
+            {
+                if (this.innerCollection[i].Equals(element))
+                {
+                    indexOfRemovedElement = i;
+                    hasBeenRemoved = true;
+                    break;
+                }
+            }
+
+            if (hasBeenRemoved)
+            {
+                for (int i = indexOfRemovedElement; i < this.Size - 1; i++)
+                {
+                    this.innerCollection[i] = this.innerCollection[i + 1];
+                }
+
+                this.innerCollection[this.Size - 1] = default(T);
+            }
+
+            return hasBeenRemoved;
         }
 
         public void AddAll(ICollection<T> elements)
@@ -64,9 +99,9 @@
                 this.Size++;
             }
 
-            this.ArrayBubbleSort();
+            //this.ArrayBubbleSort();
 
-            // Array.Sort(this.innerCollection, 0, this.Size, this.comparison);
+            Array.Sort(this.innerCollection, 0, this.Size, this.comparison);
         }
 
         public string JoinWith(string joiner)

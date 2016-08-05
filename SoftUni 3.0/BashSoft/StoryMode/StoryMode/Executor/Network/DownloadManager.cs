@@ -2,10 +2,10 @@
 {
     using System.Net;
     using System.Threading.Tasks;
-
+    using Contracts.Network;
     using Exceptions;
-    using Interfaces;
     using IO;
+    using Static_data;
 
     public class DownloadManager : IDownloadManager
     {
