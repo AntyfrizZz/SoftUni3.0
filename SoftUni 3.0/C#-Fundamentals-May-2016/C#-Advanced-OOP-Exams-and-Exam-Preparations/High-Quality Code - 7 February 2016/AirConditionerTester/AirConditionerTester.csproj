@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6F364073-495F-4503-93ED-DBE74E6BF918}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AirConditionerTester</RootNamespace>
+    <AssemblyName>AirConditionerTester</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Attributes\AliasAttribute.cs" />
+    <Compile Include="Attributes\InjectAttribute.cs" />
+    <Compile Include="IO\IInjector.cs" />
+    <Compile Include="IO\Injector.cs" />
+    <Compile Include="IO\Commands\Command.cs" />
+    <Compile Include="IO\Commands\StatusCommand.cs" />
+    <Compile Include="IO\Commands\FindAirConditionerCommand.cs" />
+    <Compile Include="IO\Commands\FindAllReportsByManufacturerCommand.cs" />
+    <Compile Include="IO\Commands\FindReportCommand.cs" />
+    <Compile Include="IO\Commands\RegisterCarAirConditionerCommand.cs" />
+    <Compile Include="IO\Commands\RegisterPlaneAirConditionerCommand.cs" />
+    <Compile Include="IO\Commands\RegisterStationaryAirConditionerCommand.cs" />
+    <Compile Include="IO\Commands\TestAirConditionerCommand.cs" />
+    <Compile Include="IO\IController.cs" />
+    <Compile Include="Database\IDatabase.cs" />
+    <Compile Include="Core\IEngine.cs" />
+    <Compile Include="IO\Commands\IExecutable.cs" />
+    <Compile Include="Tester\IAirConditionerTester.cs" />
+    <Compile Include="Tester\Strategies\CarAirConditionerTestStrategy.cs" />
+    <Compile Include="Tester\Strategies\IAirConditionerTestStrategy.cs" />
+    <Compile Include="Tester\AirConditionerTester.cs" />
+    <Compile Include="Tester\Strategies\PlaneAirConditionerTestStrategy.cs" />
+    <Compile Include="Tester\Strategies\StationaryAirConditionerTestStrategy.cs" />
+    <Compile Include="Models\AirConditioners\AirConditioner.cs" />
+    <Compile Include="Models\AirConditioners\CarAirConditioner.cs" />
+    <Compile Include="Models\AirConditioners\IAirConditioner.cs" />
+    <Compile Include="Models\AirConditioners\PlaneAirConditioner.cs" />
+    <Compile Include="Models\AirConditioners\StationaryAirConditioner.cs" />
+    <Compile Include="Models\IReport.cs" />
+    <Compile Include="Startup.cs" />
+    <Compile Include="IO\Controller.cs" />
+    <Compile Include="Core\Engine.cs" />
+    <Compile Include="Database\Database.cs" />
+    <Compile Include="Exceptions\DuplicateEntryException.cs" />
+    <Compile Include="Exceptions\NonExistantEntryException.cs" />
+    <Compile Include="IO\UI\IUserInterface.cs" />
+    <Compile Include="Models\Report.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="IO\UI\ConsoleUserInterface.cs" />
+    <Compile Include="Utilities\Constants.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
