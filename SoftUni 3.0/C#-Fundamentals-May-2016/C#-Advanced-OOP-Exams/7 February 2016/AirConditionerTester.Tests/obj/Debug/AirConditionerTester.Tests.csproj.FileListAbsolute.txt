@@ -1,0 +1,16 @@
+D:\SoftUni\Aircondition\Air Conditioner Tester System_Mine\Air Conditioner Testing System_Skeleton\AirConditionerTester.Tests\obj\Debug\AirConditionerTester.Tests.csprojResolveAssemblyReference.cache
+D:\SoftUni\Aircondition\Air Conditioner Tester System_Mine\Air Conditioner Testing System_Skeleton\AirConditionerTester.Tests\bin\Debug\AirConditionerTester.Tests.dll
+D:\SoftUni\Aircondition\Air Conditioner Tester System_Mine\Air Conditioner Testing System_Skeleton\AirConditionerTester.Tests\bin\Debug\AirConditionerTester.Tests.pdb
+D:\SoftUni\Aircondition\Air Conditioner Tester System_Mine\Air Conditioner Testing System_Skeleton\AirConditionerTester.Tests\bin\Debug\AirConditionerTester.exe
+D:\SoftUni\Aircondition\Air Conditioner Tester System_Mine\Air Conditioner Testing System_Skeleton\AirConditionerTester.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\SoftUni\Aircondition\Air Conditioner Tester System_Mine\Air Conditioner Testing System_Skeleton\AirConditionerTester.Tests\bin\Debug\AirConditionerTester.pdb
+D:\SoftUni\Aircondition\Air Conditioner Tester System_Mine\Air Conditioner Testing System_Skeleton\AirConditionerTester.Tests\obj\Debug\AirConditionerTester.Tests.dll
+D:\SoftUni\Aircondition\Air Conditioner Tester System_Mine\Air Conditioner Testing System_Skeleton\AirConditionerTester.Tests\obj\Debug\AirConditionerTester.Tests.pdb
+D:\SoftUni\Aircondition\AirConditionerTestingSystem\AirConditionerTester.Tests\bin\Debug\AirConditionerTester.Tests.dll
+D:\SoftUni\Aircondition\AirConditionerTestingSystem\AirConditionerTester.Tests\bin\Debug\AirConditionerTester.Tests.pdb
+D:\SoftUni\Aircondition\AirConditionerTestingSystem\AirConditionerTester.Tests\bin\Debug\AirConditionerTester.exe
+D:\SoftUni\Aircondition\AirConditionerTestingSystem\AirConditionerTester.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\SoftUni\Aircondition\AirConditionerTestingSystem\AirConditionerTester.Tests\bin\Debug\AirConditionerTester.pdb
+D:\SoftUni\Aircondition\AirConditionerTestingSystem\AirConditionerTester.Tests\obj\Debug\AirConditionerTester.Tests.csprojResolveAssemblyReference.cache
+D:\SoftUni\Aircondition\AirConditionerTestingSystem\AirConditionerTester.Tests\obj\Debug\AirConditionerTester.Tests.dll
+D:\SoftUni\Aircondition\AirConditionerTestingSystem\AirConditionerTester.Tests\obj\Debug\AirConditionerTester.Tests.pdb

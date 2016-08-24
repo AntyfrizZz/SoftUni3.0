@@ -1,0 +1,25 @@
+D:\SoftUni\Aircondition\Air Conditioner Tester System_Mine\Air Conditioner Testing System_Skeleton\BigMani\bin\Debug\AirConditionerTester.exe.config
+D:\SoftUni\Aircondition\Air Conditioner Tester System_Mine\Air Conditioner Testing System_Skeleton\BigMani\bin\Debug\AirConditionerTester.exe
+D:\SoftUni\Aircondition\Air Conditioner Tester System_Mine\Air Conditioner Testing System_Skeleton\BigMani\bin\Debug\AirConditionerTester.pdb
+D:\SoftUni\Aircondition\Air Conditioner Tester System_Mine\Air Conditioner Testing System_Skeleton\BigMani\obj\Debug\AirConditionerTester.csprojResolveAssemblyReference.cache
+D:\SoftUni\Aircondition\Air Conditioner Tester System_Mine\Air Conditioner Testing System_Skeleton\BigMani\obj\Debug\AirConditionerTester.exe
+D:\SoftUni\Aircondition\Air Conditioner Tester System_Mine\Air Conditioner Testing System_Skeleton\BigMani\obj\Debug\AirConditionerTester.pdb
+D:\SoftUni\Aircondition\New folder\Air Conditioner Tester System_Mine\Air Conditioner Testing System_Skeleton\BigMani\bin\Debug\AirConditionerTester.exe
+D:\SoftUni\Aircondition\New folder\Air Conditioner Tester System_Mine\Air Conditioner Testing System_Skeleton\BigMani\bin\Debug\AirConditionerTester.pdb
+D:\SoftUni\Aircondition\New folder\Air Conditioner Tester System_Mine\Air Conditioner Testing System_Skeleton\BigMani\obj\Debug\AirConditionerTester.csprojResolveAssemblyReference.cache
+D:\SoftUni\Aircondition\New folder\Air Conditioner Tester System_Mine\Air Conditioner Testing System_Skeleton\BigMani\obj\Debug\AirConditionerTester.exe
+D:\SoftUni\Aircondition\New folder\Air Conditioner Tester System_Mine\Air Conditioner Testing System_Skeleton\BigMani\obj\Debug\AirConditionerTester.pdb
+D:\SoftUni\Aircondition\New folder\Air Conditioner Tester System_Mine\Air Conditioner Testing System_Skeleton\AirConditionerTester\bin\Debug\AirConditionerTester.exe
+D:\SoftUni\Aircondition\New folder\Air Conditioner Tester System_Mine\Air Conditioner Testing System_Skeleton\AirConditionerTester\bin\Debug\AirConditionerTester.pdb
+D:\SoftUni\Aircondition\New folder\Air Conditioner Tester System_Mine\Air Conditioner Testing System_Skeleton\AirConditionerTester\obj\Debug\AirConditionerTester.csprojResolveAssemblyReference.cache
+D:\SoftUni\Aircondition\New folder\Air Conditioner Tester System_Mine\Air Conditioner Testing System_Skeleton\AirConditionerTester\obj\Debug\AirConditionerTester.exe
+D:\SoftUni\Aircondition\New folder\Air Conditioner Tester System_Mine\Air Conditioner Testing System_Skeleton\AirConditionerTester\obj\Debug\AirConditionerTester.pdb
+D:\SoftUni\Aircondition\Air Conditioner Tester System_Mine\AirConditionerTestingSystem\AirConditionerTester\obj\Debug\AirConditionerTester.exe
+D:\SoftUni\Aircondition\Air Conditioner Tester System_Mine\AirConditionerTestingSystem\AirConditionerTester\obj\Debug\AirConditionerTester.pdb
+D:\SoftUni\Aircondition\AirConditionerTestingSystem\AirConditionerTester\obj\Debug\AirConditionerTester.exe
+D:\SoftUni\Aircondition\AirConditionerTestingSystem\AirConditionerTester\obj\Debug\AirConditionerTester.pdb
+D:\SoftUni\Aircondition\AirConditionerTestingSystem\AirConditionerTester\bin\Debug\AirConditionerTester.exe
+D:\SoftUni\Aircondition\AirConditionerTestingSystem\AirConditionerTester\bin\Debug\AirConditionerTester.pdb
+D:\SoftUni\Aircondition\AirConditionerTestingSystem\AirConditionerTester\obj\Debug\AirConditionerTester.csprojResolveAssemblyReference.cache
+C:\Users\AntyfrizZz\Source\Repos\SoftUniProjects\SoftUni 3.0\C#-Fundamentals-May-2016\C#-Advanced-OOP-Exams-and-Exam-Preparations\High-Quality Code - 7 February 2016\AirConditionerTester\obj\Debug\AirConditionerTester.exe
+C:\Users\AntyfrizZz\Source\Repos\SoftUniProjects\SoftUni 3.0\C#-Fundamentals-May-2016\C#-Advanced-OOP-Exams-and-Exam-Preparations\High-Quality Code - 7 February 2016\AirConditionerTester\obj\Debug\AirConditionerTester.pdb

@@ -1,0 +1,12 @@
+D:\SoftUni\Aircondition\Air Conditioner Tester System_Скелет\Air Conditioner Testing System_Skeleton\BigMani\bin\Debug\BigMani.exe.config
+D:\SoftUni\Aircondition\Air Conditioner Tester System_Скелет\Air Conditioner Testing System_Skeleton\BigMani\obj\Debug\BigMani.csprojResolveAssemblyReference.cache
+D:\SoftUni\Aircondition\Air Conditioner Tester System_Скелет\Air Conditioner Testing System_Skeleton\BigMani\bin\Debug\BigMani.exe
+D:\SoftUni\Aircondition\Air Conditioner Tester System_Скелет\Air Conditioner Testing System_Skeleton\BigMani\bin\Debug\BigMani.pdb
+D:\SoftUni\Aircondition\Air Conditioner Tester System_Скелет\Air Conditioner Testing System_Skeleton\BigMani\obj\Debug\BigMani.exe
+D:\SoftUni\Aircondition\Air Conditioner Tester System_Скелет\Air Conditioner Testing System_Skeleton\BigMani\obj\Debug\BigMani.pdb
+D:\SoftUni\Aircondition\Air Conditioner Tester System_Mine\Air Conditioner Testing System_Skeleton\BigMani\bin\Debug\BigMani.exe.config
+D:\SoftUni\Aircondition\Air Conditioner Tester System_Mine\Air Conditioner Testing System_Skeleton\BigMani\obj\Debug\BigMani.exe
+D:\SoftUni\Aircondition\Air Conditioner Tester System_Mine\Air Conditioner Testing System_Skeleton\BigMani\obj\Debug\BigMani.pdb
+D:\SoftUni\Aircondition\Air Conditioner Tester System_Mine\Air Conditioner Testing System_Skeleton\BigMani\bin\Debug\BigMani.exe
+D:\SoftUni\Aircondition\Air Conditioner Tester System_Mine\Air Conditioner Testing System_Skeleton\BigMani\bin\Debug\BigMani.pdb
+D:\SoftUni\Aircondition\Air Conditioner Tester System_Mine\Air Conditioner Testing System_Skeleton\BigMani\obj\Debug\BigMani.csprojResolveAssemblyReference.cache
