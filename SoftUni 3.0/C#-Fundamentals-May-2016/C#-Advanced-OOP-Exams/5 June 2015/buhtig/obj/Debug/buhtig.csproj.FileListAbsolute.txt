@@ -1,0 +1,15 @@
+C:\Users\Jamal\Desktop\Buhtigfehlerverfolgungssystem\buhtig\bin\Debug\buhtig.exe.config
+C:\Users\AntyfrizZz\Downloads\Buhtig Issue Tracker_Скелет\buhtig\obj\Debug\buhtig.csprojResolveAssemblyReference.cache
+C:\Users\AntyfrizZz\Downloads\Buhtig Issue Tracker_Скелет\buhtig\bin\Debug\buhtig.exe
+C:\Users\AntyfrizZz\Downloads\Buhtig Issue Tracker_Скелет\buhtig\bin\Debug\buhtig.pdb
+C:\Users\AntyfrizZz\Downloads\Buhtig Issue Tracker_Скелет\buhtig\bin\Debug\PowerCollections.xml
+C:\Users\AntyfrizZz\Downloads\Buhtig Issue Tracker_Скелет\buhtig\obj\Debug\buhtig.exe
+C:\Users\AntyfrizZz\Downloads\Buhtig Issue Tracker_Скелет\buhtig\obj\Debug\buhtig.pdb
+C:\Users\AntyfrizZz\Downloads\Buhtig Issue Tracker_Скелет\buhtig\bin\Debug\buhtig.exe.config
+C:\Users\AntyfrizZz\Documents\GitHub\SoftUniProjects\SoftUni 3.0\C#-Fundamentals-May-2016\C#-Advanced-OOP-Exams\5 June 2015\buhtig\bin\Debug\Buhtig.exe.config
+C:\Users\AntyfrizZz\Documents\GitHub\SoftUniProjects\SoftUni 3.0\C#-Fundamentals-May-2016\C#-Advanced-OOP-Exams\5 June 2015\buhtig\bin\Debug\Buhtig.exe
+C:\Users\AntyfrizZz\Documents\GitHub\SoftUniProjects\SoftUni 3.0\C#-Fundamentals-May-2016\C#-Advanced-OOP-Exams\5 June 2015\buhtig\bin\Debug\Buhtig.pdb
+C:\Users\AntyfrizZz\Documents\GitHub\SoftUniProjects\SoftUni 3.0\C#-Fundamentals-May-2016\C#-Advanced-OOP-Exams\5 June 2015\buhtig\bin\Debug\PowerCollections.xml
+C:\Users\AntyfrizZz\Documents\GitHub\SoftUniProjects\SoftUni 3.0\C#-Fundamentals-May-2016\C#-Advanced-OOP-Exams\5 June 2015\buhtig\obj\Debug\Buhtig.csprojResolveAssemblyReference.cache
+C:\Users\AntyfrizZz\Documents\GitHub\SoftUniProjects\SoftUni 3.0\C#-Fundamentals-May-2016\C#-Advanced-OOP-Exams\5 June 2015\buhtig\obj\Debug\Buhtig.exe
+C:\Users\AntyfrizZz\Documents\GitHub\SoftUniProjects\SoftUni 3.0\C#-Fundamentals-May-2016\C#-Advanced-OOP-Exams\5 June 2015\buhtig\obj\Debug\Buhtig.pdb
