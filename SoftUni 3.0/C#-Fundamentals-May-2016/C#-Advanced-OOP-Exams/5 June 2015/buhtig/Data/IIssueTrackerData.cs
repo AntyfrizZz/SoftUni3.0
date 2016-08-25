@@ -21,5 +21,9 @@
         string MyComments();
 
         string Search(IEnumerable<string> tags);
+
+        int RegisteredUsersCount();
+
+        int IssuesCount();
     }
 }

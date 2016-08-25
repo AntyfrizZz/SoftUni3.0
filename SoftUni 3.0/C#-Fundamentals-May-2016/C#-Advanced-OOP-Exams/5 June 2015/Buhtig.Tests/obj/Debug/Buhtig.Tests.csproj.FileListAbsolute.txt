@@ -1,0 +1,7 @@
+C:\Users\AntyfrizZz\Documents\GitHub\SoftUniProjects\SoftUni 3.0\C#-Fundamentals-May-2016\C#-Advanced-OOP-Exams\5 June 2015\Buhtig.Tests\obj\Debug\Buhtig.Tests.csprojResolveAssemblyReference.cache
+C:\Users\AntyfrizZz\Documents\GitHub\SoftUniProjects\SoftUni 3.0\C#-Fundamentals-May-2016\C#-Advanced-OOP-Exams\5 June 2015\Buhtig.Tests\bin\Debug\Buhtig.Tests.dll
+C:\Users\AntyfrizZz\Documents\GitHub\SoftUniProjects\SoftUni 3.0\C#-Fundamentals-May-2016\C#-Advanced-OOP-Exams\5 June 2015\Buhtig.Tests\bin\Debug\Buhtig.Tests.pdb
+C:\Users\AntyfrizZz\Documents\GitHub\SoftUniProjects\SoftUni 3.0\C#-Fundamentals-May-2016\C#-Advanced-OOP-Exams\5 June 2015\Buhtig.Tests\bin\Debug\Buhtig.exe
+C:\Users\AntyfrizZz\Documents\GitHub\SoftUniProjects\SoftUni 3.0\C#-Fundamentals-May-2016\C#-Advanced-OOP-Exams\5 June 2015\Buhtig.Tests\bin\Debug\Buhtig.pdb
+C:\Users\AntyfrizZz\Documents\GitHub\SoftUniProjects\SoftUni 3.0\C#-Fundamentals-May-2016\C#-Advanced-OOP-Exams\5 June 2015\Buhtig.Tests\obj\Debug\Buhtig.Tests.dll
+C:\Users\AntyfrizZz\Documents\GitHub\SoftUniProjects\SoftUni 3.0\C#-Fundamentals-May-2016\C#-Advanced-OOP-Exams\5 June 2015\Buhtig.Tests\obj\Debug\Buhtig.Tests.pdb

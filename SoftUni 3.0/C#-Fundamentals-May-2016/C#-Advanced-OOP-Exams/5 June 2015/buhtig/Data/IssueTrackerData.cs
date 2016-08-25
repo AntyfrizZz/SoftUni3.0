@@ -27,6 +27,7 @@
         private const string NoCommentsMessage = "No comments";
         private const string NoTagsProvided = "There are no tags provided";
         private const string NoIssuesMatch = "There are no issues matching the tags provided";
+        private const string InvalidStoredPassword = "The hash for passwords doesent work properly";
 
         private static int idCounter = 1;
 
@@ -68,12 +69,19 @@
             var currentUser = new User(username, hasshedPassword);
 
             this.users.Add(username, currentUser);
+
+            if (currentUser.Password == password)
+            {
+                throw new InvalidOperationException(InvalidStoredPassword);
+            }
+
+
             //this.issuesByUser.Add(username, new Dictionary<int, IIssue>());
             this.commentsByUser.Add(username, new List<IComment>());
-
+    
             return string.Format(UserSuccessfulRegisteredMessage, username);
         }
-
+        
         public string LoginUser(string username, string password)
         {
             if (this.CheckActiveUser())
@@ -212,7 +220,7 @@
 
             if (!ordered.Any())
             {
-                return NoIssuesMessage;
+                throw new InvalidOperationException(NoIssuesMessage);
             }
 
             var result = new StringBuilder();
@@ -300,6 +308,16 @@
             //{
             //    result.AppendLine(issue.ToString());
             //}
+        }
+
+        public int RegisteredUsersCount()
+        {
+            return this.users.Count.Equals(this.commentsByUser.Count) ? this.users.Count : -1;
+        }
+
+        public int IssuesCount()
+        {
+            return this.issues.Count;
         }
 
         private bool CheckActiveUser()
