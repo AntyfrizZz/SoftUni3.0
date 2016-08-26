@@ -33,7 +33,7 @@
             {
                 if (!EnergyEfficiencyRating.Contains(value))
                 {
-                    throw new ArgumentException(
+                    throw new InvalidOperationException(
                         string.Format(
                             IncorrectRating,
                             EnergyEfficiencyRating[0],
@@ -55,7 +55,7 @@
             {
                 if (value < MinPowerUsage)
                 {
-                    throw new ArgumentException(
+                    throw new InvalidOperationException(
                         string.Format(
                             Constants.NonPositive,
                             PowerUsageVariablePassedToError));

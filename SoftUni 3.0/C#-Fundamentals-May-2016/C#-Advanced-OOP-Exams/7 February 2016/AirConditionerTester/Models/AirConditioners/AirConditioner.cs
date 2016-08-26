@@ -1,4 +1,5 @@
-﻿namespace AirConditionerTester.Models.AirConditioners
+﻿// ReSharper disable All
+namespace AirConditionerTester.Models.AirConditioners
 {
     using System;
     using System.Text;

@@ -1,0 +1,5 @@
+D:\DeleteMe\ConsoleApplication7\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+D:\DeleteMe\ConsoleApplication7\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+D:\DeleteMe\ConsoleApplication7\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+D:\DeleteMe\ConsoleApplication7\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+D:\DeleteMe\ConsoleApplication7\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

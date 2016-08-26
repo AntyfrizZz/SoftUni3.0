@@ -1,0 +1,5 @@
+D:\DeleteMe\ConsoleApplication7\ConsoleApplication7\bin\Debug\CSharpAdvancedRE22August2016.exe
+D:\DeleteMe\ConsoleApplication7\ConsoleApplication7\bin\Debug\CSharpAdvancedRE22August2016.pdb
+D:\DeleteMe\ConsoleApplication7\ConsoleApplication7\obj\Debug\02NaturesProphet.csprojResolveAssemblyReference.cache
+D:\DeleteMe\ConsoleApplication7\ConsoleApplication7\obj\Debug\CSharpAdvancedRE22August2016.exe
+D:\DeleteMe\ConsoleApplication7\ConsoleApplication7\obj\Debug\CSharpAdvancedRE22August2016.pdb

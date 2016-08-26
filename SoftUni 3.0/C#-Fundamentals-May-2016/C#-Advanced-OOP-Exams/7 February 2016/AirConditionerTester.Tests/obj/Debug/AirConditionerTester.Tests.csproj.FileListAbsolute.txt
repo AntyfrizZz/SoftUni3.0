@@ -14,3 +14,10 @@ D:\SoftUni\Aircondition\AirConditionerTestingSystem\AirConditionerTester.Tests\b
 D:\SoftUni\Aircondition\AirConditionerTestingSystem\AirConditionerTester.Tests\obj\Debug\AirConditionerTester.Tests.csprojResolveAssemblyReference.cache
 D:\SoftUni\Aircondition\AirConditionerTestingSystem\AirConditionerTester.Tests\obj\Debug\AirConditionerTester.Tests.dll
 D:\SoftUni\Aircondition\AirConditionerTestingSystem\AirConditionerTester.Tests\obj\Debug\AirConditionerTester.Tests.pdb
+C:\Users\AntyfrizZz\Documents\GitHub\SoftUniProjects\SoftUni 3.0\C#-Fundamentals-May-2016\C#-Advanced-OOP-Exams\7 February 2016\AirConditionerTester.Tests\bin\Debug\AirConditionerTester.Tests.dll
+C:\Users\AntyfrizZz\Documents\GitHub\SoftUniProjects\SoftUni 3.0\C#-Fundamentals-May-2016\C#-Advanced-OOP-Exams\7 February 2016\AirConditionerTester.Tests\bin\Debug\AirConditionerTester.Tests.pdb
+C:\Users\AntyfrizZz\Documents\GitHub\SoftUniProjects\SoftUni 3.0\C#-Fundamentals-May-2016\C#-Advanced-OOP-Exams\7 February 2016\AirConditionerTester.Tests\bin\Debug\AirConditionerTester.exe
+C:\Users\AntyfrizZz\Documents\GitHub\SoftUniProjects\SoftUni 3.0\C#-Fundamentals-May-2016\C#-Advanced-OOP-Exams\7 February 2016\AirConditionerTester.Tests\bin\Debug\AirConditionerTester.pdb
+C:\Users\AntyfrizZz\Documents\GitHub\SoftUniProjects\SoftUni 3.0\C#-Fundamentals-May-2016\C#-Advanced-OOP-Exams\7 February 2016\AirConditionerTester.Tests\obj\Debug\AirConditionerTester.Tests.csprojResolveAssemblyReference.cache
+C:\Users\AntyfrizZz\Documents\GitHub\SoftUniProjects\SoftUni 3.0\C#-Fundamentals-May-2016\C#-Advanced-OOP-Exams\7 February 2016\AirConditionerTester.Tests\obj\Debug\AirConditionerTester.Tests.dll
+C:\Users\AntyfrizZz\Documents\GitHub\SoftUniProjects\SoftUni 3.0\C#-Fundamentals-May-2016\C#-Advanced-OOP-Exams\7 February 2016\AirConditionerTester.Tests\obj\Debug\AirConditionerTester.Tests.pdb

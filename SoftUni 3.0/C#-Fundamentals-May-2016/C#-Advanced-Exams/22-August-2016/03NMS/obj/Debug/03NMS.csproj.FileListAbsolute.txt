@@ -1,0 +1,5 @@
+D:\DeleteMe\ConsoleApplication7\ConsoleApplication1\bin\Debug\CSharpAdvancedRE22August2016.exe
+D:\DeleteMe\ConsoleApplication7\ConsoleApplication1\bin\Debug\CSharpAdvancedRE22August2016.pdb
+D:\DeleteMe\ConsoleApplication7\ConsoleApplication1\obj\Debug\03NMS.csprojResolveAssemblyReference.cache
+D:\DeleteMe\ConsoleApplication7\ConsoleApplication1\obj\Debug\CSharpAdvancedRE22August2016.exe
+D:\DeleteMe\ConsoleApplication7\ConsoleApplication1\obj\Debug\CSharpAdvancedRE22August2016.pdb

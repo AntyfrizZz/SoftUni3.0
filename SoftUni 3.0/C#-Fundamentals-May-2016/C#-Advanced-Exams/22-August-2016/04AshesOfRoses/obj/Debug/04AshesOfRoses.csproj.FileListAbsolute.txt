@@ -1,0 +1,4 @@
+D:\DeleteMe\ConsoleApplication7\ConsoleApplication2\bin\Debug\CSharpAdvancedRE22August2016.exe
+D:\DeleteMe\ConsoleApplication7\ConsoleApplication2\bin\Debug\CSharpAdvancedRE22August2016.pdb
+D:\DeleteMe\ConsoleApplication7\ConsoleApplication2\obj\Debug\CSharpAdvancedRE22August2016.exe
+D:\DeleteMe\ConsoleApplication7\ConsoleApplication2\obj\Debug\CSharpAdvancedRE22August2016.pdb

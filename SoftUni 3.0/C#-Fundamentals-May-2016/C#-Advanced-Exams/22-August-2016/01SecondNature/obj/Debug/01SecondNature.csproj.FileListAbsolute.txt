@@ -1,0 +1,6 @@
+D:\DeleteMe\ConsoleApplication7\01SecondNature\bin\Debug\01SecondNature.exe.config
+D:\DeleteMe\ConsoleApplication7\01SecondNature\bin\Debug\01SecondNature.exe
+D:\DeleteMe\ConsoleApplication7\01SecondNature\bin\Debug\01SecondNature.pdb
+D:\DeleteMe\ConsoleApplication7\01SecondNature\obj\Debug\01SecondNature.csprojResolveAssemblyReference.cache
+D:\DeleteMe\ConsoleApplication7\01SecondNature\obj\Debug\01SecondNature.exe
+D:\DeleteMe\ConsoleApplication7\01SecondNature\obj\Debug\01SecondNature.pdb

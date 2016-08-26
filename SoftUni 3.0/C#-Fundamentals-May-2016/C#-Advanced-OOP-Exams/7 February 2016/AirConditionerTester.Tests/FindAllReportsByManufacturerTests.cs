@@ -19,7 +19,7 @@
         }
 
         [TestMethod]
-        public void FindAllReportsByManufacturerWithowAnyExistingReportsShoudReturnCorrectMessage()
+        public void FindAllReportsByManufacturer_WithowAnyExistingReports_ShoudReturnCorrectMessage()
         {
             var args = new string[] { "Toshiba" };
             var command = new FindAllReportsByManufacturerCommand(args, this.database);
