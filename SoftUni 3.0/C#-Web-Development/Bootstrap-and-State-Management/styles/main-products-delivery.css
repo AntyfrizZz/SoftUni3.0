@@ -1,0 +1,13 @@
+.row {
+    height: 50px;
+}
+
+.row > div {
+    height: 50px;
+  line-height: 50px;
+  vertical-align: middle;
+}
+
+.border-bottom {
+    border-bottom: 3px solid lightgray;
+}
