@@ -1,0 +1,10 @@
+<thead>
+    <tr class="border-bottom">
+        <th>ID</th>
+        <th>Name</th>
+        <th>Payment Date</th>
+        <th>Delivery Date</th>
+        <th>Order Status</th>
+        <th>Modify</th>
+    </tr>
+</thead>

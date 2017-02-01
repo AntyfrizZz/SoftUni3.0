@@ -4,63 +4,69 @@
 <head>
     <meta charset="UTF-8">
     <title>Products Delivery</title>
-
-    <link rel="stylesheet" href="styles/bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="styles/main-products-delivery.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-    <div class="container col-lg-6 col-md-8 col-xs-8 col-sm-8 col-xs-offset-3">
-    <h4 class="text-muted">Orders</h4>
-        
-        <div class="row border-bottom">
-            <div class="col-lg-1"><strong>ID</strong></div>
-            <div class="col-lg-4"><strong>Name</strong></div>
-            <div class="col-lg-2"><strong>Payment Date</strong></div>
-            <div class="col-lg-2"><strong>Delivery Date</strong></div>
-            <div class="col-lg-2"><strong>Order Status</strong></div>
-            <div class="col-lg-1"><strong>Modify</strong></div>
-        </div>
-        <div class="row bg-info">
-            <div class="col-lg-1">1</div>
-            <div class="col-lg-4"><strong>Harry Potter 5 Game</strong> (PC)</div>
-            <div class="col-lg-2">29/01/2017</div>
-            <div class="col-lg-2">01/02/2017</div>
-            <div class="col-lg-2">Pending</div>
-            <div class="col-lg-1"><a href="#">Edit</a></div>
-        </div>
-        <div class="row bg-success">
-            <div class="col-lg-1">2</div>
-            <div class="col-lg-4"><strong>Pandemic</strong> (Board Game)</div>
-            <div class="col-lg-2">29/01/2017</div>
-            <div class="col-lg-2">01/02/2017</div>
-            <div class="col-lg-2">Delivered</div>
-            <div class="col-lg-1"><a href="#">Edit</a></div>
-        </div>
-        <div class="row bg-warning">
-            <div class="col-lg-1">3</div>
-            <div class="col-lg-4"><strong>Logitech G502</strong> (Accessory)</div>
-            <div class="col-lg-2">29/01/2017</div>
-            <div class="col-lg-2">01/02/2017</div>
-            <div class="col-lg-2">In Call to Confirm</div>
-            <div class="col-lg-1"><a href="#">Edit</a></div>
-        </div>
-        <div class="row bg-danger">
-            <div class="col-lg-1">4</div>
-            <div class="col-lg-4"><strong>Warcraft: The Beginning</strong> (DVD)</div>
-            <div class="col-lg-2">29/01/2017</div>
-            <div class="col-lg-2">01/02/2017</div>
-            <div class="col-lg-2">Declined</div>
-            <div class="col-lg-1"><a href="#">Edit</a></div>
-        </div>
-        <div class="row bg-success">
-            <div class="col-lg-1">5</div>
-            <div class="col-lg-4"><strong>Grimm's Fairy Tales</strong> (Book)</div>
-            <div class="col-lg-2">29/01/2017</div>
-            <div class="col-lg-2">01/02/2017</div>
-            <div class="col-lg-2">Delivered</div>
-            <div class="col-lg-1"><a href="#">Edit</a></div>
-        </div>
+    <div class="container">
+        <h4 class="text-muted">Orders</h4>
+        <table class="table">
+            <thead>
+                <tr class="border-bottom">
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Payment Date</th>
+                    <th>Delivery Date</th>
+                    <th>Order Status</th>
+                    <th>Modify</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="bg-info">
+                    <td>1</td>
+                    <td><strong>Harry Potter 5 Game</strong> (PC)</td>
+                    <td>29/01/2017</td>
+                    <td>01/02/2017</td>
+                    <td>Pending</td>
+                    <td><a href="edit-order.exe?ID=1">Edit</a></td>
+                </tr>
+                <tr class="bg-success">
+                    <td>2</td>
+                    <td><strong>Pandemic</strong> (Board Game)</td>
+                    <td>29/01/2017</td>
+                    <td>01/02/2017</td>
+                    <td>Delivered</td>
+                    <td><a href="edit-order.exe?ID=2">Edit</a></td>
+                </tr>
+                <tr class="bg-warning">
+                    <td>3</td>
+                    <td><strong>Logitech G502</strong> (Accessory)</td>
+                    <td>29/01/2017</td>
+                    <td>01/02/2017</td>
+                    <td>In Call to Confirm</td>
+                    <td><a href="edit-order.exe?ID=3">Edit</a></td>
+                </tr>
+                <tr class="bg-danger">
+                    <td>4</td>
+                    <td><strong>Warcraft: The Beginning</strong> (DVD)</td>
+                    <td>29/01/2017</td>
+                    <td>01/02/2017</td>
+                    <td>Declined</td>
+                    <td><a href="edit-order.exe?ID=4">Edit</a></td>
+                </tr>
+                <tr class="bg-success">
+                    <td>5</td>
+                    <td><strong>Grimm's Fairy Tales</strong> (Book)</td>
+                    <td>29/01/2017</td>
+                    <td>01/02/2017</td>
+                    <td>Delivered</td>
+                    <td><a href="edit-order.exe?ID=5">Edit</a></tddiv>
+                </tr>
+            </tbody>
+        </table>
     </div>
 </body>
 

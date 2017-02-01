@@ -1,0 +1,14 @@
+C:\Projects\Train\ProductsDelivery\ProductsDelivery.ConsoleApp\bin\Debug\ProductsDelivery.ConsoleApp.exe.config
+C:\Projects\Train\ProductsDelivery\ProductsDelivery.ConsoleApp\bin\Debug\ProductsDelivery.ConsoleApp.exe
+C:\Projects\Train\ProductsDelivery\ProductsDelivery.ConsoleApp\bin\Debug\ProductsDelivery.ConsoleApp.pdb
+C:\Projects\Train\ProductsDelivery\ProductsDelivery.ConsoleApp\bin\Debug\EntityFramework.dll
+C:\Projects\Train\ProductsDelivery\ProductsDelivery.ConsoleApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projects\Train\ProductsDelivery\ProductsDelivery.ConsoleApp\bin\Debug\ProductDelivery.Data.dll
+C:\Projects\Train\ProductsDelivery\ProductsDelivery.ConsoleApp\bin\Debug\ProductsDelivery.Models.dll
+C:\Projects\Train\ProductsDelivery\ProductsDelivery.ConsoleApp\bin\Debug\ProductDelivery.Data.pdb
+C:\Projects\Train\ProductsDelivery\ProductsDelivery.ConsoleApp\bin\Debug\ProductsDelivery.Models.pdb
+C:\Projects\Train\ProductsDelivery\ProductsDelivery.ConsoleApp\bin\Debug\EntityFramework.xml
+C:\Projects\Train\ProductsDelivery\ProductsDelivery.ConsoleApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projects\Train\ProductsDelivery\ProductsDelivery.ConsoleApp\obj\Debug\ProductsDelivery.ConsoleApp.csprojResolveAssemblyReference.cache
+C:\Projects\Train\ProductsDelivery\ProductsDelivery.ConsoleApp\obj\Debug\ProductsDelivery.ConsoleApp.exe
+C:\Projects\Train\ProductsDelivery\ProductsDelivery.ConsoleApp\obj\Debug\ProductsDelivery.ConsoleApp.pdb

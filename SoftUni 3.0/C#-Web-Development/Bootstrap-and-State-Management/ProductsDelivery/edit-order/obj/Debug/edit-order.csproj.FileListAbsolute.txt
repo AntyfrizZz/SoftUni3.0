@@ -1,0 +1,14 @@
+C:\Projects\Train\ProductsDelivery\edit-order\bin\Debug\edit-order.exe.config
+C:\Projects\Train\ProductsDelivery\edit-order\bin\Debug\edit-order.exe
+C:\Projects\Train\ProductsDelivery\edit-order\bin\Debug\edit-order.pdb
+C:\Projects\Train\ProductsDelivery\edit-order\obj\Debug\edit-order.exe
+C:\Projects\Train\ProductsDelivery\edit-order\obj\Debug\edit-order.pdb
+C:\Projects\Train\ProductsDelivery\edit-order\obj\Debug\edit-order.csprojResolveAssemblyReference.cache
+C:\Projects\Train\ProductsDelivery\edit-order\bin\Debug\EntityFramework.dll
+C:\Projects\Train\ProductsDelivery\edit-order\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projects\Train\ProductsDelivery\edit-order\bin\Debug\ProductDelivery.Data.dll
+C:\Projects\Train\ProductsDelivery\edit-order\bin\Debug\ProductsDelivery.Models.dll
+C:\Projects\Train\ProductsDelivery\edit-order\bin\Debug\ProductDelivery.Data.pdb
+C:\Projects\Train\ProductsDelivery\edit-order\bin\Debug\ProductsDelivery.Models.pdb
+C:\Projects\Train\ProductsDelivery\edit-order\bin\Debug\EntityFramework.xml
+C:\Projects\Train\ProductsDelivery\edit-order\bin\Debug\EntityFramework.SqlServer.xml

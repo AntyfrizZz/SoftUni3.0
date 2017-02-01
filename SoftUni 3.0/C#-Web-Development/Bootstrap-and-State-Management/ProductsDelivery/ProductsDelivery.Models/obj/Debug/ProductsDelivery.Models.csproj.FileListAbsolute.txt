@@ -1,0 +1,9 @@
+C:\Projects\Train\ProductsDelivery\ProductsDelivery.Models\bin\Debug\ProductsDelivery.Models.dll.config
+C:\Projects\Train\ProductsDelivery\ProductsDelivery.Models\bin\Debug\ProductsDelivery.Models.dll
+C:\Projects\Train\ProductsDelivery\ProductsDelivery.Models\bin\Debug\ProductsDelivery.Models.pdb
+C:\Projects\Train\ProductsDelivery\ProductsDelivery.Models\bin\Debug\EntityFramework.dll
+C:\Projects\Train\ProductsDelivery\ProductsDelivery.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projects\Train\ProductsDelivery\ProductsDelivery.Models\bin\Debug\EntityFramework.xml
+C:\Projects\Train\ProductsDelivery\ProductsDelivery.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projects\Train\ProductsDelivery\ProductsDelivery.Models\obj\Debug\ProductsDelivery.Models.dll
+C:\Projects\Train\ProductsDelivery\ProductsDelivery.Models\obj\Debug\ProductsDelivery.Models.pdb

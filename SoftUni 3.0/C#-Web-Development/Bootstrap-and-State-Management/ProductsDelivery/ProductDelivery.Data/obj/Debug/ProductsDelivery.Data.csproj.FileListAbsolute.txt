@@ -1,0 +1,14 @@
+C:\Projects\Train\ProductsDelivery\ProductDelivery.Data\bin\Debug\ProductDelivery.Data.dll.config
+C:\Projects\Train\ProductsDelivery\ProductDelivery.Data\bin\Debug\ProductDelivery.Data.dll
+C:\Projects\Train\ProductsDelivery\ProductDelivery.Data\bin\Debug\ProductDelivery.Data.pdb
+C:\Projects\Train\ProductsDelivery\ProductDelivery.Data\bin\Debug\EntityFramework.dll
+C:\Projects\Train\ProductsDelivery\ProductDelivery.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projects\Train\ProductsDelivery\ProductDelivery.Data\bin\Debug\ProductsDelivery.Models.dll
+C:\Projects\Train\ProductsDelivery\ProductDelivery.Data\bin\Debug\ProductsDelivery.Models.pdb
+C:\Projects\Train\ProductsDelivery\ProductDelivery.Data\bin\Debug\EntityFramework.xml
+C:\Projects\Train\ProductsDelivery\ProductDelivery.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projects\Train\ProductsDelivery\ProductDelivery.Data\obj\Debug\ProductsDelivery.Data.csprojResolveAssemblyReference.cache
+C:\Projects\Train\ProductsDelivery\ProductDelivery.Data\obj\Debug\ProductDelivery.Data.Migrations.Initial.resources
+C:\Projects\Train\ProductsDelivery\ProductDelivery.Data\obj\Debug\ProductsDelivery.Data.csproj.GenerateResource.Cache
+C:\Projects\Train\ProductsDelivery\ProductDelivery.Data\obj\Debug\ProductDelivery.Data.dll
+C:\Projects\Train\ProductsDelivery\ProductDelivery.Data\obj\Debug\ProductDelivery.Data.pdb

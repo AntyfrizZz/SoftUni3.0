@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Products Delivery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <button class="btn btn-toolbar" onclick="goBack()">Back to Orders</button>
+        <h4 class="text-muted">Edit Order</h4>
+        <form class="form-inline" action="edit-order.exe" method="POST">
+            <div class="form-group">
+                <div class="input-group">
+                    <span class="input-group-addon">ID: </span>
+                    <input type="text" class="form-control" readonly>
+                </div>
+                <br>
+                <div class="input-group">
+                    <span class="input-group-addon">Name: </span>
+                    <input type="text" class="form-control" readonly>
+                </div>
+                <br>
+                <div class="input-group">
+                    <span class="input-group-addon">Type: </span>
+                    <input type="text" class="form-control" readonly>
+                </div>
+                <br>
+                <div class="input-group">
+                    <span class="input-group-addon">Payment Date: </span>
+                    <input type="text" class="form-control" readonly>
+                </div>
+                <br>
+                <div class="input-group">
+                    <span class="input-group-addon">Delivery Date: </span>
+                    <input type="text" class="form-control" readonly>
+                </div>
+                <br>
+                <div class="input-group">
+                    <span class="input-group-addon">Status: </span>
+                    <select id="statusDropDown" name="status">
+                        <option value="pending">Pending</option>
+                        <option value="delivered" class="active">Delivered</option>
+                        <option value="declined">Declined</option>
+                        <option value="inCall">In Call to Confirm</option>
+                    </select>
+                </div>
+            </div>
+            <br>
+            <br>
+            <button class="btn btn-primary" type="submit">Edit</button>
+        </form>
+    </div>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+
+</html>
