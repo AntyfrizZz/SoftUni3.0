@@ -1,0 +1,21 @@
+.btn {
+    width: 100%;
+}
+
+.row {
+    margin: 10px;
+}
+
+.container {
+    background-color: lightgray;
+    padding: 15px;
+}
+
+.btn-darker {
+    background: blue;
+}
+
+.form-control {
+    height: 80%;
+    font-size: 150%;
+}

@@ -1,0 +1,16 @@
+form > div.input-group {
+    margin-top: 7px;
+}
+
+form {
+    display: inline;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.card-view {
+    margin: 0px 5px;
+    padding: 10px;
+}
