@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>PizzaMore</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/home.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="/images/pizza_1.jpg" alt="Pizza 1">
+                </div>
+                <div class="item">
+                    <img src="/images/pizza_2.jpg" alt="Pizza 2">
+                </div>
+            </div>
+        </div>
+        <div id="navigation" class="navbar navbar-default">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">PizzaMore</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Начална страница</a></li>
+                <li><a href="#">Обадете ни се</a></li>
+            </ul>
+            <form method="POST">
+                <input id="languageBtn" class="btn btn-primary navbar-btn" type="submit" formaction="home.exe" name="language" value="BG"
+                    onclick="change(this)">
+                    <a class="btn btn-success navbar-btn" href="signin.exe">Влез</a>
+                    <a class="btn btn-warning navbar-btn" href="signup.exe">Регистрирай се</a>
+                    <a class="btn btn-info navbar-btn" href="menu.exe">Меню</a>
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript">
+        function change(element) {
+            element.value = element.value == "EN" ? "BG" : "EN";
+        }
+    </script>
+    <script type="text/javascript" src="/js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
