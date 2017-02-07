@@ -1,0 +1,22 @@
+E:\Mine\Repos\SoftUni\SoftUni 3.0\C#-Web-Development\PizzaMore-Lab\PizzaMore\PizzaMore.ConsoleTest\bin\Debug\PizzaMore.ConsoleTest.exe.config
+E:\Mine\Repos\SoftUni\SoftUni 3.0\C#-Web-Development\PizzaMore-Lab\PizzaMore\PizzaMore.ConsoleTest\bin\Debug\PizzaMore.ConsoleTest.exe
+E:\Mine\Repos\SoftUni\SoftUni 3.0\C#-Web-Development\PizzaMore-Lab\PizzaMore\PizzaMore.ConsoleTest\bin\Debug\PizzaMore.ConsoleTest.pdb
+E:\Mine\Repos\SoftUni\SoftUni 3.0\C#-Web-Development\PizzaMore-Lab\PizzaMore\PizzaMore.ConsoleTest\bin\Debug\PizzaMore.Utility.dll
+E:\Mine\Repos\SoftUni\SoftUni 3.0\C#-Web-Development\PizzaMore-Lab\PizzaMore\PizzaMore.ConsoleTest\bin\Debug\PizzaMore.Utility.pdb
+E:\Mine\Repos\SoftUni\SoftUni 3.0\C#-Web-Development\PizzaMore-Lab\PizzaMore\PizzaMore.ConsoleTest\obj\Debug\PizzaMore.ConsoleTest.csprojResolveAssemblyReference.cache
+E:\Mine\Repos\SoftUni\SoftUni 3.0\C#-Web-Development\PizzaMore-Lab\PizzaMore\PizzaMore.ConsoleTest\obj\Debug\PizzaMore.ConsoleTest.exe
+E:\Mine\Repos\SoftUni\SoftUni 3.0\C#-Web-Development\PizzaMore-Lab\PizzaMore\PizzaMore.ConsoleTest\obj\Debug\PizzaMore.ConsoleTest.pdb
+C:\Users\yavor.milinov\Desktop\PizzaMore-Lab\PizzaMore\PizzaMore.ConsoleTest\bin\Debug\PizzaMore.ConsoleTest.exe.config
+C:\Users\yavor.milinov\Desktop\PizzaMore-Lab\PizzaMore\PizzaMore.ConsoleTest\obj\Debug\PizzaMore.ConsoleTest.exe
+C:\Users\yavor.milinov\Desktop\PizzaMore-Lab\PizzaMore\PizzaMore.ConsoleTest\obj\Debug\PizzaMore.ConsoleTest.pdb
+C:\Users\yavor.milinov\Desktop\PizzaMore-Lab\PizzaMore\PizzaMore.ConsoleTest\bin\Debug\PizzaMore.ConsoleTest.exe
+C:\Users\yavor.milinov\Desktop\PizzaMore-Lab\PizzaMore\PizzaMore.ConsoleTest\bin\Debug\PizzaMore.ConsoleTest.pdb
+C:\Users\yavor.milinov\Desktop\PizzaMore-Lab\PizzaMore\PizzaMore.ConsoleTest\bin\Debug\PizzaMore.Utility.dll
+C:\Users\yavor.milinov\Desktop\PizzaMore-Lab\PizzaMore\PizzaMore.ConsoleTest\bin\Debug\PizzaMore.Utility.pdb
+C:\Users\yavor.milinov\Desktop\PizzaMore-Lab\PizzaMore\PizzaMore.ConsoleTest\obj\Debug\PizzaMore.ConsoleTest.csprojResolveAssemblyReference.cache
+C:\Users\yavor.milinov\Desktop\PizzaMore-Lab\PizzaMore\PizzaMore.ConsoleTest\bin\Debug\PizzaMore.Model.dll
+C:\Users\yavor.milinov\Desktop\PizzaMore-Lab\PizzaMore\PizzaMore.ConsoleTest\bin\Debug\PizzaMore.Data.dll
+C:\Users\yavor.milinov\Desktop\PizzaMore-Lab\PizzaMore\PizzaMore.ConsoleTest\bin\Debug\EntityFramework.dll
+C:\Users\yavor.milinov\Desktop\PizzaMore-Lab\PizzaMore\PizzaMore.ConsoleTest\bin\Debug\PizzaMore.Model.pdb
+C:\Users\yavor.milinov\Desktop\PizzaMore-Lab\PizzaMore\PizzaMore.ConsoleTest\bin\Debug\PizzaMore.Data.pdb
+C:\Users\yavor.milinov\Desktop\PizzaMore-Lab\PizzaMore\PizzaMore.ConsoleTest\bin\Debug\EntityFramework.xml

@@ -1,0 +1,14 @@
+C:\Users\yavor.milinov\Desktop\PizzaMore-Lab\PizzaMore\Home\obj\Debug\Home.csprojResolveAssemblyReference.cache
+C:\Users\yavor.milinov\Desktop\PizzaMore-Lab\PizzaMore\Home\bin\Debug\Home.exe.config
+C:\Users\yavor.milinov\Desktop\PizzaMore-Lab\PizzaMore\Home\bin\Debug\Home.exe
+C:\Users\yavor.milinov\Desktop\PizzaMore-Lab\PizzaMore\Home\bin\Debug\Home.pdb
+C:\Users\yavor.milinov\Desktop\PizzaMore-Lab\PizzaMore\Home\bin\Debug\PizzaMore.Model.dll
+C:\Users\yavor.milinov\Desktop\PizzaMore-Lab\PizzaMore\Home\bin\Debug\PizzaMore.Utility.dll
+C:\Users\yavor.milinov\Desktop\PizzaMore-Lab\PizzaMore\Home\bin\Debug\PizzaMore.Data.dll
+C:\Users\yavor.milinov\Desktop\PizzaMore-Lab\PizzaMore\Home\bin\Debug\EntityFramework.dll
+C:\Users\yavor.milinov\Desktop\PizzaMore-Lab\PizzaMore\Home\bin\Debug\PizzaMore.Model.pdb
+C:\Users\yavor.milinov\Desktop\PizzaMore-Lab\PizzaMore\Home\bin\Debug\PizzaMore.Utility.pdb
+C:\Users\yavor.milinov\Desktop\PizzaMore-Lab\PizzaMore\Home\bin\Debug\PizzaMore.Data.pdb
+C:\Users\yavor.milinov\Desktop\PizzaMore-Lab\PizzaMore\Home\bin\Debug\EntityFramework.xml
+C:\Users\yavor.milinov\Desktop\PizzaMore-Lab\PizzaMore\Home\obj\Debug\Home.exe
+C:\Users\yavor.milinov\Desktop\PizzaMore-Lab\PizzaMore\Home\obj\Debug\Home.pdb

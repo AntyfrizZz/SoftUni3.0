@@ -1,0 +1,12 @@
+C:\Users\yavor.milinov\Desktop\PizzaMore-Lab\PizzaMore\PizzaMore.Data\bin\Debug\PizzaMore.Data.dll.config
+C:\Users\yavor.milinov\Desktop\PizzaMore-Lab\PizzaMore\PizzaMore.Data\bin\Debug\PizzaMore.Data.dll
+C:\Users\yavor.milinov\Desktop\PizzaMore-Lab\PizzaMore\PizzaMore.Data\bin\Debug\PizzaMore.Data.pdb
+C:\Users\yavor.milinov\Desktop\PizzaMore-Lab\PizzaMore\PizzaMore.Data\bin\Debug\EntityFramework.dll
+C:\Users\yavor.milinov\Desktop\PizzaMore-Lab\PizzaMore\PizzaMore.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\yavor.milinov\Desktop\PizzaMore-Lab\PizzaMore\PizzaMore.Data\bin\Debug\PizzaMore.Model.dll
+C:\Users\yavor.milinov\Desktop\PizzaMore-Lab\PizzaMore\PizzaMore.Data\bin\Debug\PizzaMore.Model.pdb
+C:\Users\yavor.milinov\Desktop\PizzaMore-Lab\PizzaMore\PizzaMore.Data\bin\Debug\EntityFramework.xml
+C:\Users\yavor.milinov\Desktop\PizzaMore-Lab\PizzaMore\PizzaMore.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\yavor.milinov\Desktop\PizzaMore-Lab\PizzaMore\PizzaMore.Data\obj\Debug\PizzaMore.Data.csprojResolveAssemblyReference.cache
+C:\Users\yavor.milinov\Desktop\PizzaMore-Lab\PizzaMore\PizzaMore.Data\obj\Debug\PizzaMore.Data.dll
+C:\Users\yavor.milinov\Desktop\PizzaMore-Lab\PizzaMore\PizzaMore.Data\obj\Debug\PizzaMore.Data.pdb

@@ -1,0 +1,4 @@
+C:\Users\yavor.milinov\Desktop\PizzaMore-Lab\PizzaMore\PizzaMore.Model\bin\Debug\PizzaMore.Model.dll
+C:\Users\yavor.milinov\Desktop\PizzaMore-Lab\PizzaMore\PizzaMore.Model\bin\Debug\PizzaMore.Model.pdb
+C:\Users\yavor.milinov\Desktop\PizzaMore-Lab\PizzaMore\PizzaMore.Model\obj\Debug\PizzaMore.Model.dll
+C:\Users\yavor.milinov\Desktop\PizzaMore-Lab\PizzaMore\PizzaMore.Model\obj\Debug\PizzaMore.Model.pdb

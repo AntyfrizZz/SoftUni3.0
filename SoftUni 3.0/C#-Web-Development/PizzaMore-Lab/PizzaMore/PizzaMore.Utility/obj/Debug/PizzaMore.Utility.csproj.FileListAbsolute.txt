@@ -1,0 +1,19 @@
+E:\Mine\Repos\SoftUni\SoftUni 3.0\C#-Web-Development\PizzaMore-Lab\PizzaMore\PizzaMore.Utility\bin\Debug\PizzaMore.Utility.dll
+E:\Mine\Repos\SoftUni\SoftUni 3.0\C#-Web-Development\PizzaMore-Lab\PizzaMore\PizzaMore.Utility\bin\Debug\PizzaMore.Utility.pdb
+E:\Mine\Repos\SoftUni\SoftUni 3.0\C#-Web-Development\PizzaMore-Lab\PizzaMore\PizzaMore.Utility\obj\Debug\PizzaMore.Utility.csprojResolveAssemblyReference.cache
+E:\Mine\Repos\SoftUni\SoftUni 3.0\C#-Web-Development\PizzaMore-Lab\PizzaMore\PizzaMore.Utility\obj\Debug\PizzaMore.Utility.dll
+E:\Mine\Repos\SoftUni\SoftUni 3.0\C#-Web-Development\PizzaMore-Lab\PizzaMore\PizzaMore.Utility\obj\Debug\PizzaMore.Utility.pdb
+C:\Users\yavor.milinov\Desktop\PizzaMore-Lab\PizzaMore\PizzaMore.Utility\bin\Debug\PizzaMore.Utility.dll
+C:\Users\yavor.milinov\Desktop\PizzaMore-Lab\PizzaMore\PizzaMore.Utility\bin\Debug\PizzaMore.Utility.pdb
+C:\Users\yavor.milinov\Desktop\PizzaMore-Lab\PizzaMore\PizzaMore.Utility\obj\Debug\PizzaMore.Utility.csprojResolveAssemblyReference.cache
+C:\Users\yavor.milinov\Desktop\PizzaMore-Lab\PizzaMore\PizzaMore.Utility\obj\Debug\PizzaMore.Utility.dll
+C:\Users\yavor.milinov\Desktop\PizzaMore-Lab\PizzaMore\PizzaMore.Utility\obj\Debug\PizzaMore.Utility.pdb
+C:\Users\yavor.milinov\Desktop\PizzaMore-Lab\PizzaMore\PizzaMore.Utility\bin\Debug\PizzaMore.Utility.dll.config
+C:\Users\yavor.milinov\Desktop\PizzaMore-Lab\PizzaMore\PizzaMore.Utility\bin\Debug\EntityFramework.dll
+C:\Users\yavor.milinov\Desktop\PizzaMore-Lab\PizzaMore\PizzaMore.Utility\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\yavor.milinov\Desktop\PizzaMore-Lab\PizzaMore\PizzaMore.Utility\bin\Debug\PizzaMore.Data.dll
+C:\Users\yavor.milinov\Desktop\PizzaMore-Lab\PizzaMore\PizzaMore.Utility\bin\Debug\PizzaMore.Model.dll
+C:\Users\yavor.milinov\Desktop\PizzaMore-Lab\PizzaMore\PizzaMore.Utility\bin\Debug\PizzaMore.Data.pdb
+C:\Users\yavor.milinov\Desktop\PizzaMore-Lab\PizzaMore\PizzaMore.Utility\bin\Debug\PizzaMore.Model.pdb
+C:\Users\yavor.milinov\Desktop\PizzaMore-Lab\PizzaMore\PizzaMore.Utility\bin\Debug\EntityFramework.xml
+C:\Users\yavor.milinov\Desktop\PizzaMore-Lab\PizzaMore\PizzaMore.Utility\bin\Debug\EntityFramework.SqlServer.xml
