@@ -1,0 +1,8 @@
+E:\Mine\Repos\SoftUni\SoftUni 3.0\C#-Web-Development\MVC-Skeleton\SimpleHttpServer\bin\Debug\Resources\Pages\404.html
+E:\Mine\Repos\SoftUni\SoftUni 3.0\C#-Web-Development\MVC-Skeleton\SimpleHttpServer\bin\Debug\Resources\Pages\500.html
+E:\Mine\Repos\SoftUni\SoftUni 3.0\C#-Web-Development\MVC-Skeleton\SimpleHttpServer\bin\Debug\SimpleHttpServer.dll.config
+E:\Mine\Repos\SoftUni\SoftUni 3.0\C#-Web-Development\MVC-Skeleton\SimpleHttpServer\bin\Debug\SimpleHttpServer.dll
+E:\Mine\Repos\SoftUni\SoftUni 3.0\C#-Web-Development\MVC-Skeleton\SimpleHttpServer\bin\Debug\SimpleHttpServer.pdb
+E:\Mine\Repos\SoftUni\SoftUni 3.0\C#-Web-Development\MVC-Skeleton\SimpleHttpServer\obj\Debug\SimpleHttpServer.csprojResolveAssemblyReference.cache
+E:\Mine\Repos\SoftUni\SoftUni 3.0\C#-Web-Development\MVC-Skeleton\SimpleHttpServer\obj\Debug\SimpleHttpServer.dll
+E:\Mine\Repos\SoftUni\SoftUni 3.0\C#-Web-Development\MVC-Skeleton\SimpleHttpServer\obj\Debug\SimpleHttpServer.pdb
