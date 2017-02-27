@@ -1,0 +1,7 @@
+D:\Projects\SoftUni 3.0\SoftUni 3.0\C#-Web-Development\MVC-Lab\SimpleHttpServer\bin\Debug\Resources\Pages\404.html
+D:\Projects\SoftUni 3.0\SoftUni 3.0\C#-Web-Development\MVC-Lab\SimpleHttpServer\bin\Debug\Resources\Pages\500.html
+D:\Projects\SoftUni 3.0\SoftUni 3.0\C#-Web-Development\MVC-Lab\SimpleHttpServer\bin\Debug\SimpleHttpServer.dll.config
+D:\Projects\SoftUni 3.0\SoftUni 3.0\C#-Web-Development\MVC-Lab\SimpleHttpServer\bin\Debug\SimpleHttpServer.dll
+D:\Projects\SoftUni 3.0\SoftUni 3.0\C#-Web-Development\MVC-Lab\SimpleHttpServer\bin\Debug\SimpleHttpServer.pdb
+D:\Projects\SoftUni 3.0\SoftUni 3.0\C#-Web-Development\MVC-Lab\SimpleHttpServer\obj\Debug\SimpleHttpServer.dll
+D:\Projects\SoftUni 3.0\SoftUni 3.0\C#-Web-Development\MVC-Lab\SimpleHttpServer\obj\Debug\SimpleHttpServer.pdb

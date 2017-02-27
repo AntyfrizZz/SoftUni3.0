@@ -1,0 +1,15 @@
+D:\Projects\SoftUni 3.0\SoftUni 3.0\C#-Web-Development\MVC-Lab\SimpleMVC.App\obj\Debug\SimpleMVC.App.csprojResolveAssemblyReference.cache
+D:\Projects\SoftUni 3.0\SoftUni 3.0\C#-Web-Development\MVC-Lab\SimpleMVC.App\bin\Debug\Resources\Pages\404.html
+D:\Projects\SoftUni 3.0\SoftUni 3.0\C#-Web-Development\MVC-Lab\SimpleMVC.App\bin\Debug\Resources\Pages\500.html
+D:\Projects\SoftUni 3.0\SoftUni 3.0\C#-Web-Development\MVC-Lab\SimpleMVC.App\bin\Debug\SimpleMVC.App.exe.config
+D:\Projects\SoftUni 3.0\SoftUni 3.0\C#-Web-Development\MVC-Lab\SimpleMVC.App\bin\Debug\SimpleMVC.App.exe
+D:\Projects\SoftUni 3.0\SoftUni 3.0\C#-Web-Development\MVC-Lab\SimpleMVC.App\bin\Debug\SimpleMVC.App.pdb
+D:\Projects\SoftUni 3.0\SoftUni 3.0\C#-Web-Development\MVC-Lab\SimpleMVC.App\bin\Debug\EntityFramework.dll
+D:\Projects\SoftUni 3.0\SoftUni 3.0\C#-Web-Development\MVC-Lab\SimpleMVC.App\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\SoftUni 3.0\SoftUni 3.0\C#-Web-Development\MVC-Lab\SimpleMVC.App\bin\Debug\SimpleHttpServer.dll
+D:\Projects\SoftUni 3.0\SoftUni 3.0\C#-Web-Development\MVC-Lab\SimpleMVC.App\bin\Debug\SimpleHttpServer.pdb
+D:\Projects\SoftUni 3.0\SoftUni 3.0\C#-Web-Development\MVC-Lab\SimpleMVC.App\bin\Debug\SimpleHttpServer.dll.config
+D:\Projects\SoftUni 3.0\SoftUni 3.0\C#-Web-Development\MVC-Lab\SimpleMVC.App\bin\Debug\EntityFramework.xml
+D:\Projects\SoftUni 3.0\SoftUni 3.0\C#-Web-Development\MVC-Lab\SimpleMVC.App\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\SoftUni 3.0\SoftUni 3.0\C#-Web-Development\MVC-Lab\SimpleMVC.App\obj\Debug\SimpleMVC.App.exe
+D:\Projects\SoftUni 3.0\SoftUni 3.0\C#-Web-Development\MVC-Lab\SimpleMVC.App\obj\Debug\SimpleMVC.App.pdb
