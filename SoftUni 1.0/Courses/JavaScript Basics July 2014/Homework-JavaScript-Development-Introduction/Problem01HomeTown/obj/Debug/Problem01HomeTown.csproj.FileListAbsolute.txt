@@ -1,6 +1,0 @@
-D:\SoftUni\Courses\JavaScript Basics\Homework\HomeworkJavaScriptDevelopmentIntroduction\Problem01HomeTown\bin\Problem01HomeTown.dll.config
-D:\SoftUni\Courses\JavaScript Basics\Homework\HomeworkJavaScriptDevelopmentIntroduction\Problem01HomeTown\bin\Problem01HomeTown.dll
-D:\SoftUni\Courses\JavaScript Basics\Homework\HomeworkJavaScriptDevelopmentIntroduction\Problem01HomeTown\bin\Problem01HomeTown.pdb
-D:\SoftUni\Courses\JavaScript Basics\Homework\HomeworkJavaScriptDevelopmentIntroduction\Problem01HomeTown\obj\Debug\Problem01HomeTown.csprojResolveAssemblyReference.cache
-D:\SoftUni\Courses\JavaScript Basics\Homework\HomeworkJavaScriptDevelopmentIntroduction\Problem01HomeTown\obj\Debug\Problem01HomeTown.dll
-D:\SoftUni\Courses\JavaScript Basics\Homework\HomeworkJavaScriptDevelopmentIntroduction\Problem01HomeTown\obj\Debug\Problem01HomeTown.pdb

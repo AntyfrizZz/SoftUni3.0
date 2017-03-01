@@ -1,5 +1,0 @@
-D:\SoftUni\Courses\JavaScript Basics\Homework\HomeworkJavaScriptDevelopmentIntroduction\Problem04CircleArea\bin\Problem04CircleArea.dll.config
-D:\SoftUni\Courses\JavaScript Basics\Homework\HomeworkJavaScriptDevelopmentIntroduction\Problem04CircleArea\bin\Problem04CircleArea.dll
-D:\SoftUni\Courses\JavaScript Basics\Homework\HomeworkJavaScriptDevelopmentIntroduction\Problem04CircleArea\bin\Problem04CircleArea.pdb
-D:\SoftUni\Courses\JavaScript Basics\Homework\HomeworkJavaScriptDevelopmentIntroduction\Problem04CircleArea\obj\Debug\Problem04CircleArea.dll
-D:\SoftUni\Courses\JavaScript Basics\Homework\HomeworkJavaScriptDevelopmentIntroduction\Problem04CircleArea\obj\Debug\Problem04CircleArea.pdb

@@ -1,3 +1,0 @@
-﻿# Problem03-Properties
-
-

@@ -1,5 +1,0 @@
-D:\SoftUni\Courses\JavaScript Basics\Homework\HomeworkJavaScriptDevelopmentIntroduction\Problem02Numbers1to10\bin\Problem02Numbers1to10.dll.config
-D:\SoftUni\Courses\JavaScript Basics\Homework\HomeworkJavaScriptDevelopmentIntroduction\Problem02Numbers1to10\bin\Problem02Numbers1to10.dll
-D:\SoftUni\Courses\JavaScript Basics\Homework\HomeworkJavaScriptDevelopmentIntroduction\Problem02Numbers1to10\bin\Problem02Numbers1to10.pdb
-D:\SoftUni\Courses\JavaScript Basics\Homework\HomeworkJavaScriptDevelopmentIntroduction\Problem02Numbers1to10\obj\Debug\Problem02Numbers1to10.dll
-D:\SoftUni\Courses\JavaScript Basics\Homework\HomeworkJavaScriptDevelopmentIntroduction\Problem02Numbers1to10\obj\Debug\Problem02Numbers1to10.pdb

@@ -1,3 +1,0 @@
-﻿# Problem14-Palindromes
-
-

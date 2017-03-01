@@ -1,6 +1,0 @@
-<?php $__env->startSection('content'); ?>
-<h1> Log Out</h1>
-<p>You successfully logged out.<a href="<?php echo URL::to('/login'); ?>">Log In?</a></p>
-<?php $__env->stopSection(); ?>
-
-<?php echo $__env->make('layouts/default', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

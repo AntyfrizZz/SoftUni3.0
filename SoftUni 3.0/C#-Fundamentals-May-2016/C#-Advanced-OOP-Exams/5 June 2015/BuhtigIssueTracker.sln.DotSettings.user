@@ -1,7 +1,0 @@
-﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:Boolean x:Key="/Default/CoverageSessionsPersistenceManagerSettings/SessionPersistentData/=33AC98CA0BDA4071B78C37FD474DC2D3/@KeyIndexDefined">True</s:Boolean>
-	<s:String x:Key="/Default/CoverageSessionsPersistenceManagerSettings/SessionPersistentData/=33AC98CA0BDA4071B78C37FD474DC2D3/ProductVersion/@EntryValue">2016.1.2</s:String>
-	<s:String x:Key="/Default/CoverageSessionsPersistenceManagerSettings/SessionPersistentData/=33AC98CA0BDA4071B78C37FD474DC2D3/SnapshotLocation/@EntryValue">C:\Users\AntyfrizZz\AppData\Local\Temp\ssm.Regyfyp.tmp</s:String>
-	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;&#xD;
-  &lt;Assembly Path="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\mscorlib.dll" /&gt;&#xD;
-&lt;/AssemblyExplorer&gt;</s:String></wpf:ResourceDictionary>

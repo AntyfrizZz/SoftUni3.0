@@ -1,5 +1,0 @@
-D:\SoftUni\Courses\JavaScript Basics\Homework\HomeworkJavaScriptDevelopmentIntroduction\Problem03CurrentTime\bin\Problem03CurrentTime.dll.config
-D:\SoftUni\Courses\JavaScript Basics\Homework\HomeworkJavaScriptDevelopmentIntroduction\Problem03CurrentTime\bin\Problem03CurrentTime.dll
-D:\SoftUni\Courses\JavaScript Basics\Homework\HomeworkJavaScriptDevelopmentIntroduction\Problem03CurrentTime\bin\Problem03CurrentTime.pdb
-D:\SoftUni\Courses\JavaScript Basics\Homework\HomeworkJavaScriptDevelopmentIntroduction\Problem03CurrentTime\obj\Debug\Problem03CurrentTime.dll
-D:\SoftUni\Courses\JavaScript Basics\Homework\HomeworkJavaScriptDevelopmentIntroduction\Problem03CurrentTime\obj\Debug\Problem03CurrentTime.pdb

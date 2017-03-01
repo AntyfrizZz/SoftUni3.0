@@ -1,5 +1,0 @@
-<?php
-$tags = Tags::getTags();
-$json = Tags::getJSONTags($tags);
-echo $json;
-?>
