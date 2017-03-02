@@ -1,0 +1,17 @@
+C:\Users\AntyfrizZz\Documents\Repos\SoftUni3.0\C#-Web-Development-Basics\PizzaForum\PizzaForum.ConsoleApp\bin\Debug\Resources\Pages\404.html
+C:\Users\AntyfrizZz\Documents\Repos\SoftUni3.0\C#-Web-Development-Basics\PizzaForum\PizzaForum.ConsoleApp\bin\Debug\Resources\Pages\500.html
+C:\Users\AntyfrizZz\Documents\Repos\SoftUni3.0\C#-Web-Development-Basics\PizzaForum\PizzaForum.ConsoleApp\bin\Debug\PizzaForum.ConsoleApp.exe.config
+C:\Users\AntyfrizZz\Documents\Repos\SoftUni3.0\C#-Web-Development-Basics\PizzaForum\PizzaForum.ConsoleApp\bin\Debug\PizzaForum.ConsoleApp.exe
+C:\Users\AntyfrizZz\Documents\Repos\SoftUni3.0\C#-Web-Development-Basics\PizzaForum\PizzaForum.ConsoleApp\bin\Debug\PizzaForum.ConsoleApp.pdb
+C:\Users\AntyfrizZz\Documents\Repos\SoftUni3.0\C#-Web-Development-Basics\PizzaForum\PizzaForum.ConsoleApp\bin\Debug\PizzaForum.App.dll
+C:\Users\AntyfrizZz\Documents\Repos\SoftUni3.0\C#-Web-Development-Basics\PizzaForum\PizzaForum.ConsoleApp\bin\Debug\SimpleHttpServer.dll
+C:\Users\AntyfrizZz\Documents\Repos\SoftUni3.0\C#-Web-Development-Basics\PizzaForum\PizzaForum.ConsoleApp\bin\Debug\SimpleMVC.dll
+C:\Users\AntyfrizZz\Documents\Repos\SoftUni3.0\C#-Web-Development-Basics\PizzaForum\PizzaForum.ConsoleApp\bin\Debug\PizzaForum.Common.dll
+C:\Users\AntyfrizZz\Documents\Repos\SoftUni3.0\C#-Web-Development-Basics\PizzaForum\PizzaForum.ConsoleApp\bin\Debug\PizzaForum.App.pdb
+C:\Users\AntyfrizZz\Documents\Repos\SoftUni3.0\C#-Web-Development-Basics\PizzaForum\PizzaForum.ConsoleApp\bin\Debug\SimpleHttpServer.pdb
+C:\Users\AntyfrizZz\Documents\Repos\SoftUni3.0\C#-Web-Development-Basics\PizzaForum\PizzaForum.ConsoleApp\bin\Debug\SimpleHttpServer.dll.config
+C:\Users\AntyfrizZz\Documents\Repos\SoftUni3.0\C#-Web-Development-Basics\PizzaForum\PizzaForum.ConsoleApp\bin\Debug\SimpleMVC.pdb
+C:\Users\AntyfrizZz\Documents\Repos\SoftUni3.0\C#-Web-Development-Basics\PizzaForum\PizzaForum.ConsoleApp\bin\Debug\PizzaForum.Common.pdb
+C:\Users\AntyfrizZz\Documents\Repos\SoftUni3.0\C#-Web-Development-Basics\PizzaForum\PizzaForum.ConsoleApp\obj\Debug\PizzaForum.ConsoleApp.csprojResolveAssemblyReference.cache
+C:\Users\AntyfrizZz\Documents\Repos\SoftUni3.0\C#-Web-Development-Basics\PizzaForum\PizzaForum.ConsoleApp\obj\Debug\PizzaForum.ConsoleApp.exe
+C:\Users\AntyfrizZz\Documents\Repos\SoftUni3.0\C#-Web-Development-Basics\PizzaForum\PizzaForum.ConsoleApp\obj\Debug\PizzaForum.ConsoleApp.pdb

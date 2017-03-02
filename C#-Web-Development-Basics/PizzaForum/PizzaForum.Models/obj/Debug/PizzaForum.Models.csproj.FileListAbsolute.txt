@@ -1,0 +1,12 @@
+C:\Users\AntyfrizZz\Documents\Repos\SoftUni3.0\C#-Web-Development-Basics\PizzaForum\PizzaForum.Models\bin\Debug\PizzaForum.Models.dll.config
+C:\Users\AntyfrizZz\Documents\Repos\SoftUni3.0\C#-Web-Development-Basics\PizzaForum\PizzaForum.Models\bin\Debug\PizzaForum.Models.dll
+C:\Users\AntyfrizZz\Documents\Repos\SoftUni3.0\C#-Web-Development-Basics\PizzaForum\PizzaForum.Models\bin\Debug\PizzaForum.Models.pdb
+C:\Users\AntyfrizZz\Documents\Repos\SoftUni3.0\C#-Web-Development-Basics\PizzaForum\PizzaForum.Models\bin\Debug\EntityFramework.dll
+C:\Users\AntyfrizZz\Documents\Repos\SoftUni3.0\C#-Web-Development-Basics\PizzaForum\PizzaForum.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\AntyfrizZz\Documents\Repos\SoftUni3.0\C#-Web-Development-Basics\PizzaForum\PizzaForum.Models\bin\Debug\PizzaForum.Common.dll
+C:\Users\AntyfrizZz\Documents\Repos\SoftUni3.0\C#-Web-Development-Basics\PizzaForum\PizzaForum.Models\bin\Debug\PizzaForum.Common.pdb
+C:\Users\AntyfrizZz\Documents\Repos\SoftUni3.0\C#-Web-Development-Basics\PizzaForum\PizzaForum.Models\bin\Debug\EntityFramework.xml
+C:\Users\AntyfrizZz\Documents\Repos\SoftUni3.0\C#-Web-Development-Basics\PizzaForum\PizzaForum.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\AntyfrizZz\Documents\Repos\SoftUni3.0\C#-Web-Development-Basics\PizzaForum\PizzaForum.Models\obj\Debug\PizzaForum.Models.csprojResolveAssemblyReference.cache
+C:\Users\AntyfrizZz\Documents\Repos\SoftUni3.0\C#-Web-Development-Basics\PizzaForum\PizzaForum.Models\obj\Debug\PizzaForum.Models.dll
+C:\Users\AntyfrizZz\Documents\Repos\SoftUni3.0\C#-Web-Development-Basics\PizzaForum\PizzaForum.Models\obj\Debug\PizzaForum.Models.pdb
