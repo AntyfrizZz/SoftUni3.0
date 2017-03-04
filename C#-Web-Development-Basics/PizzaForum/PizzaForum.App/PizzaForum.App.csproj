@@ -50,13 +50,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BindingModels\LoginUserBindingModel.cs" />
+    <Compile Include="BindingModels\NewCategoryBindingModel.cs" />
     <Compile Include="BindingModels\RegisterUserBindingModel.cs" />
+    <Compile Include="Controllers\CategoriesController.cs" />
     <Compile Include="Controllers\ForumController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RouteTable.cs" />
+    <Compile Include="Services\CategoriesService.cs" />
     <Compile Include="Services\ForumService.cs" />
     <Compile Include="Services\Service.cs" />
     <Compile Include="Startup.cs" />
+    <Compile Include="ViewBag.cs" />
+    <Compile Include="ViewModels\AllCategoriesViewModel.cs" />
+    <Compile Include="ViewModels\AllViewModel.cs" />
+    <Compile Include="Views\Categories\All.cs" />
+    <Compile Include="Views\Categories\New.cs" />
     <Compile Include="Views\Forum\Login.cs" />
     <Compile Include="Views\Forum\Register.cs" />
   </ItemGroup>

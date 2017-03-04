@@ -19,6 +19,7 @@
         public const string NavLogged = "nav-logged";
         public const string Register = "register";
         public const string Login = "login";
-
+        public const string AdminCategories = "admin-categories";
+        public const string AdminCategory = "admin-category-new";
     }
 }

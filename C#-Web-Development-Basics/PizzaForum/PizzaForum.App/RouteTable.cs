@@ -14,23 +14,23 @@
             {
                 return new Route[]
                 {
-                    new Route()
-                    {
-                        Name = "Favicon",
-                        Method = RequestMethod.GET,
-                        UrlRegex = "/favicon.ico$",
-                        Callable = (request) =>
-                        {
-                            var response = new HttpResponse()
-                            {
-                                StatusCode = ResponseStatusCode.Ok,
-                                Content = File.ReadAllBytes(@"../../content/images/shout.ico")
-                            };
-                            response.Header.ContentType = "image/*";
-                            response.Header.ContentLength = response.Content.Length.ToString();
-                            return response;
-                        }
-                    },
+                    //new Route()
+                    //{
+                    //    Name = "Favicon",
+                    //    Method = RequestMethod.GET,
+                    //    UrlRegex = "/favicon.ico$",
+                    //    Callable = (request) =>
+                    //    {
+                    //        var response = new HttpResponse()
+                    //        {
+                    //            StatusCode = ResponseStatusCode.Ok,
+                    //            Content = File.ReadAllBytes(@"../../content/images/shout.ico")
+                    //        };
+                    //        response.Header.ContentType = "image/*";
+                    //        response.Header.ContentLength = response.Content.Length.ToString();
+                    //        return response;
+                    //    }
+                    //},
                     new Route()
                     {
                         Name = "Bootstrap JS",

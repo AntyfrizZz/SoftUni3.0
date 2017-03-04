@@ -2,4 +2,3 @@ C:\Users\AntyfrizZz\Documents\Repos\SoftUni3.0\C#-Web-Development-Basics\PizzaFo
 C:\Users\AntyfrizZz\Documents\Repos\SoftUni3.0\C#-Web-Development-Basics\PizzaForum\PizzaForum.Common\bin\Debug\PizzaForum.Common.pdb
 C:\Users\AntyfrizZz\Documents\Repos\SoftUni3.0\C#-Web-Development-Basics\PizzaForum\PizzaForum.Common\obj\Debug\PizzaForum.Common.dll
 C:\Users\AntyfrizZz\Documents\Repos\SoftUni3.0\C#-Web-Development-Basics\PizzaForum\PizzaForum.Common\obj\Debug\PizzaForum.Common.pdb
-C:\Users\AntyfrizZz\Documents\Repos\SoftUni3.0\C#-Web-Development-Basics\PizzaForum\PizzaForum.Common\obj\Debug\PizzaForum.Common.csprojResolveAssemblyReference.cache

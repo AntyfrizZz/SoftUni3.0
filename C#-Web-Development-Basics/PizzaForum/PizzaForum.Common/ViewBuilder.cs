@@ -1,5 +1,6 @@
 ﻿namespace PizzaForum.Common
 {
+    using System;
     using System.IO;
     using System.Text;
 
@@ -20,6 +21,11 @@
         public static string ReadFile(string fileName)
         {
             return File.ReadAllText(GlobalConstants.ContentPath + fileName + GlobalConstants.HTML);
+        }
+
+        public static object ReadFile(object adminCategory)
+        {
+            throw new NotImplementedException();
         }
     }
 }

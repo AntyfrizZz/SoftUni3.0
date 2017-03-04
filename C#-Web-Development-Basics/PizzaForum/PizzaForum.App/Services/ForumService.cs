@@ -1,6 +1,7 @@
 ﻿namespace PizzaForum.App.Services
 {
     using System;
+    using System.Linq;
     using System.Text.RegularExpressions;
     using PizzaForum.App.BindingModels;
     using PizzaForum.Common;
@@ -14,8 +15,8 @@
             {
                 return false;
             }
-
-            if (this.uow.UsersRepository.Get(u => u.Username == model.Username || u.Email == model.Email) != null)
+            
+            if (this.uow.UsersRepository.Get(u => u.Username == model.Username || u.Email == model.Email).SingleOrDefault() != null)
             {
                 return false;
             }
@@ -54,13 +55,11 @@
                 user.IsAdmin = true;
             }
 
-            user.IsAdmin = true;
-
             this.uow.UsersRepository.Insert(user);
             this.uow.Save();
         }
 
-        internal User GetUserFromBind(RegisterUserBindingModel model)
+        internal User GetUserFromRegisterBind(RegisterUserBindingModel model)
         {
             var user = new User();
             user.Username = model.Username;
@@ -68,6 +67,32 @@
             user.Email = model.Email;
 
             return user;
+        }
+
+        internal void LoginUser(User user, string id)
+        {
+            this.uow.LoginsRepository.Insert(new Login()
+            {
+                SessionId = id,
+                User = user,
+                IsActive = true
+            });
+
+            this.uow.Save();
+        }
+
+        internal bool IsLoginModelValid(LoginUserBindingModel model)
+        {
+            var user = this.GetUserFromLoginBind(model);
+
+            return user != null;
+        }
+
+        internal User GetUserFromLoginBind(LoginUserBindingModel model)
+        {
+            return this.uow.UsersRepository
+                .Get(u => (u.Username == model.Credential || u.Email == model.Credential) && u.Password == model.Password)
+                .SingleOrDefault();
         }
     }
 }
