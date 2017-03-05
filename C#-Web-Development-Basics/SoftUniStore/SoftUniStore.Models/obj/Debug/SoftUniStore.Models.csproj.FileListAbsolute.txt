@@ -1,0 +1,5 @@
+C:\Users\AntyfrizZz\Documents\Repos\SoftUni3.0\C#-Web-Development-Basics\SoftUniStore\SoftUniStore.Models\bin\Debug\SoftUniStore.Models.dll
+C:\Users\AntyfrizZz\Documents\Repos\SoftUni3.0\C#-Web-Development-Basics\SoftUniStore\SoftUniStore.Models\bin\Debug\SoftUniStore.Models.pdb
+C:\Users\AntyfrizZz\Documents\Repos\SoftUni3.0\C#-Web-Development-Basics\SoftUniStore\SoftUniStore.Models\obj\Debug\SoftUniStore.Models.dll
+C:\Users\AntyfrizZz\Documents\Repos\SoftUni3.0\C#-Web-Development-Basics\SoftUniStore\SoftUniStore.Models\obj\Debug\SoftUniStore.Models.pdb
+C:\Users\AntyfrizZz\Documents\Repos\SoftUni3.0\C#-Web-Development-Basics\SoftUniStore\SoftUniStore.Models\obj\Debug\SoftUniStore.Models.csprojResolveAssemblyReference.cache
