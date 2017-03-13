@@ -1,0 +1,7 @@
+C:\Users\AntyfrizZz\Documents\Repos\SoftUni3.0\C#-Web-Development-Basics\IssueTracker\IssueTracker.Models\bin\Debug\IssueTracker.Models.dll
+C:\Users\AntyfrizZz\Documents\Repos\SoftUni3.0\C#-Web-Development-Basics\IssueTracker\IssueTracker.Models\bin\Debug\IssueTracker.Models.pdb
+C:\Users\AntyfrizZz\Documents\Repos\SoftUni3.0\C#-Web-Development-Basics\IssueTracker\IssueTracker.Models\obj\Debug\IssueTracker.Models.csprojResolveAssemblyReference.cache
+C:\Users\AntyfrizZz\Documents\Repos\SoftUni3.0\C#-Web-Development-Basics\IssueTracker\IssueTracker.Models\obj\Debug\IssueTracker.Models.dll
+C:\Users\AntyfrizZz\Documents\Repos\SoftUni3.0\C#-Web-Development-Basics\IssueTracker\IssueTracker.Models\obj\Debug\IssueTracker.Models.pdb
+C:\Users\AntyfrizZz\Documents\Repos\SoftUni3.0\C#-Web-Development-Basics\IssueTracker\IssueTracker.Models\bin\Debug\IssueTracker.Common.dll
+C:\Users\AntyfrizZz\Documents\Repos\SoftUni3.0\C#-Web-Development-Basics\IssueTracker\IssueTracker.Models\bin\Debug\IssueTracker.Common.pdb

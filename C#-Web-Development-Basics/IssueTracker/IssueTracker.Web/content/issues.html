@@ -1,0 +1,89 @@
+
+<div class="container">
+	<form method="get">
+		<div class="row">
+			<div class="col-sm-2">
+				<div class="form-group">
+					<select name=""  class="form-control" required>
+						<optgroup label="Status">
+							<option value="" disabled hidden selected>Status</option>
+							<option value="All">All</option>
+							<option value="New">New</option>
+							<option value="Solved">Solved</option>
+						</optgroup>
+					</select>
+				</div>
+			</div>
+			<div class="col-sm-8">
+				<div class="form-group">
+					<input name="" type="text" class="form-control" placeholder="Search">
+				</div>
+			</div>
+			<div class="col-sm-2">
+				<button type="submit" class="btn btn-default">Search</button>
+			</div>
+		</div>
+		<div class="row">
+			<a class="btn btn-success" href="#">Add Issue</a>
+		</div>
+	</form>
+	<div class="row">
+		<table class="table table-hover">
+			<thead>
+				<tr>
+					<th>Id</th>
+					<th>Name</th>
+					<th>Status</th>
+					<th>Priority</th>
+					<th>Creation Date</th>
+					<th>Author</th>
+					<th></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>EF</td>
+					<td>New</td>
+					<td>High</td>
+					<td>12-01-2012</td>
+					<td>Username</td>
+					<td>
+						<a href="#" class="btn mini btn-primary">Edit</a>
+					</td>
+					<td>
+						<a href="#" class="confirm-delete mini btn btn-danger">Delete</a>
+					</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Visual Studio 2017</td>
+					<td>Solved</td>
+					<td>Low</td>
+					<td>12-01-2013</td>
+					<td>Admin</td>
+					<td>
+						
+					</td>
+					<td>
+						
+					</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>CSS</td>
+					<td>New</td>
+					<td>Medium</td>
+					<td>12-01-2013</td>
+					<td>Username</td>
+					<td>
+						<a href="#" class="btn mini btn-primary">Edit</a>
+					</td>
+					<td>
+						<a href="#" class="confirm-delete mini btn btn-danger">Delete</a>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
