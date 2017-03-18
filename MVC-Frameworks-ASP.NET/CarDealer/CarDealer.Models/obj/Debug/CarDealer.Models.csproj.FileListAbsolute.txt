@@ -1,0 +1,7 @@
+C:\Users\AntyfrizZz\Documents\Repos\SoftUni3.0\MVC-Frameworks-ASP.NET\CarDealer\CarDealer.Models\bin\Debug\CarDealer.Models.dll
+C:\Users\AntyfrizZz\Documents\Repos\SoftUni3.0\MVC-Frameworks-ASP.NET\CarDealer\CarDealer.Models\bin\Debug\CarDealer.Models.pdb
+C:\Users\AntyfrizZz\Documents\Repos\SoftUni3.0\MVC-Frameworks-ASP.NET\CarDealer\CarDealer.Models\obj\Debug\CarDealer.Models.dll
+C:\Users\AntyfrizZz\Documents\Repos\SoftUni3.0\MVC-Frameworks-ASP.NET\CarDealer\CarDealer.Models\obj\Debug\CarDealer.Models.pdb
+C:\Users\AntyfrizZz\Documents\Repos\SoftUni3.0\MVC-Frameworks-ASP.NET\CarDealer\CarDealer.Models\bin\Debug\StyleCop.CSharp.dll
+C:\Users\AntyfrizZz\Documents\Repos\SoftUni3.0\MVC-Frameworks-ASP.NET\CarDealer\CarDealer.Models\bin\Debug\StyleCop.dll
+C:\Users\AntyfrizZz\Documents\Repos\SoftUni3.0\MVC-Frameworks-ASP.NET\CarDealer\CarDealer.Models\obj\Debug\CarDealer.Models.csprojResolveAssemblyReference.cache
